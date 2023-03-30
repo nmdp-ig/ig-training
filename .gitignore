@@ -1,0 +1,16 @@
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+**/build/output
+**/build/input-cache
+**/build/temp
+
+**/publisher.jar
+**/org.hl7.fhir.publisher.jar
+**/org.hl7.fhir.validator.jar
+
+**/ig-registry
+**/fhir-ig-history-template
+**/cibmtr-ig-history-template
