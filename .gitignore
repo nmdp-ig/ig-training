@@ -6,8 +6,15 @@
 **/build/output
 **/build/input-cache
 **/build/temp
+**/build/fsh-generated
+
+**/ExampleIG/output
+**/ExampleIG/input-cache
+**/ExampleIG/temp
+**/ExampleIG/fsh-generated
 
 **/publisher.jar
+**/validator.jar
 **/org.hl7.fhir.publisher.jar
 **/org.hl7.fhir.validator.jar
 
