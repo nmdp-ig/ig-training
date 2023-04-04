@@ -33,3 +33,34 @@ Description: "An example of an instance MyObservation with a subject. This profi
 * valueCodeableConcept.coding[+] = $LNC#LA9633-4 "Present"
 * valueCodeableConcept.coding[+] = $SCT#52101004 "Present"
 
+//----------------------
+
+// Profile: CMVObservation
+// Parent: MyObservation
+// Description: "An example profile of the observation resource which requires a subject that is a MyPatient instance."
+// * code from CMVValueSet
+
+// Instance: CMVObservationExample
+// InstanceOf: CMVObservation
+// Description: "Example of CMV Observations"
+// * status = #final
+// * code = $LNC#16718-9	"Cytomegalovirus Ag [Presence] in Blood"
+// * valueString = "This is the answer"
+// * subject = Reference(PatientExample)
+
+// Profile: CMVPresenceObservation
+// Parent: MyObservation
+// Description: "An example profile of the observation resource which requires a subject that is a MyPatient instance."
+// * code from CMVPresenceValueSet
+// * value[x] only CodeableConcept
+// * valueCodeableConcept from PresenceValueSet (required)
+
+// Instance: CMVObservationPresenceExample
+// InstanceOf: CMVPresenceObservation
+// Description: "Example of CMV Observations"
+// * status = #final
+// * code = $LNC#16718-9	"Cytomegalovirus Ag [Presence] in Blood"
+// * valueCodeableConcept = $SCT#52101004 "Present"
+// * subject = Reference(PatientExample)
+
+

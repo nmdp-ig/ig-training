@@ -13,3 +13,28 @@ Description: "An example of a patient with a license to krill."
   * given[0] = "James"
   * given[1] = "Bubba"
   * family = "Pond"
+
+
+// USCore require each Patient must have 
+//   - a patient identifier (e.g. MRN)
+//   - a patient name
+//   - a gender
+// We are adding an addition constraint here, a birth date
+
+// Profile: MyUSCorePatient
+// Parent: us-core-patient
+// Description: "An example profile on the US Core Patient profile."
+// * birthDate 1..1 MS
+
+// Instance: MyUSCorePatientExample
+// InstanceOf: MyUSCorePatient
+// Description: "An example of a patient with a license to krill."
+// * name
+//   * given[0] = "James"
+//   * given[1] = "Bubba"
+//   * family = "Pond"
+// * identifier
+//   * system = "http://myhospital.org"
+//   * value = #12345
+// * gender = #male
+// * birthDate = "1987-02-20"
