@@ -44,10 +44,9 @@ Description: "An example of a patient with a license to krill."
 * birthDate = "1987-02-20"
 
 // Patient Profile using slicing
-// * insert MetaSecurityRules
-// Profile: MyNMDPPatient
-// Parent: MyUSCorePatient
-// Description: "An example profile on the US Core Patient profile."
+Profile: MyCIBMTRPatient
+Parent: MyUSCorePatient
+Description: "An example profile on the US Core Patient profile."
 // * meta.security ^slicing.discriminator.type = #pattern
 // * meta.security ^slicing.discriminator.path = "system"
 // * meta.security ^slicing.rules = #open
@@ -55,40 +54,41 @@ Description: "An example of a patient with a license to krill."
 // * meta.security contains
 //     TransplantCenter 1..1 MS
 // * meta.security[TransplantCenter].system = "http://terminology.cibmtr.org/codesystem/transplant-center"
-// // * meta.security[TransplantCenter].code obeys sec-rc
+// * meta.security[TransplantCenter].code obeys sec-rc
 // * meta.security[TransplantCenter].code 1..1
-// // * insert MetaSecurityRules
-// * identifier ^slicing.discriminator.type = #pattern
-// * identifier ^slicing.discriminator.path = "system"
-// * identifier ^slicing.rules = #open
-// * identifier ^slicing.description = "slicing on identifier.system"
-// * identifier contains 
-//     CRID 0..1 MS and
-//     GRID 0..1 MS and
-//     NMDPRecipient 0..1 MS and
-//     SSN 0..1 MS
-// * identifier[CRID].system = "http://terminology.cibmtr.org/identifier/CRID"
-// * identifier[GRID].system = "http://www.isbt128.org/uri/GRID"
-// * identifier[GRID].type.coding.system = "https://www.hl7.org/fhir/v2/0203/index.html"
-// * identifier[GRID].type.coding.code = #DR
-// * identifier[NMDPRecipient].system = "http://terminology.nmdp.org/identifier/recipient"
-// * identifier[SSN].system = "http://hl7.org/fhir/sid/us-ssn"
+* insert MetaSecurityRules
+* identifier ^slicing.discriminator.type = #pattern
+* identifier ^slicing.discriminator.path = "system"
+* identifier ^slicing.rules = #open
+* identifier ^slicing.description = "slicing on identifier.system"
+* identifier contains 
+    CRID 0..1 MS and
+    GRID 0..1 MS and
+    NMDPRecipient 0..1 MS and
+    SSN 0..1 MS
+* identifier[CRID].system = "http://terminology.cibmtr.org/identifier/CRID"
+* identifier[GRID].system = "http://www.isbt128.org/uri/GRID"
+* identifier[GRID].type.coding.system = "https://www.hl7.org/fhir/v2/0203/index.html"
+* identifier[GRID].type.coding.code = #DR
+* identifier[NMDPRecipient].system = "http://terminology.nmdp.org/identifier/recipient"
+* identifier[SSN].system = "http://hl7.org/fhir/sid/us-ssn"
 
 
-// Instance: MyNMDPPatientExample
-// InstanceOf: MyNMDPPatient
-// Description: "An example of a patient with a license to krill."
+Instance: MyCIBMTRPatientExample
+InstanceOf: MyCIBMTRPatient
+Description: "An example of a patient with a license to krill."
 // * meta.security[TransplantCenter].system = "http://terminology.cibmtr.org/codesystem/transplant-center"
 // * meta.security[TransplantCenter].code = #rc_99999
 // * meta.security[TransplantCenter].display = "99999 My Transplant Center"
-// // * insert MetaSecurityExample
-// * name
-//   * given[+] = "James"
-//   * given[+] = "Bubba"
-//   * family = "Pond"
-// * gender = #male
-// * birthDate = "1987-02-20"
-// * identifier[+].system = "http://example.org/mrn"
-// * identifier[=].value = "abc"
+* insert MetaSecurityExample
+* name
+  * given[+] = "James"
+  * given[+] = "Bubba"
+  * family = "Pond"
+* gender = #male
+* birthDate = "1987-02-20"
+* identifier[+].system = "http://example.org/mrn"
+* identifier[=].value = "abc"
 // * identifier[+].system = "http://terminology.cibmtr.org/identifier/CRID"
-// * identifier[=].value = "123456"
+// * identifier[=].value = "123456"// 
+* identifier[CRID].value = "123456"
