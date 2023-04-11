@@ -15,18 +15,6 @@
 // * #2991796 "Late Acute GVHD" "Late Acute Graft Vs Host Disease"
 // * #3261243 "Not Applicable" "Not Applicable"
 
-// CodeSystem: GLStringCS
-// Title: "Genotype List String Code CodeSystem"
-// Id: glstring-codesystem
-// Description: "Genotype List String Codesystem used for HLA reporting"
-// * ^url = "http://www.glstring.org"
-// * ^compositional = true
-// * ^version = "1.0"
-// * ^status = #active
-// * ^copyright = "National Marrow Donor Program"
-// * ^publisher = "NMDP/CIBMTR"
-// * ^content = #not-present
-
 // // ------------------------
 
 // CodeSystem: HLAGeneIdCS
@@ -84,3 +72,32 @@
 // * #HGNC:19385 "HLA-X"     "major histocompatibility complex, class I, X (pseudogene)"
 // * #HGNC:33913 "HLA-Y"     "major histocompatibility complex, class I, Y (pseudogene)"
 // * #HGNC:19394 "HLA-Z"     "major histocompatibility complex, class I, Z (pseudogene)"
+
+// CodeSystem: GLStringCS
+// Title: "Genotype List String Code CodeSystem"
+// Id: glstring-codesystem
+// Description: "Genotype List String Codesystem used for HLA reporting"
+// * ^url = "http://www.glstring.org"
+// * ^compositional = true
+// * ^version = "1.0"
+// * ^status = #active
+// * ^copyright = "National Marrow Donor Program"
+// * ^publisher = "NMDP/CIBMTR"
+// * ^content = #not-present
+
+// CodeSystem: NMDPPractitionerRoleCS
+// Title: "NMDP Practitioner Roles"
+// Id: nmdp-practitioner-role-cs
+// Description: "NMDP Practitioner Roles"
+// * ^url = "http://terminology.nmdp.org/codesystem/practitionerrole"
+// * ^compositional = true
+// * ^version = "1.0"
+// * ^status = #active
+// * ^version = "2023"
+// * ^experimental = true
+// * ^caseSensitive = true
+// * ^copyright = "National Marrow Donor Program"
+// * ^publisher = "NMDP"
+// * #referringphysician "Referring Physician"
+// * #tcphysician "Transplant Center Physician"
+// * #searchcoordinator "Search Coordinator"

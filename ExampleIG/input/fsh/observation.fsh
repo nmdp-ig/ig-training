@@ -1,5 +1,6 @@
 
 Profile: MyObservation
+Id: my-observation
 Parent: Observation
 Description: "An example profile of the observation resource which requires a subject that is a MyPatient instance."
 * subject 1..1 MS
@@ -35,27 +36,47 @@ Description: "An example of an instance MyObservation with a subject. This profi
 
 //----------------------
 
-// Profile: CMVObservation
-// Parent: MyObservation
-// Description: "An example profile of the observation resource which requires a subject that is a MyPatient instance."
-// * code from CMVValueSet
+Profile: CMVObservation
+Parent: MyObservation
+Description: "An example profile of the observation resource which requires a subject that is a MyPatient instance."
+* code from CMVValueSet
 
-// Instance: CMVObservationExample
-// InstanceOf: CMVObservation
+Instance: CMVObservationExample
+InstanceOf: CMVObservation
+Description: "Example of CMV Observations"
+* status = #final
+* code = $LNC#16718-9	"Cytomegalovirus Ag [Presence] in Blood"
+// * code = $LNC#1753-3 "Albumin [Presence] in Urine"
+* valueString = "This is the answer"
+* subject = Reference(PatientExample)
+
+Profile: CMVPresenceObservation
+Parent: MyObservation
+Description: "An example profile of the observation resource which requires a subject that is a MyPatient instance."
+* code from CMVPresenceValueSet
+* value[x] only CodeableConcept
+* valueCodeableConcept from PresenceValueSet (required)
+
+Instance: CMVObservationPresenceExample
+InstanceOf: CMVPresenceObservation
+Description: "Example of CMV Observations"
+* status = #final
+* code = $LNC#16718-9	"Cytomegalovirus Ag [Presence] in Blood"
+* valueCodeableConcept = $SCT#52101004 "Present"
+* subject = Reference(PatientExample)
+
+//----------------------
+// examples for bundles
+
+// Instance: MyObservationExample
+// InstanceOf: MyObservation
 // Description: "Example of CMV Observations"
 // * status = #final
 // * code = $LNC#16718-9	"Cytomegalovirus Ag [Presence] in Blood"
-// * valueString = "This is the answer"
+// * valueCodeableConcept = $SCT#52101004 "Present"
 // * subject = Reference(PatientExample)
 
-// Profile: CMVPresenceObservation
-// Parent: MyObservation
-// Description: "An example profile of the observation resource which requires a subject that is a MyPatient instance."
-// * code from CMVPresenceValueSet
-// * value[x] only CodeableConcept
-// * valueCodeableConcept from PresenceValueSet (required)
-
-// Instance: CMVObservationPresenceExample
+// Instance: MyCMVObservationExample
 // InstanceOf: CMVPresenceObservation
 // Description: "Example of CMV Observations"
 // * status = #final

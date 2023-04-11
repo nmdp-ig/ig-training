@@ -14,3 +14,17 @@
 // * meta.security[TransplantCenter].system = "http://terminology.cibmtr.org/codesystem/transplant-center"
 // * meta.security[TransplantCenter].code = #rc_99999
 // * meta.security[TransplantCenter].display = "99999 My Transplant Center"
+
+// RuleSet: BundleEntrySlicingRules
+// * entry ^slicing.discriminator.type = #profile
+// * entry ^slicing.discriminator.path = "resource"
+// * entry ^slicing.rules = #open
+// * entry ^slicing.description = "Slicing based on the profile conformance of the entry"
+
+// RuleSet: uuidEntries(instanceuuid)
+// * entry[+].fullUrl = "urn:uuid:{instanceuuid}"
+// * entry[=].resource = {instanceuuid}
+
+// RuleSet: postRequest(resource)
+// * entry[=].request.method = #POST
+// * entry[=].request.url = {resource}
