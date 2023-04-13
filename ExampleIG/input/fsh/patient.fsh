@@ -5,11 +5,14 @@ Profile: MyPatient
 Id: my-patient
 Parent: Patient
 Description: "An example profile of the Patient resource."
+* insert MetaSecurityRules
 * name 1..* MS
 
 Instance: PatientExample
 InstanceOf: MyPatient
 Description: "An example of a patient with a license to krill."
+Usage: #example
+* insert MetaSecurityExample
 * name
   * given[0] = "James"
   * given[1] = "Bubba"
@@ -25,11 +28,14 @@ Description: "An example of a patient with a license to krill."
 Profile: MyUSCorePatient
 Parent: us-core-patient
 Description: "An example profile on the US Core Patient profile."
+* insert MetaSecurityRules
 * birthDate 1..1 MS
 
 Instance: MyUSCorePatientExample
 InstanceOf: MyUSCorePatient
 Description: "An example of a patient with a license to krill."
+Usage: #example
+* insert MetaSecurityExample
 * name
   * given[+] = "James"
   * given[+] = "Bubba"
@@ -47,16 +53,6 @@ Description: "An example of a patient with a license to krill."
 Profile: MyCIBMTRPatient
 Parent: MyUSCorePatient
 Description: "An example profile on the US Core Patient profile."
-// * meta.security ^slicing.discriminator.type = #pattern
-// * meta.security ^slicing.discriminator.path = "system"
-// * meta.security ^slicing.rules = #open
-// * meta.security ^slicing.description = "slicing on meta.security"
-// * meta.security contains
-//     TransplantCenter 1..1 MS
-// * meta.security[TransplantCenter].system = "http://terminology.cibmtr.org/codesystem/transplant-center"
-// * meta.security[TransplantCenter].code obeys sec-rc
-// * meta.security[TransplantCenter].code 1..1
-* insert MetaSecurityRules
 * identifier ^slicing.discriminator.type = #pattern
 * identifier ^slicing.discriminator.path = "system"
 * identifier ^slicing.rules = #open
@@ -73,13 +69,10 @@ Description: "An example profile on the US Core Patient profile."
 * identifier[NMDPRecipient].system = "http://terminology.nmdp.org/identifier/recipient"
 * identifier[SSN].system = "http://hl7.org/fhir/sid/us-ssn"
 
-
 Instance: MyCIBMTRPatientExample
 InstanceOf: MyCIBMTRPatient
 Description: "An example of a patient with a license to krill."
-// * meta.security[TransplantCenter].system = "http://terminology.cibmtr.org/codesystem/transplant-center"
-// * meta.security[TransplantCenter].code = #rc_99999
-// * meta.security[TransplantCenter].display = "99999 My Transplant Center"
+Usage: #example
 * insert MetaSecurityExample
 * name
   * given[+] = "James"

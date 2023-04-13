@@ -12,6 +12,7 @@ Description: "Diagnosis of hematopoietic disorder"
 Instance: DiagnosisExample-AML
 InstanceOf: my-diagnosis
 Description: "Example of a Diagnois: AML"
+Usage: #example
 * insert MetaSecurityExample
 * extension[NumberOfRemissions].valueInteger = 0
 * code = $SCT#91861009	"Acute myeloid leukemia"
