@@ -1,0 +1,14 @@
+{
+  "name" : "ihe.fhir.template",
+  "type" : "fhir.template",
+  "license" : "CC0-1.0",
+  "description" : "IHE FHIR Template",
+  "author" : "http://ihe.net",
+  "canonical" : "http://fhir.org/templates/ihe.fhir.template",
+  "base" : "fhir.base.template",
+  "dependencies" : {
+    "fhir.base.template" : "0.4.0"
+  },
+  "version" : "0.7.0",
+  "date" : "20221217231242"
+}

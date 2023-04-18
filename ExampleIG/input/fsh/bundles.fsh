@@ -24,7 +24,6 @@ Description: "Collection Bundle"
   * ^short = "Diagnosis Patient"
   * ^definition = "The Diagnosis for the patient."
 
-
 Instance: BundleCollectionExample
 InstanceOf: my-bundle
 Description: "Bundle Example"
@@ -32,9 +31,24 @@ Usage: #example
 * insert MetaSecurityExample
 * type = #collection
 * timestamp = 2020-11-24T23:50:50-05:00
-* insert uuidEntries(864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa)
-* insert uuidEntries(281f5214-a344-4070-a231-61a2686c4fc1)
-* insert uuidEntries(1bd28a4b-8743-4bc6-956e-52302218c803)
+* entry[+].fullUrl = "urn:uuid:864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa"
+* entry[=].resource = 864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa
+* entry[+].fullUrl = "urn:uuid:281f5214-a344-4070-a231-61a2686c4fc1"
+* entry[=].resource = 281f5214-a344-4070-a231-61a2686c4fc1
+* entry[+].fullUrl = "urn:uuid:1bd28a4b-8743-4bc6-956e-52302218c803"
+* entry[=].resource = 1bd28a4b-8743-4bc6-956e-52302218c803
+
+
+// Instance: BundleCollectionExample
+// InstanceOf: my-bundle
+// Description: "Bundle Example"
+// Usage: #example
+// * insert MetaSecurityExample
+// * type = #collection
+// * timestamp = 2020-11-24T23:50:50-05:00
+// * insert uuidEntries(864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa)
+// * insert uuidEntries(281f5214-a344-4070-a231-61a2686c4fc1)
+// * insert uuidEntries(1bd28a4b-8743-4bc6-956e-52302218c803)
 
 
 Instance: BundleTransactionExample
