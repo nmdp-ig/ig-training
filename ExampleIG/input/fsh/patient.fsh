@@ -80,8 +80,30 @@ Usage: #example
   * family = "Pond"
 * gender = #male
 * birthDate = "1987-02-20"
+* identifier[CRID].value = "123456"
 * identifier[+].system = "http://example.org/mrn"
 * identifier[=].value = "abc"
 // * identifier[+].system = "http://terminology.cibmtr.org/identifier/CRID"
 // * identifier[=].value = "123456"// 
-* identifier[CRID].value = "123456"
+
+// test profile
+Profile: MyTestPatient
+Parent: Patient
+Description: "An example profile on the US Core Patient profile."
+* identifier ^slicing.discriminator.type = #pattern
+* identifier ^slicing.discriminator.path = "system"
+* identifier ^slicing.rules = #open
+* identifier ^slicing.description = "slicing on identifier.system"
+* identifier contains 
+    myid 0..1 MS
+* identifier[myid].system = "http://myexample.org/identifier/myid"
+
+Instance: MyTestPatientExample
+InstanceOf: MyTestPatient
+Description: "An example of a patient with a license to krill."
+Usage: #example
+* identifier[myid].value = "123456"
+* identifier[1].system = "http://example.org/mrn"
+* identifier[1].value = "abc"
+* identifier[2].system = "http://anotherexample.org/mrn"
+* identifier[2].value = "123"

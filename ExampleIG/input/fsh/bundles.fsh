@@ -80,9 +80,12 @@ Usage:  #inline
   * family = "Pond"
 * gender = #male
 * birthDate = "1987-02-20"
-* identifier[+].system = "http://example.org/mrn"
-* identifier[=].value = "abc"
 * identifier[CRID].value = "123456"
+* identifier[1].system = "http://example.org/mrn"
+* identifier[1].value = "abc"
+* identifier[2].system = "http://anotherexample.org/mrn"
+* identifier[2].value = "123"
+
 
 Instance: 281f5214-a344-4070-a231-61a2686c4fc1
 InstanceOf: my-diagnosis
