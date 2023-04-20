@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="BundleTransactionExample"/>
+  <meta>
+    <profile value="http://example.org/StructureDefinition/my-bundle"/>
+    <security>
+      <system value="http://terminology.cibmtr.org/codesystem/transplant-center"/>
+      <code value="rc_99999"/>
+      <display value="99999 My Transplant Center"/>
+    </security>
+  </meta>
+  <type value="transaction"/>
+  <timestamp value="2020-11-24T23:50:50-05:00"/>
+  <entry>
+    <fullUrl value="urn:uuid:864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa"/>
+    <resource>
+      <Patient>
+        <id value="864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa"/>
+        <meta>
+          <profile value="http://example.org/StructureDefinition/MyCIBMTRPatient"/>
+          <security>
+            <system value="http://terminology.cibmtr.org/codesystem/transplant-center"/>
+            <code value="rc_99999"/>
+            <display value="99999 My Transplant Center"/>
+          </security>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Patient</b><a name="864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Patient &quot;864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-MyCIBMTRPatient.html">MyCIBMTRPatient</a></p><p style="margin-bottom: 0px">Security Labels: <span title="{http://terminology.cibmtr.org/codesystem/transplant-center http://terminology.cibmtr.org/codesystem/transplant-center}">http://terminology.cibmtr.org/codesystem/transplant-center</span></p></div><p><b>identifier</b>: id: 123456, id: abc, id: 123</p><p><b>name</b>: James Bubba Pond </p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1987-02-20</p></div>
+        </text>
+        <identifier>
+          <system value="http://terminology.cibmtr.org/identifier/CRID"/>
+          <value value="123456"/>
+        </identifier>
+        <identifier>
+          <system value="http://example.org/mrn"/>
+          <value value="abc"/>
+        </identifier>
+        <identifier>
+          <system value="http://anotherexample.org/mrn"/>
+          <value value="123"/>
+        </identifier>
+        <name>
+          <family value="Pond"/>
+          <given value="James"/>
+          <given value="Bubba"/>
+        </name>
+        <gender value="male"/>
+        <birthDate value="1987-02-20"/>
+      </Patient>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="Patient"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:281f5214-a344-4070-a231-61a2686c4fc1"/>
+    <resource>
+      <Condition>
+        <id value="281f5214-a344-4070-a231-61a2686c4fc1"/>
+        <meta>
+          <profile value="http://example.org/StructureDefinition/my-diagnosis"/>
+          <security>
+            <system value="http://terminology.cibmtr.org/codesystem/transplant-center"/>
+            <code value="rc_99999"/>
+            <display value="99999 My Transplant Center"/>
+          </security>
+        </meta>
+        <text>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Condition</b><a name="281f5214-a344-4070-a231-61a2686c4fc1"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Condition &quot;281f5214-a344-4070-a231-61a2686c4fc1&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-my-diagnosis.html">MyDiagnosis</a></p><p style="margin-bottom: 0px">Security Labels: <span title="{http://terminology.cibmtr.org/codesystem/transplant-center http://terminology.cibmtr.org/codesystem/transplant-center}">http://terminology.cibmtr.org/codesystem/transplant-center</span></p></div><p><b>Number of Remissions of Diagnosis</b>: 0</p><p><b>code</b>: Acute myeloid leukemia <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#91861009)</span></p><p><b>subject</b>: <a href="#Patient_864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa">See above (urn:uuid:864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa)</a></p></div>
+        </text>
+        <extension url="http://example.org/StructureDefinition/number-of-remissions">
+          <valueInteger value="0"/>
+        </extension>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="91861009"/>
+            <display value="Acute myeloid leukemia"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa"/>
+        </subject>
+      </Condition>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="Condition"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:1bd28a4b-8743-4bc6-956e-52302218c803"/>
+    <resource>
+      <Observation>
+        <id value="1bd28a4b-8743-4bc6-956e-52302218c803"/>
+        <meta>
+          <profile value="http://example.org/StructureDefinition/cmv-presence-observation"/>
+          <security>
+            <system value="http://terminology.cibmtr.org/codesystem/transplant-center"/>
+            <code value="rc_99999"/>
+            <display value="99999 My Transplant Center"/>
+          </security>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="1bd28a4b-8743-4bc6-956e-52302218c803"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;1bd28a4b-8743-4bc6-956e-52302218c803&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-cmv-presence-observation.html">CMVPresenceObservation</a></p><p style="margin-bottom: 0px">Security Labels: <span title="{http://terminology.cibmtr.org/codesystem/transplant-center http://terminology.cibmtr.org/codesystem/transplant-center}">http://terminology.cibmtr.org/codesystem/transplant-center</span></p></div><p><b>status</b>: final</p><p><b>code</b>: Cytomegalovirus Ag [Presence] in Blood <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#16718-9)</span></p><p><b>subject</b>: <a href="#Patient_864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa">See above (urn:uuid:864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa)</a></p><p><b>value</b>: Present <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#52101004)</span></p></div>
+        </text>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="16718-9"/>
+            <display value="Cytomegalovirus Ag [Presence] in Blood"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="urn:uuid:864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa"/>
+        </subject>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="52101004"/>
+            <display value="Present"/>
+          </coding>
+        </valueCodeableConcept>
+      </Observation>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="Observation"/>
+    </request>
+  </entry>
+</Bundle>

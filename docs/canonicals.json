@@ -1,0 +1,170 @@
+[
+  {
+    "id" : "cibmtr-cadsr-vm-cs",
+    "type" : "CodeSystem",
+    "url" : "http://cdebrowser.nci.nih.gov",
+    "version" : "0.1.0",
+    "name" : "GVHD_CADSR_VM_CS"
+  },
+  {
+    "id" : "fhir.example",
+    "type" : "ImplementationGuide",
+    "url" : "http://example.org/ImplementationGuide/fhir.example",
+    "version" : "0.1.0",
+    "name" : "ExampleIG"
+  },
+  {
+    "id" : "MyCIBMTRPatient",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/MyCIBMTRPatient",
+    "version" : "0.1.0",
+    "name" : "MyCIBMTRPatient"
+  },
+  {
+    "id" : "MyTestPatient",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/MyTestPatient",
+    "version" : "0.1.0",
+    "name" : "MyTestPatient"
+  },
+  {
+    "id" : "MyUSCorePatient",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/MyUSCorePatient",
+    "version" : "0.1.0",
+    "name" : "MyUSCorePatient"
+  },
+  {
+    "id" : "cmv-observation",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/cmv-observation",
+    "version" : "0.1.0",
+    "name" : "CMVObservation"
+  },
+  {
+    "id" : "cmv-presence-observation",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/cmv-presence-observation",
+    "version" : "0.1.0",
+    "name" : "CMVPresenceObservation"
+  },
+  {
+    "id" : "my-bundle",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/my-bundle",
+    "version" : "0.1.0",
+    "name" : "MyBundle"
+  },
+  {
+    "id" : "my-diagnosis",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/my-diagnosis",
+    "version" : "0.1.0",
+    "name" : "MyDiagnosis"
+  },
+  {
+    "id" : "my-observation",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/my-observation",
+    "version" : "0.1.0",
+    "name" : "MyObservation"
+  },
+  {
+    "id" : "my-patient",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/my-patient",
+    "version" : "0.1.0",
+    "name" : "MyPatient"
+  },
+  {
+    "id" : "number-of-remissions",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/number-of-remissions",
+    "version" : "0.1.0",
+    "name" : "NumberOfRemissions"
+  },
+  {
+    "id" : "cmv-presence-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/cmv-presence-vs",
+    "version" : "0.1.0",
+    "name" : "CMVPresenceValueSet"
+  },
+  {
+    "id" : "cmv-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/cmv-vs",
+    "version" : "0.1.0",
+    "name" : "CMVValueSet"
+  },
+  {
+    "id" : "gvhd-all-valueset",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/gvhd-all-valueset",
+    "version" : "0.1.0",
+    "name" : "GVHDTypeValueSet"
+  },
+  {
+    "id" : "gvhd-icd10-codes",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/gvhd-icd10-codes",
+    "version" : "0.1.0",
+    "name" : "GVHDICD10VS"
+  },
+  {
+    "id" : "gvhd-sct-codes",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/gvhd-sct-codes",
+    "version" : "0.1.0",
+    "name" : "GVHDSCTVS"
+  },
+  {
+    "id" : "hematopoietic-disorder-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/hematopoietic-disorder-vs",
+    "version" : "0.1.0",
+    "name" : "HematopoieticDisorderVS"
+  },
+  {
+    "id" : "presence-lnc-valueset",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/presence-lnc-valueset",
+    "version" : "0.1.0",
+    "name" : "PresenceLNCValueSet"
+  },
+  {
+    "id" : "presence-sct-valueset",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/presence-sct-valueset",
+    "version" : "0.1.0",
+    "name" : "PresenceSCTValueSet"
+  },
+  {
+    "id" : "presence-valueset",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/presence-valueset",
+    "version" : "0.1.0",
+    "name" : "PresenceValueSet"
+  },
+  {
+    "id" : "nmdp-practitioner-role-cs",
+    "type" : "CodeSystem",
+    "url" : "http://terminology.nmdp.org/codesystem/practitionerrole",
+    "version" : "0.1.0",
+    "name" : "NMDPPractitionerRoleCS"
+  },
+  {
+    "id" : "hla-genename-cs",
+    "type" : "CodeSystem",
+    "url" : "http://www.genenames.org/geneId",
+    "version" : "0.1.0",
+    "name" : "HLAGeneIdCS"
+  },
+  {
+    "id" : "glstring-cs",
+    "type" : "CodeSystem",
+    "url" : "http://www.glstring.org",
+    "version" : "0.1.0",
+    "name" : "GLStringCS"
+  }
+]

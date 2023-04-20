@@ -1,0 +1,34 @@
+{
+  "resourceType" : "Observation",
+  "id" : "CMVObservationPresenceExample",
+  "meta" : {
+    "profile" : ["http://example.org/StructureDefinition/cmv-presence-observation"],
+    "security" : [{
+      "system" : "http://terminology.cibmtr.org/codesystem/transplant-center",
+      "code" : "rc_99999",
+      "display" : "99999 My Transplant Center"
+    }]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"CMVObservationPresenceExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;CMVObservationPresenceExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-cmv-presence-observation.html\">CMVPresenceObservation</a></p><p style=\"margin-bottom: 0px\">Security Labels: <span title=\"{http://terminology.cibmtr.org/codesystem/transplant-center http://terminology.cibmtr.org/codesystem/transplant-center}\">http://terminology.cibmtr.org/codesystem/transplant-center</span></p></div><p><b>status</b>: final</p><p><b>code</b>: Cytomegalovirus Ag [Presence] in Blood <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#16718-9)</span></p><p><b>subject</b>: <a href=\"Patient-PatientExample.html\">Patient/PatientExample</a> &quot; POND&quot;</p><p><b>value</b>: Present <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#52101004)</span></p></div>"
+  },
+  "status" : "final",
+  "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "16718-9",
+      "display" : "Cytomegalovirus Ag [Presence] in Blood"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/PatientExample"
+  },
+  "valueCodeableConcept" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "52101004",
+      "display" : "Present"
+    }]
+  }
+}
