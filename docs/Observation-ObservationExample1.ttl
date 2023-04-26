@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://example.org/Observation/ObservationExample1> a fhir:Observation ;
+<http://example.org/ig/example/Observation/ObservationExample1> a fhir:Observation ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "ObservationExample1"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://example.org/StructureDefinition/my-observation"^^xsd:anyURI ;
-       fhir:link <http://example.org/StructureDefinition/my-observation>
+       fhir:v "http://example.org/ig/example/StructureDefinition/my-observation"^^xsd:anyURI ;
+       fhir:link <http://example.org/ig/example/StructureDefinition/my-observation>
      ] ) ;
      fhir:security ( [
        fhir:system [ fhir:v "http://terminology.cibmtr.org/codesystem/transplant-center"^^xsd:anyURI ] ;
@@ -33,7 +33,7 @@
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://example.org/Patient/PatientExample> ;
+     fhir:link <http://example.org/ig/example/Patient/PatientExample> ;
      fhir:reference [ fhir:v "Patient/PatientExample" ]
   ] ; # 
   fhir:value [ fhir:v "This is the answer"] . # 

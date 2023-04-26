@@ -3,13 +3,13 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="fhir.example"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>http://example.org/ImplementationGuide/fhir.example</pre></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>http://example.org/ig/example/ImplementationGuide/fhir.example</pre></div>
   </text>
-  <url value="http://example.org/ImplementationGuide/fhir.example"/>
+  <url value="http://example.org/ig/example/ImplementationGuide/fhir.example"/>
   <version value="0.1.0"/>
   <name value="ExampleIG"/>
   <status value="draft"/>
-  <date value="2023-04-20T09:15:43-05:00"/>
+  <date value="2023-04-26T11:15:05-05:00"/>
   <publisher value="Example Publisher"/>
   <contact>
     <name value="Example Publisher"/>
@@ -144,7 +144,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://example.org/history.html"/>
+        <valueString value="http://example.org/ig/example/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -368,7 +368,7 @@
         <valueCode value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://example.org/history.html"/>
+        <valueString value="http://example.org/ig/example/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -745,7 +745,7 @@
       </reference>
       <name value="BundleCollectionExample"/>
       <description value="Bundle Example"/>
-      <exampleCanonical value="http://example.org/StructureDefinition/my-bundle"/>
+      <exampleCanonical value="http://example.org/ig/example/StructureDefinition/my-bundle"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -756,7 +756,7 @@
       </reference>
       <name value="BundleTransactionExample"/>
       <description value="Bundle Example"/>
-      <exampleCanonical value="http://example.org/StructureDefinition/my-bundle"/>
+      <exampleCanonical value="http://example.org/ig/example/StructureDefinition/my-bundle"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -767,7 +767,7 @@
       </reference>
       <name value="CMVObservationExample"/>
       <description value="Example of CMV Observations"/>
-      <exampleCanonical value="http://example.org/StructureDefinition/cmv-observation"/>
+      <exampleCanonical value="http://example.org/ig/example/StructureDefinition/cmv-observation"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -778,7 +778,7 @@
       </reference>
       <name value="CMVObservationPresenceExample"/>
       <description value="Example of CMV Observations"/>
-      <exampleCanonical value="http://example.org/StructureDefinition/cmv-presence-observation"/>
+      <exampleCanonical value="http://example.org/ig/example/StructureDefinition/cmv-presence-observation"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -789,7 +789,7 @@
       </reference>
       <name value="DiagnosisExample-AML"/>
       <description value="Example of a Diagnois: AML"/>
-      <exampleCanonical value="http://example.org/StructureDefinition/my-diagnosis"/>
+      <exampleCanonical value="http://example.org/ig/example/StructureDefinition/my-diagnosis"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -800,7 +800,7 @@
       </reference>
       <name value="MyCIBMTRPatientExample"/>
       <description value="An example of a patient with a license to krill."/>
-      <exampleCanonical value="http://example.org/StructureDefinition/MyCIBMTRPatient"/>
+      <exampleCanonical value="http://example.org/ig/example/StructureDefinition/MyCIBMTRPatient"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -811,7 +811,7 @@
       </reference>
       <name value="MyTestPatientExample"/>
       <description value="An example of a patient with a license to krill."/>
-      <exampleCanonical value="http://example.org/StructureDefinition/MyTestPatient"/>
+      <exampleCanonical value="http://example.org/ig/example/StructureDefinition/MyTestPatient"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -822,7 +822,7 @@
       </reference>
       <name value="MyUSCorePatientExample"/>
       <description value="An example of a patient with a license to krill."/>
-      <exampleCanonical value="http://example.org/StructureDefinition/MyUSCorePatient"/>
+      <exampleCanonical value="http://example.org/ig/example/StructureDefinition/MyUSCorePatient"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -833,7 +833,7 @@
       </reference>
       <name value="ObservationExample1"/>
       <description value="An example of a MyObservation with a subject. This is required since the profile constrains this element."/>
-      <exampleCanonical value="http://example.org/StructureDefinition/my-observation"/>
+      <exampleCanonical value="http://example.org/ig/example/StructureDefinition/my-observation"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -855,7 +855,7 @@
       </reference>
       <name value="ObservationExample3"/>
       <description value="An example of an instance MyObservation with a subject. This profile requires a subject."/>
-      <exampleCanonical value="http://example.org/StructureDefinition/my-observation"/>
+      <exampleCanonical value="http://example.org/ig/example/StructureDefinition/my-observation"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -866,7 +866,7 @@
       </reference>
       <name value="PatientExample"/>
       <description value="An example of a patient with a license to krill."/>
-      <exampleCanonical value="http://example.org/StructureDefinition/my-patient"/>
+      <exampleCanonical value="http://example.org/ig/example/StructureDefinition/my-patient"/>
     </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">

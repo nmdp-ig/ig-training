@@ -75,7 +75,7 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Condition.extension:NumberOfRemissions","Condition.extension","NumberOfRemissions","","",0,1,"","","","Extension {[CanonicalType[http://example.org/StructureDefinition/number-of-remissions]]} {[]}
+"Condition.extension:NumberOfRemissions","Condition.extension","NumberOfRemissions","","",0,1,"","","","Extension {[CanonicalType[http://example.org/ig/example/StructureDefinition/number-of-remissions]]} {[]}
 ","Number of Remissions of Diagnosis","Number of Remissions of Diagnosis","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -107,7 +107,7 @@ con-5","ele-1:All FHIR elements must have a @value or children {hasValue() or (c
 ","< 272141005 |Severities|","PRB-26 / ABS-3","Can be pre/post-coordinated into value.  Or ./inboundRelationship[typeCode=SUBJ].source[classCode=OBS, moodCode=EVN, code=""severity""].value","FiveWs.grade","246112005"
 "Condition.code","Condition.code","","type
 ","",1,1,"Y","","Y","CodeableConcept {[]} {[]}
-","Identification of the condition, problem or diagnosis","Identification of the condition, problem or diagnosis.","","0..1 to account for primarily narrative only resources.","","","","","","","",,"required","","http://example.org/ValueSet/hematopoietic-disorder-vs","",,,,"Condition.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Identification of the condition, problem or diagnosis","Identification of the condition, problem or diagnosis.","","0..1 to account for primarily narrative only resources.","","","","","","","",,"required","","http://example.org/ig/example/ValueSet/hematopoietic-disorder-vs","",,,,"Condition.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.code","code 246090004 |Associated finding| (< 404684003 |Clinical finding| MINUS
 << 420134006 |Propensity to adverse reactions| MINUS 
 << 473010000 |Hypersensitivity condition| MINUS 
@@ -122,7 +122,7 @@ OR < 272379006 |Event|","PRB-3",".value","FiveWs.what[x]","246090004"
 ","Anatomical location, if relevant","The anatomical location where this condition manifests itself.","Only used if not implicit in code found in Condition.code. If the use case requires attributes from the BodySite resource (e.g. to identify and track separately) then use the standard extension [bodySite](http://hl7.org/fhir/R4/extension-bodysite.html).  May be a summary code, or a reference to a very precise definition of the location, or both.","","","","","","","","",,"example","Codes describing anatomical locations. May include laterality.","http://hl7.org/fhir/ValueSet/body-site","",,,,"Condition.bodySite",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","< 442083009  |Anatomical or acquired body structure|",".targetBodySiteCode","363698007"
 "Condition.subject","Condition.subject","","patient
-","",1,1,"Y","","Y","Reference {[]} {[CanonicalType[http://example.org/StructureDefinition/my-patient]]}
+","",1,1,"Y","","Y","Reference {[]} {[CanonicalType[http://example.org/ig/example/StructureDefinition/my-patient]]}
 ","Who has the condition?","Indicates the patient or group who the condition record is associated with.","","Group is typically used for veterinary or public health use cases.","","","","","","","",,,,,"",,,,"Condition.subject",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.subject","PID-3",".participation[typeCode=SBJ].role[classCode=PAT]","FiveWs.subject[x]","FiveWs.subject"
 "Condition.encounter","Condition.encounter","","","",0,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Encounter]]}

@@ -5,18 +5,18 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://example.org/ImplementationGuide/fhir.example> a fhir:ImplementationGuide ;
+<http://example.org/ig/example/ImplementationGuide/fhir.example> a fhir:ImplementationGuide ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "fhir.example"] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>http://example.org/ImplementationGuide/fhir.example</pre></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>http://example.org/ig/example/ImplementationGuide/fhir.example</pre></div>"
   ] ; # 
-  fhir:url [ fhir:v "http://example.org/ImplementationGuide/fhir.example"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://example.org/ig/example/ImplementationGuide/fhir.example"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "ExampleIG"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-04-20T09:15:43-05:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-04-26T11:15:05-05:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Example Publisher"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Example Publisher" ] ;
@@ -173,7 +173,7 @@
          fhir:value [ fhir:v "path-history" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "http://example.org/history.html" ]
+         fhir:value [ fhir:v "http://example.org/ig/example/history.html" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -425,7 +425,7 @@
          fhir:value [ fhir:v "path-history" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "http://example.org/history.html" ]
+         fhir:value [ fhir:v "http://example.org/ig/example/history.html" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -561,7 +561,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/StructureDefinition/cmv-observation> ;
+         fhir:link <http://example.org/ig/example/StructureDefinition/cmv-observation> ;
          fhir:reference [ fhir:v "StructureDefinition/cmv-observation" ]
        ] ;
        fhir:name [ fhir:v "CMVObservation" ] ;
@@ -573,7 +573,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/StructureDefinition/cmv-presence-observation> ;
+         fhir:link <http://example.org/ig/example/StructureDefinition/cmv-presence-observation> ;
          fhir:reference [ fhir:v "StructureDefinition/cmv-presence-observation" ]
        ] ;
        fhir:name [ fhir:v "CMVPresenceObservation" ] ;
@@ -585,7 +585,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/StructureDefinition/my-bundle> ;
+         fhir:link <http://example.org/ig/example/StructureDefinition/my-bundle> ;
          fhir:reference [ fhir:v "StructureDefinition/my-bundle" ]
        ] ;
        fhir:name [ fhir:v "My Bundle" ] ;
@@ -597,7 +597,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/StructureDefinition/MyCIBMTRPatient> ;
+         fhir:link <http://example.org/ig/example/StructureDefinition/MyCIBMTRPatient> ;
          fhir:reference [ fhir:v "StructureDefinition/MyCIBMTRPatient" ]
        ] ;
        fhir:name [ fhir:v "MyCIBMTRPatient" ] ;
@@ -609,7 +609,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/StructureDefinition/my-diagnosis> ;
+         fhir:link <http://example.org/ig/example/StructureDefinition/my-diagnosis> ;
          fhir:reference [ fhir:v "StructureDefinition/my-diagnosis" ]
        ] ;
        fhir:name [ fhir:v "MyDiagnosis" ] ;
@@ -621,7 +621,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/StructureDefinition/my-observation> ;
+         fhir:link <http://example.org/ig/example/StructureDefinition/my-observation> ;
          fhir:reference [ fhir:v "StructureDefinition/my-observation" ]
        ] ;
        fhir:name [ fhir:v "MyObservation" ] ;
@@ -633,7 +633,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/StructureDefinition/my-patient> ;
+         fhir:link <http://example.org/ig/example/StructureDefinition/my-patient> ;
          fhir:reference [ fhir:v "StructureDefinition/my-patient" ]
        ] ;
        fhir:name [ fhir:v "MyPatient" ] ;
@@ -645,7 +645,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/StructureDefinition/MyTestPatient> ;
+         fhir:link <http://example.org/ig/example/StructureDefinition/MyTestPatient> ;
          fhir:reference [ fhir:v "StructureDefinition/MyTestPatient" ]
        ] ;
        fhir:name [ fhir:v "MyTestPatient" ] ;
@@ -657,7 +657,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/StructureDefinition/MyUSCorePatient> ;
+         fhir:link <http://example.org/ig/example/StructureDefinition/MyUSCorePatient> ;
          fhir:reference [ fhir:v "StructureDefinition/MyUSCorePatient" ]
        ] ;
        fhir:name [ fhir:v "MyUSCorePatient" ] ;
@@ -669,7 +669,7 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/StructureDefinition/number-of-remissions> ;
+         fhir:link <http://example.org/ig/example/StructureDefinition/number-of-remissions> ;
          fhir:reference [ fhir:v "StructureDefinition/number-of-remissions" ]
        ] ;
        fhir:name [ fhir:v "Number of Remissions of Diagnosis" ] ;
@@ -681,7 +681,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/ValueSet/cmv-presence-vs> ;
+         fhir:link <http://example.org/ig/example/ValueSet/cmv-presence-vs> ;
          fhir:reference [ fhir:v "ValueSet/cmv-presence-vs" ]
        ] ;
        fhir:name [ fhir:v "CMV Presence ValueSet" ] ;
@@ -693,7 +693,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/ValueSet/cmv-vs> ;
+         fhir:link <http://example.org/ig/example/ValueSet/cmv-vs> ;
          fhir:reference [ fhir:v "ValueSet/cmv-vs" ]
        ] ;
        fhir:name [ fhir:v "CMV ValueSet" ] ;
@@ -705,7 +705,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/ValueSet/gvhd-icd10-codes> ;
+         fhir:link <http://example.org/ig/example/ValueSet/gvhd-icd10-codes> ;
          fhir:reference [ fhir:v "ValueSet/gvhd-icd10-codes" ]
        ] ;
        fhir:name [ fhir:v "GVHD ICD-10 Codes" ] ;
@@ -717,7 +717,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/ValueSet/gvhd-sct-codes> ;
+         fhir:link <http://example.org/ig/example/ValueSet/gvhd-sct-codes> ;
          fhir:reference [ fhir:v "ValueSet/gvhd-sct-codes" ]
        ] ;
        fhir:name [ fhir:v "GVHD SNOMED CT Codes" ] ;
@@ -729,7 +729,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/ValueSet/gvhd-all-valueset> ;
+         fhir:link <http://example.org/ig/example/ValueSet/gvhd-all-valueset> ;
          fhir:reference [ fhir:v "ValueSet/gvhd-all-valueset" ]
        ] ;
        fhir:name [ fhir:v "GVHD Type Value Set" ] ;
@@ -741,7 +741,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/ValueSet/hematopoietic-disorder-vs> ;
+         fhir:link <http://example.org/ig/example/ValueSet/hematopoietic-disorder-vs> ;
          fhir:reference [ fhir:v "ValueSet/hematopoietic-disorder-vs" ]
        ] ;
        fhir:name [ fhir:v "Disorders of hematopoietic structure" ] ;
@@ -753,7 +753,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/ValueSet/presence-lnc-valueset> ;
+         fhir:link <http://example.org/ig/example/ValueSet/presence-lnc-valueset> ;
          fhir:reference [ fhir:v "ValueSet/presence-lnc-valueset" ]
        ] ;
        fhir:name [ fhir:v "Presence Answer List - LOINC" ] ;
@@ -765,7 +765,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/ValueSet/presence-sct-valueset> ;
+         fhir:link <http://example.org/ig/example/ValueSet/presence-sct-valueset> ;
          fhir:reference [ fhir:v "ValueSet/presence-sct-valueset" ]
        ] ;
        fhir:name [ fhir:v "Presence Answer List - Snomed CT" ] ;
@@ -777,7 +777,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/ValueSet/presence-valueset> ;
+         fhir:link <http://example.org/ig/example/ValueSet/presence-valueset> ;
          fhir:reference [ fhir:v "ValueSet/presence-valueset" ]
        ] ;
        fhir:name [ fhir:v "Presence Answer List - Snomed and LOINC" ] ;
@@ -789,7 +789,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/CodeSystem/glstring-cs> ;
+         fhir:link <http://example.org/ig/example/CodeSystem/glstring-cs> ;
          fhir:reference [ fhir:v "CodeSystem/glstring-cs" ]
        ] ;
        fhir:name [ fhir:v "Genotype List String Code CodeSystem" ] ;
@@ -801,7 +801,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/CodeSystem/cibmtr-cadsr-vm-cs> ;
+         fhir:link <http://example.org/ig/example/CodeSystem/cibmtr-cadsr-vm-cs> ;
          fhir:reference [ fhir:v "CodeSystem/cibmtr-cadsr-vm-cs" ]
        ] ;
        fhir:name [ fhir:v "NIH Common Data Element Value Meanings for GVHD" ] ;
@@ -813,7 +813,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/CodeSystem/hla-genename-cs> ;
+         fhir:link <http://example.org/ig/example/CodeSystem/hla-genename-cs> ;
          fhir:reference [ fhir:v "CodeSystem/hla-genename-cs" ]
        ] ;
        fhir:name [ fhir:v "HLA HGNC GeneID CodeSystem" ] ;
@@ -825,7 +825,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/CodeSystem/nmdp-practitioner-role-cs> ;
+         fhir:link <http://example.org/ig/example/CodeSystem/nmdp-practitioner-role-cs> ;
          fhir:reference [ fhir:v "CodeSystem/nmdp-practitioner-role-cs" ]
        ] ;
        fhir:name [ fhir:v "NMDP Practitioner Roles" ] ;
@@ -837,14 +837,14 @@
          fhir:value [ fhir:v "Bundle" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/Bundle/BundleCollectionExample> ;
+         fhir:link <http://example.org/ig/example/Bundle/BundleCollectionExample> ;
          fhir:reference [ fhir:v "Bundle/BundleCollectionExample" ]
        ] ;
        fhir:name [ fhir:v "BundleCollectionExample" ] ;
        fhir:description [ fhir:v "Bundle Example" ] ;
        fhir:example [
-         fhir:v "http://example.org/StructureDefinition/my-bundle"^^xsd:anyURI ;
-         fhir:link <http://example.org/StructureDefinition/my-bundle>
+         fhir:v "http://example.org/ig/example/StructureDefinition/my-bundle"^^xsd:anyURI ;
+         fhir:link <http://example.org/ig/example/StructureDefinition/my-bundle>
        ]
      ] [
        fhir:extension ( [
@@ -852,14 +852,14 @@
          fhir:value [ fhir:v "Bundle" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/Bundle/BundleTransactionExample> ;
+         fhir:link <http://example.org/ig/example/Bundle/BundleTransactionExample> ;
          fhir:reference [ fhir:v "Bundle/BundleTransactionExample" ]
        ] ;
        fhir:name [ fhir:v "BundleTransactionExample" ] ;
        fhir:description [ fhir:v "Bundle Example" ] ;
        fhir:example [
-         fhir:v "http://example.org/StructureDefinition/my-bundle"^^xsd:anyURI ;
-         fhir:link <http://example.org/StructureDefinition/my-bundle>
+         fhir:v "http://example.org/ig/example/StructureDefinition/my-bundle"^^xsd:anyURI ;
+         fhir:link <http://example.org/ig/example/StructureDefinition/my-bundle>
        ]
      ] [
        fhir:extension ( [
@@ -867,14 +867,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/Observation/CMVObservationExample> ;
+         fhir:link <http://example.org/ig/example/Observation/CMVObservationExample> ;
          fhir:reference [ fhir:v "Observation/CMVObservationExample" ]
        ] ;
        fhir:name [ fhir:v "CMVObservationExample" ] ;
        fhir:description [ fhir:v "Example of CMV Observations" ] ;
        fhir:example [
-         fhir:v "http://example.org/StructureDefinition/cmv-observation"^^xsd:anyURI ;
-         fhir:link <http://example.org/StructureDefinition/cmv-observation>
+         fhir:v "http://example.org/ig/example/StructureDefinition/cmv-observation"^^xsd:anyURI ;
+         fhir:link <http://example.org/ig/example/StructureDefinition/cmv-observation>
        ]
      ] [
        fhir:extension ( [
@@ -882,14 +882,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/Observation/CMVObservationPresenceExample> ;
+         fhir:link <http://example.org/ig/example/Observation/CMVObservationPresenceExample> ;
          fhir:reference [ fhir:v "Observation/CMVObservationPresenceExample" ]
        ] ;
        fhir:name [ fhir:v "CMVObservationPresenceExample" ] ;
        fhir:description [ fhir:v "Example of CMV Observations" ] ;
        fhir:example [
-         fhir:v "http://example.org/StructureDefinition/cmv-presence-observation"^^xsd:anyURI ;
-         fhir:link <http://example.org/StructureDefinition/cmv-presence-observation>
+         fhir:v "http://example.org/ig/example/StructureDefinition/cmv-presence-observation"^^xsd:anyURI ;
+         fhir:link <http://example.org/ig/example/StructureDefinition/cmv-presence-observation>
        ]
      ] [
        fhir:extension ( [
@@ -897,14 +897,14 @@
          fhir:value [ fhir:v "Condition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/Condition/DiagnosisExample-AML> ;
+         fhir:link <http://example.org/ig/example/Condition/DiagnosisExample-AML> ;
          fhir:reference [ fhir:v "Condition/DiagnosisExample-AML" ]
        ] ;
        fhir:name [ fhir:v "DiagnosisExample-AML" ] ;
        fhir:description [ fhir:v "Example of a Diagnois: AML" ] ;
        fhir:example [
-         fhir:v "http://example.org/StructureDefinition/my-diagnosis"^^xsd:anyURI ;
-         fhir:link <http://example.org/StructureDefinition/my-diagnosis>
+         fhir:v "http://example.org/ig/example/StructureDefinition/my-diagnosis"^^xsd:anyURI ;
+         fhir:link <http://example.org/ig/example/StructureDefinition/my-diagnosis>
        ]
      ] [
        fhir:extension ( [
@@ -912,14 +912,14 @@
          fhir:value [ fhir:v "Patient" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/Patient/MyCIBMTRPatientExample> ;
+         fhir:link <http://example.org/ig/example/Patient/MyCIBMTRPatientExample> ;
          fhir:reference [ fhir:v "Patient/MyCIBMTRPatientExample" ]
        ] ;
        fhir:name [ fhir:v "MyCIBMTRPatientExample" ] ;
        fhir:description [ fhir:v "An example of a patient with a license to krill." ] ;
        fhir:example [
-         fhir:v "http://example.org/StructureDefinition/MyCIBMTRPatient"^^xsd:anyURI ;
-         fhir:link <http://example.org/StructureDefinition/MyCIBMTRPatient>
+         fhir:v "http://example.org/ig/example/StructureDefinition/MyCIBMTRPatient"^^xsd:anyURI ;
+         fhir:link <http://example.org/ig/example/StructureDefinition/MyCIBMTRPatient>
        ]
      ] [
        fhir:extension ( [
@@ -927,14 +927,14 @@
          fhir:value [ fhir:v "Patient" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/Patient/MyTestPatientExample> ;
+         fhir:link <http://example.org/ig/example/Patient/MyTestPatientExample> ;
          fhir:reference [ fhir:v "Patient/MyTestPatientExample" ]
        ] ;
        fhir:name [ fhir:v "MyTestPatientExample" ] ;
        fhir:description [ fhir:v "An example of a patient with a license to krill." ] ;
        fhir:example [
-         fhir:v "http://example.org/StructureDefinition/MyTestPatient"^^xsd:anyURI ;
-         fhir:link <http://example.org/StructureDefinition/MyTestPatient>
+         fhir:v "http://example.org/ig/example/StructureDefinition/MyTestPatient"^^xsd:anyURI ;
+         fhir:link <http://example.org/ig/example/StructureDefinition/MyTestPatient>
        ]
      ] [
        fhir:extension ( [
@@ -942,14 +942,14 @@
          fhir:value [ fhir:v "Patient" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/Patient/MyUSCorePatientExample> ;
+         fhir:link <http://example.org/ig/example/Patient/MyUSCorePatientExample> ;
          fhir:reference [ fhir:v "Patient/MyUSCorePatientExample" ]
        ] ;
        fhir:name [ fhir:v "MyUSCorePatientExample" ] ;
        fhir:description [ fhir:v "An example of a patient with a license to krill." ] ;
        fhir:example [
-         fhir:v "http://example.org/StructureDefinition/MyUSCorePatient"^^xsd:anyURI ;
-         fhir:link <http://example.org/StructureDefinition/MyUSCorePatient>
+         fhir:v "http://example.org/ig/example/StructureDefinition/MyUSCorePatient"^^xsd:anyURI ;
+         fhir:link <http://example.org/ig/example/StructureDefinition/MyUSCorePatient>
        ]
      ] [
        fhir:extension ( [
@@ -957,14 +957,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/Observation/ObservationExample1> ;
+         fhir:link <http://example.org/ig/example/Observation/ObservationExample1> ;
          fhir:reference [ fhir:v "Observation/ObservationExample1" ]
        ] ;
        fhir:name [ fhir:v "ObservationExample1" ] ;
        fhir:description [ fhir:v "An example of a MyObservation with a subject. This is required since the profile constrains this element." ] ;
        fhir:example [
-         fhir:v "http://example.org/StructureDefinition/my-observation"^^xsd:anyURI ;
-         fhir:link <http://example.org/StructureDefinition/my-observation>
+         fhir:v "http://example.org/ig/example/StructureDefinition/my-observation"^^xsd:anyURI ;
+         fhir:link <http://example.org/ig/example/StructureDefinition/my-observation>
        ]
      ] [
        fhir:extension ( [
@@ -972,7 +972,7 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/Observation/ObservationExample2> ;
+         fhir:link <http://example.org/ig/example/Observation/ObservationExample2> ;
          fhir:reference [ fhir:v "Observation/ObservationExample2" ]
        ] ;
        fhir:name [ fhir:v "ObservationExample2" ] ;
@@ -984,14 +984,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/Observation/ObservationExample3> ;
+         fhir:link <http://example.org/ig/example/Observation/ObservationExample3> ;
          fhir:reference [ fhir:v "Observation/ObservationExample3" ]
        ] ;
        fhir:name [ fhir:v "ObservationExample3" ] ;
        fhir:description [ fhir:v "An example of an instance MyObservation with a subject. This profile requires a subject." ] ;
        fhir:example [
-         fhir:v "http://example.org/StructureDefinition/my-observation"^^xsd:anyURI ;
-         fhir:link <http://example.org/StructureDefinition/my-observation>
+         fhir:v "http://example.org/ig/example/StructureDefinition/my-observation"^^xsd:anyURI ;
+         fhir:link <http://example.org/ig/example/StructureDefinition/my-observation>
        ]
      ] [
        fhir:extension ( [
@@ -999,14 +999,14 @@
          fhir:value [ fhir:v "Patient" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://example.org/Patient/PatientExample> ;
+         fhir:link <http://example.org/ig/example/Patient/PatientExample> ;
          fhir:reference [ fhir:v "Patient/PatientExample" ]
        ] ;
        fhir:name [ fhir:v "PatientExample" ] ;
        fhir:description [ fhir:v "An example of a patient with a license to krill." ] ;
        fhir:example [
-         fhir:v "http://example.org/StructureDefinition/my-patient"^^xsd:anyURI ;
-         fhir:link <http://example.org/StructureDefinition/my-patient>
+         fhir:v "http://example.org/ig/example/StructureDefinition/my-patient"^^xsd:anyURI ;
+         fhir:link <http://example.org/ig/example/StructureDefinition/my-patient>
        ]
      ] ) ;
      fhir:page [

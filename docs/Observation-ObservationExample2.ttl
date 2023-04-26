@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://example.org/Observation/ObservationExample2> a fhir:Observation ;
+<http://example.org/ig/example/Observation/ObservationExample2> a fhir:Observation ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "ObservationExample2"] ; # 
   fhir:text [

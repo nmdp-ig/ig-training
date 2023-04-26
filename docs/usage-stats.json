@@ -4,7 +4,7 @@
   "fhirVersion": "4.0.1",
   "extensions": [
     {
-      "url": "http://example.org/StructureDefinition/number-of-remissions",
+      "url": "http://example.org/ig/example/StructureDefinition/number-of-remissions",
       "title": "Number of Remissions of Diagnosis",
       "types": [
         "integer"
@@ -14,31 +14,31 @@
   "profiles": {
     "Patient": [
       {
-        "url": "http://example.org/StructureDefinition/my-patient",
+        "url": "http://example.org/ig/example/StructureDefinition/my-patient",
         "title": "MyPatient"
       }
     ],
     "Observation": [
       {
-        "url": "http://example.org/StructureDefinition/my-observation",
+        "url": "http://example.org/ig/example/StructureDefinition/my-observation",
         "title": "MyObservation"
       }
     ],
     "Bundle": [
       {
-        "url": "http://example.org/StructureDefinition/my-bundle",
+        "url": "http://example.org/ig/example/StructureDefinition/my-bundle",
         "title": "My Bundle"
       }
     ],
     "Condition": [
       {
-        "url": "http://example.org/StructureDefinition/my-diagnosis",
+        "url": "http://example.org/ig/example/StructureDefinition/my-diagnosis",
         "title": "MyDiagnosis"
       }
     ]
   },
   "usage": {
-    "http://example.org/StructureDefinition/number-of-remissions": [
+    "http://example.org/ig/example/StructureDefinition/number-of-remissions": [
       "Bundle.entry.resource",
       "Condition"
     ],

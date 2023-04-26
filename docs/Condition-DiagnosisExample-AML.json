@@ -2,7 +2,7 @@
   "resourceType" : "Condition",
   "id" : "DiagnosisExample-AML",
   "meta" : {
-    "profile" : ["http://example.org/StructureDefinition/my-diagnosis"],
+    "profile" : ["http://example.org/ig/example/StructureDefinition/my-diagnosis"],
     "security" : [{
       "system" : "http://terminology.cibmtr.org/codesystem/transplant-center",
       "code" : "rc_99999",
@@ -14,7 +14,7 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"DiagnosisExample-AML\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;DiagnosisExample-AML&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-my-diagnosis.html\">MyDiagnosis</a></p><p style=\"margin-bottom: 0px\">Security Labels: <span title=\"{http://terminology.cibmtr.org/codesystem/transplant-center http://terminology.cibmtr.org/codesystem/transplant-center}\">http://terminology.cibmtr.org/codesystem/transplant-center</span></p></div><p><b>Number of Remissions of Diagnosis</b>: 0</p><p><b>code</b>: Acute myeloid leukemia <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#91861009)</span></p><p><b>subject</b>: <a href=\"Patient-PatientExample.html\">Patient/PatientExample</a> &quot; POND&quot;</p><p><b>recordedDate</b>: 2021-11-01</p></div>"
   },
   "extension" : [{
-    "url" : "http://example.org/StructureDefinition/number-of-remissions",
+    "url" : "http://example.org/ig/example/StructureDefinition/number-of-remissions",
     "valueInteger" : 0
   }],
   "code" : {

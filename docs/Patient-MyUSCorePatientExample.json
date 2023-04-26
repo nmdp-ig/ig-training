@@ -2,7 +2,7 @@
   "resourceType" : "Patient",
   "id" : "MyUSCorePatientExample",
   "meta" : {
-    "profile" : ["http://example.org/StructureDefinition/MyUSCorePatient"],
+    "profile" : ["http://example.org/ig/example/StructureDefinition/MyUSCorePatient"],
     "security" : [{
       "system" : "http://terminology.cibmtr.org/codesystem/transplant-center",
       "code" : "rc_99999",

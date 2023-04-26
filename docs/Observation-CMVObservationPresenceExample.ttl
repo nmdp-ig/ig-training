@@ -7,13 +7,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://example.org/Observation/CMVObservationPresenceExample> a fhir:Observation ;
+<http://example.org/ig/example/Observation/CMVObservationPresenceExample> a fhir:Observation ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "CMVObservationPresenceExample"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://example.org/StructureDefinition/cmv-presence-observation"^^xsd:anyURI ;
-       fhir:link <http://example.org/StructureDefinition/cmv-presence-observation>
+       fhir:v "http://example.org/ig/example/StructureDefinition/cmv-presence-observation"^^xsd:anyURI ;
+       fhir:link <http://example.org/ig/example/StructureDefinition/cmv-presence-observation>
      ] ) ;
      fhir:security ( [
        fhir:system [ fhir:v "http://terminology.cibmtr.org/codesystem/transplant-center"^^xsd:anyURI ] ;
@@ -35,7 +35,7 @@
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://example.org/Patient/PatientExample> ;
+     fhir:link <http://example.org/ig/example/Patient/PatientExample> ;
      fhir:reference [ fhir:v "Patient/PatientExample" ]
   ] ; # 
   fhir:value [

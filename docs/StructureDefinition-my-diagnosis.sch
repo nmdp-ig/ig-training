@@ -12,7 +12,7 @@
   <sch:pattern>
     <sch:title>f:Condition</sch:title>
     <sch:rule context="f:Condition">
-      <sch:assert test="count(f:extension[@url = 'http://example.org/StructureDefinition/number-of-remissions']) &lt;= 1">extension with URL = 'http://example.org/StructureDefinition/number-of-remissions': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://example.org/ig/example/StructureDefinition/number-of-remissions']) &lt;= 1">extension with URL = 'http://example.org/ig/example/StructureDefinition/number-of-remissions': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:code) &gt;= 1">code: minimum cardinality of 'code' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>

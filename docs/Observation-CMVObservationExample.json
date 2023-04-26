@@ -2,7 +2,7 @@
   "resourceType" : "Observation",
   "id" : "CMVObservationExample",
   "meta" : {
-    "profile" : ["http://example.org/StructureDefinition/cmv-observation"],
+    "profile" : ["http://example.org/ig/example/StructureDefinition/cmv-observation"],
     "security" : [{
       "system" : "http://terminology.cibmtr.org/codesystem/transplant-center",
       "code" : "rc_99999",

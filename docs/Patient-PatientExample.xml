@@ -3,7 +3,7 @@
 <Patient xmlns="http://hl7.org/fhir">
   <id value="PatientExample"/>
   <meta>
-    <profile value="http://example.org/StructureDefinition/my-patient"/>
+    <profile value="http://example.org/ig/example/StructureDefinition/my-patient"/>
     <security>
       <system value="http://terminology.cibmtr.org/codesystem/transplant-center"/>
       <code value="rc_99999"/>

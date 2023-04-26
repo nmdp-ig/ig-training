@@ -2,7 +2,7 @@
   "resourceType" : "Observation",
   "id" : "ObservationExample1",
   "meta" : {
-    "profile" : ["http://example.org/StructureDefinition/my-observation"],
+    "profile" : ["http://example.org/ig/example/StructureDefinition/my-observation"],
     "security" : [{
       "system" : "http://terminology.cibmtr.org/codesystem/transplant-center",
       "code" : "rc_99999",

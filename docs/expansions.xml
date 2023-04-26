@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="0f73502f-acce-4460-a7de-3ded7654278d"/>
+  <id value="1abe18f7-6ee9-475a-8725-57a22f291886"/>
   <meta>
-    <lastUpdated value="2023-04-20T09:15:43.462-05:00"/>
+    <lastUpdated value="2023-04-26T11:15:05.871-05:00"/>
   </meta>
   <type value="collection"/>
   <entry>
-    <fullUrl value="http://example.org/ValueSet/presence-sct-valueset"/>
+    <fullUrl value="http://example.org/ig/example/ValueSet/presence-sct-valueset"/>
     <resource>
       <ValueSet>
         <id value="presence-sct-valueset"/>
@@ -15,7 +15,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 2 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jul 2022</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jan 2023</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -47,13 +47,13 @@
             </table>
           </div>
         </text>
-        <url value="http://example.org/ValueSet/presence-sct-valueset"/>
+        <url value="http://example.org/ig/example/ValueSet/presence-sct-valueset"/>
         <version value="0.1.0"/>
         <name value="PresenceSCTValueSet"/>
         <title value="Presence Answer List - Snomed CT"/>
         <status value="active"/>
         <experimental value="true"/>
-        <date value="2023-04-20T09:15:43-05:00"/>
+        <date value="2023-04-26T11:15:05-05:00"/>
         <publisher value="Example Publisher"/>
         <contact>
           <name value="Example Publisher"/>
@@ -64,8 +64,8 @@
         </contact>
         <description value="Permissible values for presence - Snomed CT"/>
         <expansion>
-          <identifier value="urn:uuid:fcff15c8-d257-46b5-ab9e-11d982e61fe3"/>
-          <timestamp value="2023-04-20T09:16:26-05:00"/>
+          <identifier value="urn:uuid:e64fc497-2c41-4240-b83c-a85fc7677657"/>
+          <timestamp value="2023-04-26T11:15:51-05:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -77,7 +77,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"/>
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -94,7 +94,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://example.org/ValueSet/gvhd-sct-codes"/>
+    <fullUrl value="http://example.org/ig/example/ValueSet/gvhd-sct-codes"/>
     <resource>
       <ValueSet>
         <id value="gvhd-sct-codes"/>
@@ -102,7 +102,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 13 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jul 2022</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jan 2023</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -222,13 +222,13 @@
             </table>
           </div>
         </text>
-        <url value="http://example.org/ValueSet/gvhd-sct-codes"/>
+        <url value="http://example.org/ig/example/ValueSet/gvhd-sct-codes"/>
         <version value="0.1.0"/>
         <name value="GVHDSCTVS"/>
         <title value="GVHD SNOMED CT Codes"/>
         <status value="active"/>
         <experimental value="true"/>
-        <date value="2023-04-20T09:15:43-05:00"/>
+        <date value="2023-04-26T11:15:05-05:00"/>
         <publisher value="Example Publisher"/>
         <contact>
           <name value="Example Publisher"/>
@@ -242,8 +242,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:a9c5580a-8dc6-47dd-8d42-921dcf2bfeff"/>
-          <timestamp value="2023-04-20T09:16:36-05:00"/>
+          <identifier value="urn:uuid:088b55fb-ea01-4480-b164-92f81882c1c6"/>
+          <timestamp value="2023-04-26T11:16:00-05:00"/>
           <total value="13"/>
           <parameter>
             <name value="excludeNested"/>
@@ -255,7 +255,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"/>
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -327,7 +327,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://example.org/ValueSet/hematopoietic-disorder-vs"/>
+    <fullUrl value="http://example.org/ig/example/ValueSet/hematopoietic-disorder-vs"/>
     <resource>
       <ValueSet>
         <id value="hematopoietic-disorder-vs"/>
@@ -335,7 +335,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p style="border: maroon 1px solid; background-color: #FFCCCC; font-weight: bold; padding: 8px">This value set has &gt;1000 codes in it. In order to keep the publication size manageable, only a selection (1000 codes) of the whole set of codes is shown</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jul 2022</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jan 2023</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -547,14 +547,6 @@
                 </td>
                 <td>http://snomed.info/sct</td>
                 <td>Staphylococcal tonsillitis</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-13172003"> </a>  
-                  <a href="http://snomed.info/id/13172003">13172003</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Chronic idiopathic thrombocytopenic purpura</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2398,30 +2390,6 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-92511007"> </a>  
-                  <a href="http://snomed.info/id/92511007">92511007</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Burkitt's tumor of lymph nodes of axilla AND/OR upper limb</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-92512000"> </a>  
-                  <a href="http://snomed.info/id/92512000">92512000</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Burkitt's tumor of lymph nodes of head, face AND/OR neck</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-92513005"> </a>  
-                  <a href="http://snomed.info/id/92513005">92513005</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Burkitt's tumor of lymph nodes of inguinal region AND/OR lower limb</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
                   <a name="http---snomed.info-sct-92524007"> </a>  
                   <a href="http://snomed.info/id/92524007">92524007</a>
                 </td>
@@ -2566,30 +2534,6 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-93136003"> </a>  
-                  <a href="http://snomed.info/id/93136003">93136003</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Letterer-Siwe disease of lymph nodes of axilla AND/OR upper limb</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-93137007"> </a>  
-                  <a href="http://snomed.info/id/93137007">93137007</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Letterer-Siwe disease of lymph nodes of head, face AND/OR neck</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-93138002"> </a>  
-                  <a href="http://snomed.info/id/93138002">93138002</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Letterer-Siwe disease of lymph nodes of inguinal region AND/OR lower limb</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
                   <a name="http---snomed.info-sct-93139005"> </a>  
                   <a href="http://snomed.info/id/93139005">93139005</a>
                 </td>
@@ -2694,30 +2638,6 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-93185008"> </a>  
-                  <a href="http://snomed.info/id/93185008">93185008</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Malignant histiocytosis of lymph nodes of axilla AND/OR upper limb</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-93186009"> </a>  
-                  <a href="http://snomed.info/id/93186009">93186009</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Malignant histiocytosis of lymph nodes of head, face AND/OR neck</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-93187000"> </a>  
-                  <a href="http://snomed.info/id/93187000">93187000</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Malignant histiocytosis of lymph nodes of inguinal region AND/OR lower limb</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
                   <a name="http---snomed.info-sct-93188005"> </a>  
                   <a href="http://snomed.info/id/93188005">93188005</a>
                 </td>
@@ -2731,14 +2651,6 @@
                 </td>
                 <td>http://snomed.info/sct</td>
                 <td>Malignant histiocytosis of spleen</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-93190006"> </a>  
-                  <a href="http://snomed.info/id/93190006">93190006</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Malignant histiocytosis of extranodal AND/OR solid organ site</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2763,30 +2675,6 @@
                 </td>
                 <td>http://snomed.info/sct</td>
                 <td>Malignant lymphoma of intrathoracic lymph nodes</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-93194002"> </a>  
-                  <a href="http://snomed.info/id/93194002">93194002</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Malignant lymphoma of lymph nodes of axilla AND/OR upper limb</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-93195001"> </a>  
-                  <a href="http://snomed.info/id/93195001">93195001</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Malignant lymphoma of lymph nodes of head, face AND/OR neck</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-93196000"> </a>  
-                  <a href="http://snomed.info/id/93196000">93196000</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Malignant lymphoma of lymph nodes of inguinal region AND/OR lower limb</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2827,30 +2715,6 @@
                 </td>
                 <td>http://snomed.info/sct</td>
                 <td>Malignant mast cell tumor of intrathoracic lymph nodes</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-93203007"> </a>  
-                  <a href="http://snomed.info/id/93203007">93203007</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Malignant mast cell tumor of lymph nodes of axilla AND/OR upper limb</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-93204001"> </a>  
-                  <a href="http://snomed.info/id/93204001">93204001</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Malignant mast cell tumor of lymph nodes of head, face AND/OR neck</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-93205000"> </a>  
-                  <a href="http://snomed.info/id/93205000">93205000</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Malignant mast cell tumor of lymph nodes of inguinal region AND/OR lower limb</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2910,22 +2774,6 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-93487009"> </a>  
-                  <a href="http://snomed.info/id/93487009">93487009</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Hodgkin's disease, lymphocytic depletion of lymph nodes of axilla AND/OR upper limb</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-93488004"> </a>  
-                  <a href="http://snomed.info/id/93488004">93488004</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Hodgkin's disease, lymphocytic depletion of lymph nodes of head, face AND/OR neck</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
                   <a name="http---snomed.info-sct-93493001"> </a>  
                   <a href="http://snomed.info/id/93493001">93493001</a>
                 </td>
@@ -2950,14 +2798,6 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-93496009"> </a>  
-                  <a href="http://snomed.info/id/93496009">93496009</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Hodgkin's disease, lymphocytic-histiocytic predominance of lymph nodes of axilla AND/OR upper limb</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
                   <a name="http---snomed.info-sct-93500006"> </a>  
                   <a href="http://snomed.info/id/93500006">93500006</a>
                 </td>
@@ -2966,27 +2806,11 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-93505001"> </a>  
-                  <a href="http://snomed.info/id/93505001">93505001</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Hodgkin's disease, mixed cellularity of lymph nodes of axilla AND/OR upper limb</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
                   <a name="http---snomed.info-sct-93509007"> </a>  
                   <a href="http://snomed.info/id/93509007">93509007</a>
                 </td>
                 <td>http://snomed.info/sct</td>
                 <td>Hodgkin's disease, mixed cellularity of spleen</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-93514006"> </a>  
-                  <a href="http://snomed.info/id/93514006">93514006</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Hodgkin's disease, nodular sclerosis of lymph nodes of axilla AND/OR upper limb</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -3022,22 +2846,6 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-93523009"> </a>  
-                  <a href="http://snomed.info/id/93523009">93523009</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Hodgkin's disease of lymph nodes of axilla AND/OR upper limb</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-93524003"> </a>  
-                  <a href="http://snomed.info/id/93524003">93524003</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Hodgkin's disease of lymph nodes of head, face AND/OR neck</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
                   <a name="http---snomed.info-sct-93526001"> </a>  
                   <a href="http://snomed.info/id/93526001">93526001</a>
                 </td>
@@ -3070,43 +2878,11 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-93532006"> </a>  
-                  <a href="http://snomed.info/id/93532006">93532006</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Hodgkin's granuloma of lymph nodes of axilla AND/OR upper limb</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
                   <a name="http---snomed.info-sct-93536009"> </a>  
                   <a href="http://snomed.info/id/93536009">93536009</a>
                 </td>
                 <td>http://snomed.info/sct</td>
                 <td>Hodgkin's granuloma of spleen</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-93541001"> </a>  
-                  <a href="http://snomed.info/id/93541001">93541001</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Hodgkin's paragranuloma of lymph nodes of axilla AND/OR upper limb</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-93542008"> </a>  
-                  <a href="http://snomed.info/id/93542008">93542008</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Hodgkin's paragranuloma of lymph nodes of head, face AND/OR neck</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-93543003"> </a>  
-                  <a href="http://snomed.info/id/93543003">93543003</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Hodgkin's paragranuloma of lymph nodes of inguinal region AND/OR lower limb</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -3131,14 +2907,6 @@
                 </td>
                 <td>http://snomed.info/sct</td>
                 <td>Hodgkin's sarcoma of intrathoracic lymph nodes</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-93550004"> </a>  
-                  <a href="http://snomed.info/id/93550004">93550004</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Hodgkin's sarcoma of lymph nodes of axilla AND/OR upper limb</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -3654,22 +3422,6 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-94710006"> </a>  
-                  <a href="http://snomed.info/id/94710006">94710006</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Mycosis fungoides of lymph nodes of axilla AND/OR upper limb</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-94711005"> </a>  
-                  <a href="http://snomed.info/id/94711005">94711005</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Mycosis fungoides of lymph nodes of head, face AND/OR neck</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
                   <a name="http---snomed.info-sct-94714002"> </a>  
                   <a href="http://snomed.info/id/94714002">94714002</a>
                 </td>
@@ -3835,14 +3587,6 @@
                 </td>
                 <td>http://snomed.info/sct</td>
                 <td>Reticulosarcoma of spleen</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-95260009"> </a>  
-                  <a href="http://snomed.info/id/95260009">95260009</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Sézary's disease of lymph nodes of head, face AND/OR neck</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -6310,22 +6054,6 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-188513004"> </a>  
-                  <a href="http://snomed.info/id/188513004">188513004</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Burkitt's lymphoma of lymph nodes of axilla and upper limb</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-188514005"> </a>  
-                  <a href="http://snomed.info/id/188514005">188514005</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Burkitt's lymphoma of lymph nodes of inguinal region and lower limb</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
                   <a name="http---snomed.info-sct-188515006"> </a>  
                   <a href="http://snomed.info/id/188515006">188515006</a>
                 </td>
@@ -6382,43 +6110,11 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-188537004"> </a>  
-                  <a href="http://snomed.info/id/188537004">188537004</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Hodgkin's granuloma of lymph nodes of axilla and upper limb</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-188538009"> </a>  
-                  <a href="http://snomed.info/id/188538009">188538009</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Hodgkin's granuloma of lymph nodes of inguinal region and lower limb</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
                   <a name="http---snomed.info-sct-188541000"> </a>  
                   <a href="http://snomed.info/id/188541000">188541000</a>
                 </td>
                 <td>http://snomed.info/sct</td>
                 <td>Hodgkin's granuloma of lymph nodes of multiple sites</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-188547001"> </a>  
-                  <a href="http://snomed.info/id/188547001">188547001</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Hodgkin's sarcoma of lymph nodes of axilla and upper limb</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-188548006"> </a>  
-                  <a href="http://snomed.info/id/188548006">188548006</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Hodgkin's sarcoma of lymph nodes of inguinal region and lower limb</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -6430,43 +6126,11 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-188554007"> </a>  
-                  <a href="http://snomed.info/id/188554007">188554007</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Hodgkin's disease, lymphocytic-histiocytic predominance of lymph nodes of head, face and neck</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-188558005"> </a>  
-                  <a href="http://snomed.info/id/188558005">188558005</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Hodgkin's disease, lymphocytic-histiocytic predominance of lymph nodes of axilla and upper limb</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-188559002"> </a>  
-                  <a href="http://snomed.info/id/188559002">188559002</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Hodgkin's disease, lymphocytic-histiocytic predominance of lymph nodes of inguinal region and lower limb</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
                   <a name="http---snomed.info-sct-188562004"> </a>  
                   <a href="http://snomed.info/id/188562004">188562004</a>
                 </td>
                 <td>http://snomed.info/sct</td>
                 <td>Hodgkin's disease, lymphocytic-histiocytic predominance of lymph nodes of multiple sites</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-188565002"> </a>  
-                  <a href="http://snomed.info/id/188565002">188565002</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Hodgkin's disease, nodular sclerosis of lymph nodes of head, face and neck</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -6486,22 +6150,6 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-188568000"> </a>  
-                  <a href="http://snomed.info/id/188568000">188568000</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Hodgkin's disease, nodular sclerosis of lymph nodes of axilla and upper limb</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-188569008"> </a>  
-                  <a href="http://snomed.info/id/188569008">188569008</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Hodgkin's disease, nodular sclerosis of lymph nodes of inguinal region and lower limb</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
                   <a name="http---snomed.info-sct-188570009"> </a>  
                   <a href="http://snomed.info/id/188570009">188570009</a>
                 </td>
@@ -6515,14 +6163,6 @@
                 </td>
                 <td>http://snomed.info/sct</td>
                 <td>Hodgkin's disease, nodular sclerosis of lymph nodes of multiple sites</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-188575004"> </a>  
-                  <a href="http://snomed.info/id/188575004">188575004</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Hodgkin's disease, mixed cellularity of lymph nodes of head, face and neck</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -6542,22 +6182,6 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-188578002"> </a>  
-                  <a href="http://snomed.info/id/188578002">188578002</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Hodgkin's disease, mixed cellularity of lymph nodes of axilla and upper limb</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-188579005"> </a>  
-                  <a href="http://snomed.info/id/188579005">188579005</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Hodgkin's disease, mixed cellularity of lymph nodes of inguinal region and lower limb</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
                   <a name="http---snomed.info-sct-188580008"> </a>  
                   <a href="http://snomed.info/id/188580008">188580008</a>
                 </td>
@@ -6574,14 +6198,6 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-188585003"> </a>  
-                  <a href="http://snomed.info/id/188585003">188585003</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Hodgkin's disease, lymphocytic depletion of lymph nodes of head, face and neck</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
                   <a name="http---snomed.info-sct-188586002"> </a>  
                   <a href="http://snomed.info/id/188586002">188586002</a>
                 </td>
@@ -6595,22 +6211,6 @@
                 </td>
                 <td>http://snomed.info/sct</td>
                 <td>Hodgkin's disease, lymphocytic depletion of intra-abdominal lymph nodes</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-188589009"> </a>  
-                  <a href="http://snomed.info/id/188589009">188589009</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Hodgkin's disease, lymphocytic depletion of lymph nodes of axilla and upper limb</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-188590000"> </a>  
-                  <a href="http://snomed.info/id/188590000">188590000</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Hodgkin's disease, lymphocytic depletion of lymph nodes of inguinal region and lower limb</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -6726,14 +6326,6 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-188642004"> </a>  
-                  <a href="http://snomed.info/id/188642004">188642004</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Malignant histiocytosis of lymph nodes of inguinal region and lower limb</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
                   <a name="http---snomed.info-sct-188645002"> </a>  
                   <a href="http://snomed.info/id/188645002">188645002</a>
                 </td>
@@ -6762,23 +6354,7 @@
                   <a href="http://snomed.info/id/188662007">188662007</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Mast cell malignancy of lymph nodes of head, face and neck</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-188665009"> </a>  
-                  <a href="http://snomed.info/id/188665009">188665009</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Mast cell malignancy of lymph nodes of axilla and upper limb</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-188666005"> </a>  
-                  <a href="http://snomed.info/id/188666005">188666005</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Mast cell malignancy of lymph nodes of inguinal region and lower limb</td>
+                <td>Mast cell malignancy of lymph nodes of head and neck (disorder)</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -6786,7 +6362,7 @@
                   <a href="http://snomed.info/id/188668006">188668006</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Mast cell malignancy of spleen</td>
+                <td>Malignant mast cell tumor of spleen</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -8290,7 +7866,7 @@
                   <a href="http://snomed.info/id/275486007">275486007</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Tonsil disease - chronic</td>
+                <td>Chronic disease of tonsil (disorder)</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -8298,7 +7874,7 @@
                   <a href="http://snomed.info/id/275487003">275487003</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Adenoid disease - chronic</td>
+                <td>Chronic disease of adenoid (disorder)</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -8348,16 +7924,440 @@
                 <td>http://snomed.info/sct</td>
                 <td>T-cell prolymphocytic leukemia</td>
               </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-277568007"> </a>  
+                  <a href="http://snomed.info/id/277568007">277568007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Hairy cell leukemia variant</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-277569004"> </a>  
+                  <a href="http://snomed.info/id/277569004">277569004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Large granular lymphocytic leukemia</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-277570003"> </a>  
+                  <a href="http://snomed.info/id/277570003">277570003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Lymphoma with spill</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-277571004"> </a>  
+                  <a href="http://snomed.info/id/277571004">277571004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>B-cell acute lymphoblastic leukemia</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-277572006"> </a>  
+                  <a href="http://snomed.info/id/277572006">277572006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Acute pre B-cell lymphoblastic leukemia</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-277573001"> </a>  
+                  <a href="http://snomed.info/id/277573001">277573001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Common acute lymphoblastic leukemia</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-277574007"> </a>  
+                  <a href="http://snomed.info/id/277574007">277574007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Null cell acute lymphoblastic leukemia</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-277575008"> </a>  
+                  <a href="http://snomed.info/id/277575008">277575008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>T-cell acute lymphoblastic leukemia</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-277587001"> </a>  
+                  <a href="http://snomed.info/id/277587001">277587001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>JCML - Juvenile chronic myeloid leukemia</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-277589003"> </a>  
+                  <a href="http://snomed.info/id/277589003">277589003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Atypical chronic myeloid leukemia</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-277597005"> </a>  
+                  <a href="http://snomed.info/id/277597005">277597005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Myelodysplastic syndrome with isolated del(5q) (disorder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-277601005"> </a>  
+                  <a href="http://snomed.info/id/277601005">277601005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Acute monocytoid leukemia</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-277602003"> </a>  
+                  <a href="http://snomed.info/id/277602003">277602003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Acute megakaryoblastic leukemia</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-277604002"> </a>  
+                  <a href="http://snomed.info/id/277604002">277604002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Acute eosinophilic leukemia</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-277619001"> </a>  
+                  <a href="http://snomed.info/id/277619001">277619001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>B-cell prolymphocytic leukemia</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-278189009"> </a>  
+                  <a href="http://snomed.info/id/278189009">278189009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Hypergranular promyelocytic leukemia</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-278453007"> </a>  
+                  <a href="http://snomed.info/id/278453007">278453007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Acute biphenotypic leukemia</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-283981003"> </a>  
+                  <a href="http://snomed.info/id/283981003">283981003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Crushing injury of spleen</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-283998003"> </a>  
+                  <a href="http://snomed.info/id/283998003">283998003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Lymph node injury</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-285608006"> </a>  
+                  <a href="http://snomed.info/id/285608006">285608006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Metastasis to thymus of unknown primary</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-285615003"> </a>  
+                  <a href="http://snomed.info/id/285615003">285615003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Metastasis to spleen of unknown primary</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-285644001"> </a>  
+                  <a href="http://snomed.info/id/285644001">285644001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Metastasis to lymph node of unknown primary</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-285769009"> </a>  
+                  <a href="http://snomed.info/id/285769009">285769009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Acute promyelocytic leukemia - hypogranular variant</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-285839005"> </a>  
+                  <a href="http://snomed.info/id/285839005">285839005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>M4Eo - Acute myelomonocytic leukemia - eosinophilic variant</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-287050006"> </a>  
+                  <a href="http://snomed.info/id/287050006">287050006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Acute osteomyelitis - elbow</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-287052003"> </a>  
+                  <a href="http://snomed.info/id/287052003">287052003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Acute osteomyelitis - hip</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-287053008"> </a>  
+                  <a href="http://snomed.info/id/287053008">287053008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Chronic osteomyelitis - elbow</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-287055001"> </a>  
+                  <a href="http://snomed.info/id/287055001">287055001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Chronic osteomyelitis - hip</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-287056000"> </a>  
+                  <a href="http://snomed.info/id/287056000">287056000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Chronic osteomyelitis - knee</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-288242005"> </a>  
+                  <a href="http://snomed.info/id/288242005">288242005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Acute osteomyelitis - knee</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-300929003"> </a>  
+                  <a href="http://snomed.info/id/300929003">300929003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Tonsillar adenitis</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-301771001"> </a>  
+                  <a href="http://snomed.info/id/301771001">301771001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Cervical lymph node abscess</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-302061009"> </a>  
+                  <a href="http://snomed.info/id/302061009">302061009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Brachial lymphadenopathy</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-302089007"> </a>  
+                  <a href="http://snomed.info/id/302089007">302089007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Ulceration of cervical lymph node</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-302090003"> </a>  
+                  <a href="http://snomed.info/id/302090003">302090003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Ulceration of axillary lymph node</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-302091004"> </a>  
+                  <a href="http://snomed.info/id/302091004">302091004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Ulceration of inguinal lymph node</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-302092006"> </a>  
+                  <a href="http://snomed.info/id/302092006">302092006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Ulceration of epitrochlear lymph node</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-302093001"> </a>  
+                  <a href="http://snomed.info/id/302093001">302093001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Ulceration of popliteal lymph node</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-302855005"> </a>  
+                  <a href="http://snomed.info/id/302855005">302855005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Subacute leukemia</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-302856006"> </a>  
+                  <a href="http://snomed.info/id/302856006">302856006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Aleukemic leukemia</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-302911003"> </a>  
+                  <a href="http://snomed.info/id/302911003">302911003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Acute lingual tonsillitis</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-303194003"> </a>  
+                  <a href="http://snomed.info/id/303194003">303194003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Metastasis to head and neck lymph node</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-303201005"> </a>  
+                  <a href="http://snomed.info/id/303201005">303201005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Metastasis to multiple lymph nodes</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-303266002"> </a>  
+                  <a href="http://snomed.info/id/303266002">303266002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Aplastic bone marrow</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-304132006"> </a>  
+                  <a href="http://snomed.info/id/304132006">304132006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Hematopoietic aplasia</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-306058006"> </a>  
+                  <a href="http://snomed.info/id/306058006">306058006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Aplastic anemia</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-307340003"> </a>  
+                  <a href="http://snomed.info/id/307340003">307340003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Monosomy 7 syndrome</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-307341004"> </a>  
+                  <a href="http://snomed.info/id/307341004">307341004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Atypical hairy cell leukemia</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-307592006"> </a>  
+                  <a href="http://snomed.info/id/307592006">307592006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Basophilic leukemia</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-307617006"> </a>  
+                  <a href="http://snomed.info/id/307617006">307617006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Neutrophilic leukemia</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-307650006"> </a>  
+                  <a href="http://snomed.info/id/307650006">307650006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Histiocytic medullary reticulosis</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-307651005"> </a>  
+                  <a href="http://snomed.info/id/307651005">307651005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Myelosclerosis with myeloid metaplasia</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-307762000"> </a>  
+                  <a href="http://snomed.info/id/307762000">307762000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Bone marrow depression</td>
+              </tr>
             </table>
           </div>
         </text>
-        <url value="http://example.org/ValueSet/hematopoietic-disorder-vs"/>
+        <url value="http://example.org/ig/example/ValueSet/hematopoietic-disorder-vs"/>
         <version value="0.1.0"/>
         <name value="HematopoieticDisorderVS"/>
         <title value="Disorders of hematopoietic structure"/>
         <status value="active"/>
         <experimental value="true"/>
-        <date value="2023-04-20T09:15:43-05:00"/>
+        <date value="2023-04-26T11:15:05-05:00"/>
         <publisher value="Example Publisher"/>
         <contact>
           <name value="Example Publisher"/>
@@ -8374,8 +8374,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:12907dc4-08b6-478e-a2b0-96e0a7ba9ea1"/>
-          <timestamp value="2023-04-20T09:16:40-05:00"/>
+          <identifier value="urn:uuid:a1a82366-97b0-4765-a573-04d80cd5ee80"/>
+          <timestamp value="2023-04-26T11:16:04-05:00"/>
           <total value="1000"/>
           <parameter>
             <name value="excludeNested"/>
@@ -8387,7 +8387,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"/>
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -8513,11 +8513,6 @@
             <system value="http://snomed.info/sct"/>
             <code value="11461005"/>
             <display value="Staphylococcal tonsillitis"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="13172003"/>
-            <display value="Chronic idiopathic thrombocytopenic purpura"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -9671,21 +9666,6 @@
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="92511007"/>
-            <display value="Burkitt's tumor of lymph nodes of axilla AND/OR upper limb"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="92512000"/>
-            <display value="Burkitt's tumor of lymph nodes of head, face AND/OR neck"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="92513005"/>
-            <display value="Burkitt's tumor of lymph nodes of inguinal region AND/OR lower limb"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
             <code value="92524007"/>
             <display value="Carcinoma in situ of adenoid"/>
           </contains>
@@ -9776,21 +9756,6 @@
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="93136003"/>
-            <display value="Letterer-Siwe disease of lymph nodes of axilla AND/OR upper limb"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="93137007"/>
-            <display value="Letterer-Siwe disease of lymph nodes of head, face AND/OR neck"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="93138002"/>
-            <display value="Letterer-Siwe disease of lymph nodes of inguinal region AND/OR lower limb"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
             <code value="93139005"/>
             <display value="Letterer-Siwe disease of lymph nodes of multiple sites"/>
           </contains>
@@ -9856,21 +9821,6 @@
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="93185008"/>
-            <display value="Malignant histiocytosis of lymph nodes of axilla AND/OR upper limb"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="93186009"/>
-            <display value="Malignant histiocytosis of lymph nodes of head, face AND/OR neck"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="93187000"/>
-            <display value="Malignant histiocytosis of lymph nodes of inguinal region AND/OR lower limb"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
             <code value="93188005"/>
             <display value="Malignant histiocytosis of lymph nodes of multiple sites"/>
           </contains>
@@ -9878,11 +9828,6 @@
             <system value="http://snomed.info/sct"/>
             <code value="93189002"/>
             <display value="Malignant histiocytosis of spleen"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="93190006"/>
-            <display value="Malignant histiocytosis of extranodal AND/OR solid organ site"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -9898,21 +9843,6 @@
             <system value="http://snomed.info/sct"/>
             <code value="93193008"/>
             <display value="Malignant lymphoma of intrathoracic lymph nodes"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="93194002"/>
-            <display value="Malignant lymphoma of lymph nodes of axilla AND/OR upper limb"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="93195001"/>
-            <display value="Malignant lymphoma of lymph nodes of head, face AND/OR neck"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="93196000"/>
-            <display value="Malignant lymphoma of lymph nodes of inguinal region AND/OR lower limb"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -9938,21 +9868,6 @@
             <system value="http://snomed.info/sct"/>
             <code value="93202002"/>
             <display value="Malignant mast cell tumor of intrathoracic lymph nodes"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="93203007"/>
-            <display value="Malignant mast cell tumor of lymph nodes of axilla AND/OR upper limb"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="93204001"/>
-            <display value="Malignant mast cell tumor of lymph nodes of head, face AND/OR neck"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="93205000"/>
-            <display value="Malignant mast cell tumor of lymph nodes of inguinal region AND/OR lower limb"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -9991,16 +9906,6 @@
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="93487009"/>
-            <display value="Hodgkin's disease, lymphocytic depletion of lymph nodes of axilla AND/OR upper limb"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="93488004"/>
-            <display value="Hodgkin's disease, lymphocytic depletion of lymph nodes of head, face AND/OR neck"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
             <code value="93493001"/>
             <display value="Hodgkin's disease, lymphocytic-histiocytic predominance of intra-abdominal lymph nodes"/>
           </contains>
@@ -10016,28 +9921,13 @@
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="93496009"/>
-            <display value="Hodgkin's disease, lymphocytic-histiocytic predominance of lymph nodes of axilla AND/OR upper limb"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
             <code value="93500006"/>
             <display value="Hodgkin's disease, lymphocytic-histiocytic predominance of spleen"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="93505001"/>
-            <display value="Hodgkin's disease, mixed cellularity of lymph nodes of axilla AND/OR upper limb"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
             <code value="93509007"/>
             <display value="Hodgkin's disease, mixed cellularity of spleen"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="93514006"/>
-            <display value="Hodgkin's disease, nodular sclerosis of lymph nodes of axilla AND/OR upper limb"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -10061,16 +9951,6 @@
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="93523009"/>
-            <display value="Hodgkin's disease of lymph nodes of axilla AND/OR upper limb"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="93524003"/>
-            <display value="Hodgkin's disease of lymph nodes of head, face AND/OR neck"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
             <code value="93526001"/>
             <display value="Hodgkin's disease of lymph nodes of multiple sites"/>
           </contains>
@@ -10091,28 +9971,8 @@
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="93532006"/>
-            <display value="Hodgkin's granuloma of lymph nodes of axilla AND/OR upper limb"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
             <code value="93536009"/>
             <display value="Hodgkin's granuloma of spleen"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="93541001"/>
-            <display value="Hodgkin's paragranuloma of lymph nodes of axilla AND/OR upper limb"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="93542008"/>
-            <display value="Hodgkin's paragranuloma of lymph nodes of head, face AND/OR neck"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="93543003"/>
-            <display value="Hodgkin's paragranuloma of lymph nodes of inguinal region AND/OR lower limb"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -10128,11 +9988,6 @@
             <system value="http://snomed.info/sct"/>
             <code value="93549004"/>
             <display value="Hodgkin's sarcoma of intrathoracic lymph nodes"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="93550004"/>
-            <display value="Hodgkin's sarcoma of lymph nodes of axilla AND/OR upper limb"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -10456,16 +10311,6 @@
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="94710006"/>
-            <display value="Mycosis fungoides of lymph nodes of axilla AND/OR upper limb"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="94711005"/>
-            <display value="Mycosis fungoides of lymph nodes of head, face AND/OR neck"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
             <code value="94714002"/>
             <display value="Mycosis fungoides of spleen"/>
           </contains>
@@ -10568,11 +10413,6 @@
             <system value="http://snomed.info/sct"/>
             <code value="95231000"/>
             <display value="Reticulosarcoma of spleen"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="95260009"/>
-            <display value="Sézary's disease of lymph nodes of head, face AND/OR neck"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -12116,16 +11956,6 @@
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="188513004"/>
-            <display value="Burkitt's lymphoma of lymph nodes of axilla and upper limb"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="188514005"/>
-            <display value="Burkitt's lymphoma of lymph nodes of inguinal region and lower limb"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
             <code value="188515006"/>
             <display value="Burkitt's lymphoma of intrapelvic lymph nodes"/>
           </contains>
@@ -12161,28 +11991,8 @@
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="188537004"/>
-            <display value="Hodgkin's granuloma of lymph nodes of axilla and upper limb"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="188538009"/>
-            <display value="Hodgkin's granuloma of lymph nodes of inguinal region and lower limb"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
             <code value="188541000"/>
             <display value="Hodgkin's granuloma of lymph nodes of multiple sites"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="188547001"/>
-            <display value="Hodgkin's sarcoma of lymph nodes of axilla and upper limb"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="188548006"/>
-            <display value="Hodgkin's sarcoma of lymph nodes of inguinal region and lower limb"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -12191,28 +12001,8 @@
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="188554007"/>
-            <display value="Hodgkin's disease, lymphocytic-histiocytic predominance of lymph nodes of head, face and neck"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="188558005"/>
-            <display value="Hodgkin's disease, lymphocytic-histiocytic predominance of lymph nodes of axilla and upper limb"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="188559002"/>
-            <display value="Hodgkin's disease, lymphocytic-histiocytic predominance of lymph nodes of inguinal region and lower limb"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
             <code value="188562004"/>
             <display value="Hodgkin's disease, lymphocytic-histiocytic predominance of lymph nodes of multiple sites"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="188565002"/>
-            <display value="Hodgkin's disease, nodular sclerosis of lymph nodes of head, face and neck"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -12226,16 +12016,6 @@
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="188568000"/>
-            <display value="Hodgkin's disease, nodular sclerosis of lymph nodes of axilla and upper limb"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="188569008"/>
-            <display value="Hodgkin's disease, nodular sclerosis of lymph nodes of inguinal region and lower limb"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
             <code value="188570009"/>
             <display value="Hodgkin's disease, nodular sclerosis of intrapelvic lymph nodes"/>
           </contains>
@@ -12243,11 +12023,6 @@
             <system value="http://snomed.info/sct"/>
             <code value="188572001"/>
             <display value="Hodgkin's disease, nodular sclerosis of lymph nodes of multiple sites"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="188575004"/>
-            <display value="Hodgkin's disease, mixed cellularity of lymph nodes of head, face and neck"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -12261,16 +12036,6 @@
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="188578002"/>
-            <display value="Hodgkin's disease, mixed cellularity of lymph nodes of axilla and upper limb"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="188579005"/>
-            <display value="Hodgkin's disease, mixed cellularity of lymph nodes of inguinal region and lower limb"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
             <code value="188580008"/>
             <display value="Hodgkin's disease, mixed cellularity of intrapelvic lymph nodes"/>
           </contains>
@@ -12281,11 +12046,6 @@
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="188585003"/>
-            <display value="Hodgkin's disease, lymphocytic depletion of lymph nodes of head, face and neck"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
             <code value="188586002"/>
             <display value="Hodgkin's disease, lymphocytic depletion of intrathoracic lymph nodes"/>
           </contains>
@@ -12293,16 +12053,6 @@
             <system value="http://snomed.info/sct"/>
             <code value="188587006"/>
             <display value="Hodgkin's disease, lymphocytic depletion of intra-abdominal lymph nodes"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="188589009"/>
-            <display value="Hodgkin's disease, lymphocytic depletion of lymph nodes of axilla and upper limb"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="188590000"/>
-            <display value="Hodgkin's disease, lymphocytic depletion of lymph nodes of inguinal region and lower limb"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -12376,11 +12126,6 @@
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="188642004"/>
-            <display value="Malignant histiocytosis of lymph nodes of inguinal region and lower limb"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
             <code value="188645002"/>
             <display value="Leukemic reticuloendotheliosis of lymph nodes of head, face and neck"/>
           </contains>
@@ -12397,22 +12142,12 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="188662007"/>
-            <display value="Mast cell malignancy of lymph nodes of head, face and neck"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="188665009"/>
-            <display value="Mast cell malignancy of lymph nodes of axilla and upper limb"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="188666005"/>
-            <display value="Mast cell malignancy of lymph nodes of inguinal region and lower limb"/>
+            <display value="Mast cell malignancy of lymph nodes of head and neck (disorder)"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="188668006"/>
-            <display value="Mast cell malignancy of spleen"/>
+            <display value="Malignant mast cell tumor of spleen"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -13352,12 +13087,12 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="275486007"/>
-            <display value="Tonsil disease - chronic"/>
+            <display value="Chronic disease of tonsil (disorder)"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="275487003"/>
-            <display value="Adenoid disease - chronic"/>
+            <display value="Chronic disease of adenoid (disorder)"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -13389,12 +13124,277 @@
             <code value="277567002"/>
             <display value="T-cell prolymphocytic leukemia"/>
           </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="277568007"/>
+            <display value="Hairy cell leukemia variant"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="277569004"/>
+            <display value="Large granular lymphocytic leukemia"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="277570003"/>
+            <display value="Lymphoma with spill"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="277571004"/>
+            <display value="B-cell acute lymphoblastic leukemia"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="277572006"/>
+            <display value="Acute pre B-cell lymphoblastic leukemia"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="277573001"/>
+            <display value="Common acute lymphoblastic leukemia"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="277574007"/>
+            <display value="Null cell acute lymphoblastic leukemia"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="277575008"/>
+            <display value="T-cell acute lymphoblastic leukemia"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="277587001"/>
+            <display value="JCML - Juvenile chronic myeloid leukemia"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="277589003"/>
+            <display value="Atypical chronic myeloid leukemia"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="277597005"/>
+            <display value="Myelodysplastic syndrome with isolated del(5q) (disorder)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="277601005"/>
+            <display value="Acute monocytoid leukemia"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="277602003"/>
+            <display value="Acute megakaryoblastic leukemia"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="277604002"/>
+            <display value="Acute eosinophilic leukemia"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="277619001"/>
+            <display value="B-cell prolymphocytic leukemia"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="278189009"/>
+            <display value="Hypergranular promyelocytic leukemia"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="278453007"/>
+            <display value="Acute biphenotypic leukemia"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="283981003"/>
+            <display value="Crushing injury of spleen"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="283998003"/>
+            <display value="Lymph node injury"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="285608006"/>
+            <display value="Metastasis to thymus of unknown primary"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="285615003"/>
+            <display value="Metastasis to spleen of unknown primary"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="285644001"/>
+            <display value="Metastasis to lymph node of unknown primary"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="285769009"/>
+            <display value="Acute promyelocytic leukemia - hypogranular variant"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="285839005"/>
+            <display value="M4Eo - Acute myelomonocytic leukemia - eosinophilic variant"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="287050006"/>
+            <display value="Acute osteomyelitis - elbow"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="287052003"/>
+            <display value="Acute osteomyelitis - hip"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="287053008"/>
+            <display value="Chronic osteomyelitis - elbow"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="287055001"/>
+            <display value="Chronic osteomyelitis - hip"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="287056000"/>
+            <display value="Chronic osteomyelitis - knee"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="288242005"/>
+            <display value="Acute osteomyelitis - knee"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="300929003"/>
+            <display value="Tonsillar adenitis"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="301771001"/>
+            <display value="Cervical lymph node abscess"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="302061009"/>
+            <display value="Brachial lymphadenopathy"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="302089007"/>
+            <display value="Ulceration of cervical lymph node"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="302090003"/>
+            <display value="Ulceration of axillary lymph node"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="302091004"/>
+            <display value="Ulceration of inguinal lymph node"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="302092006"/>
+            <display value="Ulceration of epitrochlear lymph node"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="302093001"/>
+            <display value="Ulceration of popliteal lymph node"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="302855005"/>
+            <display value="Subacute leukemia"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="302856006"/>
+            <display value="Aleukemic leukemia"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="302911003"/>
+            <display value="Acute lingual tonsillitis"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="303194003"/>
+            <display value="Metastasis to head and neck lymph node"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="303201005"/>
+            <display value="Metastasis to multiple lymph nodes"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="303266002"/>
+            <display value="Aplastic bone marrow"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="304132006"/>
+            <display value="Hematopoietic aplasia"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="306058006"/>
+            <display value="Aplastic anemia"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="307340003"/>
+            <display value="Monosomy 7 syndrome"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="307341004"/>
+            <display value="Atypical hairy cell leukemia"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="307592006"/>
+            <display value="Basophilic leukemia"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="307617006"/>
+            <display value="Neutrophilic leukemia"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="307650006"/>
+            <display value="Histiocytic medullary reticulosis"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="307651005"/>
+            <display value="Myelosclerosis with myeloid metaplasia"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="307762000"/>
+            <display value="Bone marrow depression"/>
+          </contains>
         </expansion>
       </ValueSet>
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://example.org/ValueSet/presence-lnc-valueset"/>
+    <fullUrl value="http://example.org/ig/example/ValueSet/presence-lnc-valueset"/>
     <resource>
       <ValueSet>
         <id value="presence-lnc-valueset"/>
@@ -13434,13 +13434,13 @@
             </table>
           </div>
         </text>
-        <url value="http://example.org/ValueSet/presence-lnc-valueset"/>
+        <url value="http://example.org/ig/example/ValueSet/presence-lnc-valueset"/>
         <version value="0.1.0"/>
         <name value="PresenceLNCValueSet"/>
         <title value="Presence Answer List - LOINC"/>
         <status value="active"/>
         <experimental value="true"/>
-        <date value="2023-04-20T09:15:43-05:00"/>
+        <date value="2023-04-26T11:15:05-05:00"/>
         <publisher value="Example Publisher"/>
         <contact>
           <name value="Example Publisher"/>
@@ -13451,8 +13451,8 @@
         </contact>
         <description value="Permissible values for presence - LOINC"/>
         <expansion>
-          <identifier value="urn:uuid:0262d684-3633-45f5-8170-0bce2cd82d5d"/>
-          <timestamp value="2023-04-20T09:16:43-05:00"/>
+          <identifier value="urn:uuid:f7109c6f-50e6-408f-9619-21632e977013"/>
+          <timestamp value="2023-04-26T11:16:06-05:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -13481,7 +13481,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://example.org/ValueSet/gvhd-icd10-codes"/>
+    <fullUrl value="http://example.org/ig/example/ValueSet/gvhd-icd10-codes"/>
     <resource>
       <ValueSet>
         <id value="gvhd-icd10-codes"/>
@@ -13540,13 +13540,13 @@
             </table>
           </div>
         </text>
-        <url value="http://example.org/ValueSet/gvhd-icd10-codes"/>
+        <url value="http://example.org/ig/example/ValueSet/gvhd-icd10-codes"/>
         <version value="0.1.0"/>
         <name value="GVHDICD10VS"/>
         <title value="GVHD ICD-10 Codes"/>
         <status value="active"/>
         <experimental value="true"/>
-        <date value="2023-04-20T09:15:43-05:00"/>
+        <date value="2023-04-26T11:15:05-05:00"/>
         <publisher value="Example Publisher"/>
         <contact>
           <name value="Example Publisher"/>
@@ -13557,8 +13557,8 @@
         </contact>
         <description value="GVHD ICD-10 Codes"/>
         <expansion>
-          <identifier value="urn:uuid:284f892f-6661-49c0-88e9-367ea1cfafde"/>
-          <timestamp value="2023-04-20T09:16:43-05:00"/>
+          <identifier value="urn:uuid:efeb16b1-d8a2-4808-9e09-ec5a1ed36259"/>
+          <timestamp value="2023-04-26T11:16:06-05:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -13602,7 +13602,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://example.org/ValueSet/gvhd-all-valueset"/>
+    <fullUrl value="http://example.org/ig/example/ValueSet/gvhd-all-valueset"/>
     <resource>
       <ValueSet>
         <id value="gvhd-all-valueset"/>
@@ -13615,12 +13615,12 @@
               <ul>
                 <li>http://hl7.org/fhir/sid/icd-10-cm version 2021</li>
                 <li>
-                  <a href="ValueSet-gvhd-sct-codes.html">GVHD SNOMED CT Codes v0.1.0 (ValueSet)</a>
-                </li>
-                <li>
                   <a href="ValueSet-gvhd-icd10-codes.html">GVHD ICD-10 Codes v0.1.0 (ValueSet)</a>
                 </li>
-                <li>SNOMED CT International edition 31-Jul 2022</li>
+                <li>
+                  <a href="ValueSet-gvhd-sct-codes.html">GVHD SNOMED CT Codes v0.1.0 (ValueSet)</a>
+                </li>
+                <li>SNOMED CT International edition 31-Jan 2023</li>
               </ul>
             </div>
             <table class="codes">
@@ -13777,13 +13777,13 @@
             </table>
           </div>
         </text>
-        <url value="http://example.org/ValueSet/gvhd-all-valueset"/>
+        <url value="http://example.org/ig/example/ValueSet/gvhd-all-valueset"/>
         <version value="0.1.0"/>
         <name value="GVHDTypeValueSet"/>
         <title value="GVHD Type Value Set"/>
         <status value="active"/>
         <experimental value="true"/>
-        <date value="2023-04-20T09:15:43-05:00"/>
+        <date value="2023-04-26T11:15:05-05:00"/>
         <publisher value="Example Publisher"/>
         <contact>
           <name value="Example Publisher"/>
@@ -13794,8 +13794,8 @@
         </contact>
         <description value="Permissible values for types of Graft vs Host Disease, from SNOMED CT and ICD-10"/>
         <expansion>
-          <identifier value="urn:uuid:a2a0d759-c502-4fd7-bc29-d142f58bcc04"/>
-          <timestamp value="2023-04-20T09:16:44-05:00"/>
+          <identifier value="urn:uuid:65800ad2-4af9-458c-b7a3-d3d54b86a14f"/>
+          <timestamp value="2023-04-26T11:16:07-05:00"/>
           <total value="18"/>
           <parameter>
             <name value="excludeNested"/>
@@ -13803,7 +13803,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://example.org/ValueSet/gvhd-sct-codes|0.1.0"/>
+            <valueUri value="http://example.org/ig/example/ValueSet/gvhd-sct-codes|0.1.0"/>
           </parameter>
           <parameter>
             <name value="limitedExpansion"/>
@@ -13811,11 +13811,11 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"/>
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://example.org/ValueSet/gvhd-icd10-codes|0.1.0"/>
+            <valueUri value="http://example.org/ig/example/ValueSet/gvhd-icd10-codes|0.1.0"/>
           </parameter>
           <parameter>
             <name value="version"/>
@@ -13916,7 +13916,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://example.org/ValueSet/presence-valueset"/>
+    <fullUrl value="http://example.org/ig/example/ValueSet/presence-valueset"/>
     <resource>
       <ValueSet>
         <id value="presence-valueset"/>
@@ -13928,13 +13928,13 @@
               <p>Expansion based on: </p>
               <ul>
                 <li>
-                  <a href="ValueSet-presence-sct-valueset.html">Presence Answer List - Snomed CT v0.1.0 (ValueSet)</a>
-                </li>
-                <li>
                   <a href="ValueSet-presence-lnc-valueset.html">Presence Answer List - LOINC v0.1.0 (ValueSet)</a>
                 </li>
+                <li>
+                  <a href="ValueSet-presence-sct-valueset.html">Presence Answer List - Snomed CT v0.1.0 (ValueSet)</a>
+                </li>
                 <li>Loinc v2.73</li>
-                <li>SNOMED CT International edition 31-Jul 2022</li>
+                <li>SNOMED CT International edition 31-Jan 2023</li>
               </ul>
             </div>
             <table class="codes">
@@ -13984,13 +13984,13 @@
             </table>
           </div>
         </text>
-        <url value="http://example.org/ValueSet/presence-valueset"/>
+        <url value="http://example.org/ig/example/ValueSet/presence-valueset"/>
         <version value="0.1.0"/>
         <name value="PresenceValueSet"/>
         <title value="Presence Answer List - Snomed and LOINC"/>
         <status value="active"/>
         <experimental value="true"/>
-        <date value="2023-04-20T09:15:43-05:00"/>
+        <date value="2023-04-26T11:15:05-05:00"/>
         <publisher value="Example Publisher"/>
         <contact>
           <name value="Example Publisher"/>
@@ -14001,8 +14001,8 @@
         </contact>
         <description value="Permissible values for presence, from Snomed CT and LOINC"/>
         <expansion>
-          <identifier value="urn:uuid:81161845-3eef-4962-a82d-3859d0c4f0eb"/>
-          <timestamp value="2023-04-20T09:16:44-05:00"/>
+          <identifier value="urn:uuid:981aac79-e253-47d2-ae73-f289c5e555cf"/>
+          <timestamp value="2023-04-26T11:16:07-05:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -14010,7 +14010,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://example.org/ValueSet/presence-sct-valueset|0.1.0"/>
+            <valueUri value="http://example.org/ig/example/ValueSet/presence-sct-valueset|0.1.0"/>
           </parameter>
           <parameter>
             <name value="limitedExpansion"/>
@@ -14018,11 +14018,11 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"/>
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://example.org/ValueSet/presence-lnc-valueset|0.1.0"/>
+            <valueUri value="http://example.org/ig/example/ValueSet/presence-lnc-valueset|0.1.0"/>
           </parameter>
           <parameter>
             <name value="version"/>
@@ -14053,7 +14053,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://example.org/ValueSet/cmv-presence-vs"/>
+    <fullUrl value="http://example.org/ig/example/ValueSet/cmv-presence-vs"/>
     <resource>
       <ValueSet>
         <id value="cmv-presence-vs"/>
@@ -14237,13 +14237,13 @@
             </table>
           </div>
         </text>
-        <url value="http://example.org/ValueSet/cmv-presence-vs"/>
+        <url value="http://example.org/ig/example/ValueSet/cmv-presence-vs"/>
         <version value="0.1.0"/>
         <name value="CMVPresenceValueSet"/>
         <title value="CMV Presence ValueSet"/>
         <status value="active"/>
         <experimental value="true"/>
-        <date value="2023-04-20T09:15:43-05:00"/>
+        <date value="2023-04-26T11:15:05-05:00"/>
         <publisher value="Example Publisher"/>
         <contact>
           <name value="Example Publisher"/>
@@ -14254,8 +14254,8 @@
         </contact>
         <description value="Cytomegalovirus [Presence] ValueSet."/>
         <expansion>
-          <identifier value="urn:uuid:0535af0b-89cc-4c94-bd2f-3fe9d38a9989"/>
-          <timestamp value="2023-04-20T09:16:45-05:00"/>
+          <identifier value="urn:uuid:5822cc40-b0b9-40a2-a9e8-fba08801335e"/>
+          <timestamp value="2023-04-26T11:16:08-05:00"/>
           <total value="20"/>
           <parameter>
             <name value="excludeNested"/>
@@ -14374,7 +14374,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://example.org/ValueSet/cmv-vs"/>
+    <fullUrl value="http://example.org/ig/example/ValueSet/cmv-vs"/>
     <resource>
       <ValueSet>
         <id value="cmv-vs"/>
@@ -14846,13 +14846,13 @@
             </table>
           </div>
         </text>
-        <url value="http://example.org/ValueSet/cmv-vs"/>
+        <url value="http://example.org/ig/example/ValueSet/cmv-vs"/>
         <version value="0.1.0"/>
         <name value="CMVValueSet"/>
         <title value="CMV ValueSet"/>
         <status value="active"/>
         <experimental value="true"/>
-        <date value="2023-04-20T09:15:43-05:00"/>
+        <date value="2023-04-26T11:15:05-05:00"/>
         <publisher value="Example Publisher"/>
         <contact>
           <name value="Example Publisher"/>
@@ -14863,8 +14863,8 @@
         </contact>
         <description value="Cytomegalovirus ValueSet"/>
         <expansion>
-          <identifier value="urn:uuid:a770ca46-bc10-4019-9fc2-231368c0a7fb"/>
-          <timestamp value="2023-04-20T09:16:53-05:00"/>
+          <identifier value="urn:uuid:c340edd2-dea4-4905-9a59-d59d653fcd6f"/>
+          <timestamp value="2023-04-26T11:16:15-05:00"/>
           <total value="56"/>
           <parameter>
             <name value="excludeNested"/>

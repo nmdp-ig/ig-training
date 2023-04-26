@@ -5,13 +5,13 @@
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href="ValueSet-gvhd-sct-codes.html">GVHD SNOMED CT Codes</a></li><li>Import all the codes that are contained in <a href="ValueSet-gvhd-icd10-codes.html">GVHD ICD-10 Codes</a></li></ul></div>
   </text>
-  <url value="http://example.org/ValueSet/gvhd-all-valueset"/>
+  <url value="http://example.org/ig/example/ValueSet/gvhd-all-valueset"/>
   <version value="0.1.0"/>
   <name value="GVHDTypeValueSet"/>
   <title value="GVHD Type Value Set"/>
   <status value="active"/>
   <experimental value="true"/>
-  <date value="2023-04-20T09:15:43-05:00"/>
+  <date value="2023-04-26T11:15:05-05:00"/>
   <publisher value="Example Publisher"/>
   <contact>
     <name value="Example Publisher"/>
@@ -23,10 +23,10 @@
   <description value="Permissible values for types of Graft vs Host Disease, from SNOMED CT and ICD-10"/>
   <compose>
     <include>
-      <valueSet value="http://example.org/ValueSet/gvhd-sct-codes"/>
+      <valueSet value="http://example.org/ig/example/ValueSet/gvhd-sct-codes"/>
     </include>
     <include>
-      <valueSet value="http://example.org/ValueSet/gvhd-icd10-codes"/>
+      <valueSet value="http://example.org/ig/example/ValueSet/gvhd-icd10-codes"/>
     </include>
   </compose>
 </ValueSet>

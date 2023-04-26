@@ -5,13 +5,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://example.org/Patient/MyTestPatientExample> a fhir:Patient ;
+<http://example.org/ig/example/Patient/MyTestPatientExample> a fhir:Patient ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "MyTestPatientExample"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://example.org/StructureDefinition/MyTestPatient"^^xsd:anyURI ;
-       fhir:link <http://example.org/StructureDefinition/MyTestPatient>
+       fhir:v "http://example.org/ig/example/StructureDefinition/MyTestPatient"^^xsd:anyURI ;
+       fhir:link <http://example.org/ig/example/StructureDefinition/MyTestPatient>
      ] )
   ] ; # 
   fhir:text [

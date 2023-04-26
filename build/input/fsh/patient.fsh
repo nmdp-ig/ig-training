@@ -8,6 +8,7 @@ Description: "An example profile of the Patient resource."
 * insert MetaSecurityRules
 * name 1..* MS
 
+
 Instance: PatientExample
 InstanceOf: MyPatient
 Description: "An example of a patient with a license to krill."

@@ -5,13 +5,13 @@
     "status" : "generated",
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href=\"ValueSet-gvhd-sct-codes.html\">GVHD SNOMED CT Codes</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-gvhd-icd10-codes.html\">GVHD ICD-10 Codes</a></li></ul></div>"
   },
-  "url" : "http://example.org/ValueSet/gvhd-all-valueset",
+  "url" : "http://example.org/ig/example/ValueSet/gvhd-all-valueset",
   "version" : "0.1.0",
   "name" : "GVHDTypeValueSet",
   "title" : "GVHD Type Value Set",
   "status" : "active",
   "experimental" : true,
-  "date" : "2023-04-20T09:15:43-05:00",
+  "date" : "2023-04-26T11:15:05-05:00",
   "publisher" : "Example Publisher",
   "contact" : [{
     "name" : "Example Publisher",
@@ -23,10 +23,10 @@
   "description" : "Permissible values for types of Graft vs Host Disease, from SNOMED CT and ICD-10",
   "compose" : {
     "include" : [{
-      "valueSet" : ["http://example.org/ValueSet/gvhd-sct-codes"]
+      "valueSet" : ["http://example.org/ig/example/ValueSet/gvhd-sct-codes"]
     },
     {
-      "valueSet" : ["http://example.org/ValueSet/gvhd-icd10-codes"]
+      "valueSet" : ["http://example.org/ig/example/ValueSet/gvhd-icd10-codes"]
     }]
   }
 }

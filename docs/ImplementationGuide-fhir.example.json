@@ -3,13 +3,13 @@
   "id" : "fhir.example",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>http://example.org/ImplementationGuide/fhir.example</pre></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>http://example.org/ig/example/ImplementationGuide/fhir.example</pre></div>"
   },
-  "url" : "http://example.org/ImplementationGuide/fhir.example",
+  "url" : "http://example.org/ig/example/ImplementationGuide/fhir.example",
   "version" : "0.1.0",
   "name" : "ExampleIG",
   "status" : "draft",
-  "date" : "2023-04-20T09:15:43-05:00",
+  "date" : "2023-04-26T11:15:05-05:00",
   "publisher" : "Example Publisher",
   "contact" : [{
     "name" : "Example Publisher",
@@ -188,7 +188,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "http://example.org/history.html"
+        "valueString" : "http://example.org/ig/example/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -496,7 +496,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "http://example.org/history.html"
+        "valueString" : "http://example.org/ig/example/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -940,7 +940,7 @@
       },
       "name" : "BundleCollectionExample",
       "description" : "Bundle Example",
-      "exampleCanonical" : "http://example.org/StructureDefinition/my-bundle"
+      "exampleCanonical" : "http://example.org/ig/example/StructureDefinition/my-bundle"
     },
     {
       "extension" : [{
@@ -952,7 +952,7 @@
       },
       "name" : "BundleTransactionExample",
       "description" : "Bundle Example",
-      "exampleCanonical" : "http://example.org/StructureDefinition/my-bundle"
+      "exampleCanonical" : "http://example.org/ig/example/StructureDefinition/my-bundle"
     },
     {
       "extension" : [{
@@ -964,7 +964,7 @@
       },
       "name" : "CMVObservationExample",
       "description" : "Example of CMV Observations",
-      "exampleCanonical" : "http://example.org/StructureDefinition/cmv-observation"
+      "exampleCanonical" : "http://example.org/ig/example/StructureDefinition/cmv-observation"
     },
     {
       "extension" : [{
@@ -976,7 +976,7 @@
       },
       "name" : "CMVObservationPresenceExample",
       "description" : "Example of CMV Observations",
-      "exampleCanonical" : "http://example.org/StructureDefinition/cmv-presence-observation"
+      "exampleCanonical" : "http://example.org/ig/example/StructureDefinition/cmv-presence-observation"
     },
     {
       "extension" : [{
@@ -988,7 +988,7 @@
       },
       "name" : "DiagnosisExample-AML",
       "description" : "Example of a Diagnois: AML",
-      "exampleCanonical" : "http://example.org/StructureDefinition/my-diagnosis"
+      "exampleCanonical" : "http://example.org/ig/example/StructureDefinition/my-diagnosis"
     },
     {
       "extension" : [{
@@ -1000,7 +1000,7 @@
       },
       "name" : "MyCIBMTRPatientExample",
       "description" : "An example of a patient with a license to krill.",
-      "exampleCanonical" : "http://example.org/StructureDefinition/MyCIBMTRPatient"
+      "exampleCanonical" : "http://example.org/ig/example/StructureDefinition/MyCIBMTRPatient"
     },
     {
       "extension" : [{
@@ -1012,7 +1012,7 @@
       },
       "name" : "MyTestPatientExample",
       "description" : "An example of a patient with a license to krill.",
-      "exampleCanonical" : "http://example.org/StructureDefinition/MyTestPatient"
+      "exampleCanonical" : "http://example.org/ig/example/StructureDefinition/MyTestPatient"
     },
     {
       "extension" : [{
@@ -1024,7 +1024,7 @@
       },
       "name" : "MyUSCorePatientExample",
       "description" : "An example of a patient with a license to krill.",
-      "exampleCanonical" : "http://example.org/StructureDefinition/MyUSCorePatient"
+      "exampleCanonical" : "http://example.org/ig/example/StructureDefinition/MyUSCorePatient"
     },
     {
       "extension" : [{
@@ -1036,7 +1036,7 @@
       },
       "name" : "ObservationExample1",
       "description" : "An example of a MyObservation with a subject. This is required since the profile constrains this element.",
-      "exampleCanonical" : "http://example.org/StructureDefinition/my-observation"
+      "exampleCanonical" : "http://example.org/ig/example/StructureDefinition/my-observation"
     },
     {
       "extension" : [{
@@ -1060,7 +1060,7 @@
       },
       "name" : "ObservationExample3",
       "description" : "An example of an instance MyObservation with a subject. This profile requires a subject.",
-      "exampleCanonical" : "http://example.org/StructureDefinition/my-observation"
+      "exampleCanonical" : "http://example.org/ig/example/StructureDefinition/my-observation"
     },
     {
       "extension" : [{
@@ -1072,7 +1072,7 @@
       },
       "name" : "PatientExample",
       "description" : "An example of a patient with a license to krill.",
-      "exampleCanonical" : "http://example.org/StructureDefinition/my-patient"
+      "exampleCanonical" : "http://example.org/ig/example/StructureDefinition/my-patient"
     }],
     "page" : {
       "extension" : [{

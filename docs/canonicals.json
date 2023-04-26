@@ -9,140 +9,140 @@
   {
     "id" : "fhir.example",
     "type" : "ImplementationGuide",
-    "url" : "http://example.org/ImplementationGuide/fhir.example",
+    "url" : "http://example.org/ig/example/ImplementationGuide/fhir.example",
     "version" : "0.1.0",
     "name" : "ExampleIG"
   },
   {
     "id" : "MyCIBMTRPatient",
     "type" : "StructureDefinition",
-    "url" : "http://example.org/StructureDefinition/MyCIBMTRPatient",
+    "url" : "http://example.org/ig/example/StructureDefinition/MyCIBMTRPatient",
     "version" : "0.1.0",
     "name" : "MyCIBMTRPatient"
   },
   {
     "id" : "MyTestPatient",
     "type" : "StructureDefinition",
-    "url" : "http://example.org/StructureDefinition/MyTestPatient",
+    "url" : "http://example.org/ig/example/StructureDefinition/MyTestPatient",
     "version" : "0.1.0",
     "name" : "MyTestPatient"
   },
   {
     "id" : "MyUSCorePatient",
     "type" : "StructureDefinition",
-    "url" : "http://example.org/StructureDefinition/MyUSCorePatient",
+    "url" : "http://example.org/ig/example/StructureDefinition/MyUSCorePatient",
     "version" : "0.1.0",
     "name" : "MyUSCorePatient"
   },
   {
     "id" : "cmv-observation",
     "type" : "StructureDefinition",
-    "url" : "http://example.org/StructureDefinition/cmv-observation",
+    "url" : "http://example.org/ig/example/StructureDefinition/cmv-observation",
     "version" : "0.1.0",
     "name" : "CMVObservation"
   },
   {
     "id" : "cmv-presence-observation",
     "type" : "StructureDefinition",
-    "url" : "http://example.org/StructureDefinition/cmv-presence-observation",
+    "url" : "http://example.org/ig/example/StructureDefinition/cmv-presence-observation",
     "version" : "0.1.0",
     "name" : "CMVPresenceObservation"
   },
   {
     "id" : "my-bundle",
     "type" : "StructureDefinition",
-    "url" : "http://example.org/StructureDefinition/my-bundle",
+    "url" : "http://example.org/ig/example/StructureDefinition/my-bundle",
     "version" : "0.1.0",
     "name" : "MyBundle"
   },
   {
     "id" : "my-diagnosis",
     "type" : "StructureDefinition",
-    "url" : "http://example.org/StructureDefinition/my-diagnosis",
+    "url" : "http://example.org/ig/example/StructureDefinition/my-diagnosis",
     "version" : "0.1.0",
     "name" : "MyDiagnosis"
   },
   {
     "id" : "my-observation",
     "type" : "StructureDefinition",
-    "url" : "http://example.org/StructureDefinition/my-observation",
+    "url" : "http://example.org/ig/example/StructureDefinition/my-observation",
     "version" : "0.1.0",
     "name" : "MyObservation"
   },
   {
     "id" : "my-patient",
     "type" : "StructureDefinition",
-    "url" : "http://example.org/StructureDefinition/my-patient",
+    "url" : "http://example.org/ig/example/StructureDefinition/my-patient",
     "version" : "0.1.0",
     "name" : "MyPatient"
   },
   {
     "id" : "number-of-remissions",
     "type" : "StructureDefinition",
-    "url" : "http://example.org/StructureDefinition/number-of-remissions",
+    "url" : "http://example.org/ig/example/StructureDefinition/number-of-remissions",
     "version" : "0.1.0",
     "name" : "NumberOfRemissions"
   },
   {
     "id" : "cmv-presence-vs",
     "type" : "ValueSet",
-    "url" : "http://example.org/ValueSet/cmv-presence-vs",
+    "url" : "http://example.org/ig/example/ValueSet/cmv-presence-vs",
     "version" : "0.1.0",
     "name" : "CMVPresenceValueSet"
   },
   {
     "id" : "cmv-vs",
     "type" : "ValueSet",
-    "url" : "http://example.org/ValueSet/cmv-vs",
+    "url" : "http://example.org/ig/example/ValueSet/cmv-vs",
     "version" : "0.1.0",
     "name" : "CMVValueSet"
   },
   {
     "id" : "gvhd-all-valueset",
     "type" : "ValueSet",
-    "url" : "http://example.org/ValueSet/gvhd-all-valueset",
+    "url" : "http://example.org/ig/example/ValueSet/gvhd-all-valueset",
     "version" : "0.1.0",
     "name" : "GVHDTypeValueSet"
   },
   {
     "id" : "gvhd-icd10-codes",
     "type" : "ValueSet",
-    "url" : "http://example.org/ValueSet/gvhd-icd10-codes",
+    "url" : "http://example.org/ig/example/ValueSet/gvhd-icd10-codes",
     "version" : "0.1.0",
     "name" : "GVHDICD10VS"
   },
   {
     "id" : "gvhd-sct-codes",
     "type" : "ValueSet",
-    "url" : "http://example.org/ValueSet/gvhd-sct-codes",
+    "url" : "http://example.org/ig/example/ValueSet/gvhd-sct-codes",
     "version" : "0.1.0",
     "name" : "GVHDSCTVS"
   },
   {
     "id" : "hematopoietic-disorder-vs",
     "type" : "ValueSet",
-    "url" : "http://example.org/ValueSet/hematopoietic-disorder-vs",
+    "url" : "http://example.org/ig/example/ValueSet/hematopoietic-disorder-vs",
     "version" : "0.1.0",
     "name" : "HematopoieticDisorderVS"
   },
   {
     "id" : "presence-lnc-valueset",
     "type" : "ValueSet",
-    "url" : "http://example.org/ValueSet/presence-lnc-valueset",
+    "url" : "http://example.org/ig/example/ValueSet/presence-lnc-valueset",
     "version" : "0.1.0",
     "name" : "PresenceLNCValueSet"
   },
   {
     "id" : "presence-sct-valueset",
     "type" : "ValueSet",
-    "url" : "http://example.org/ValueSet/presence-sct-valueset",
+    "url" : "http://example.org/ig/example/ValueSet/presence-sct-valueset",
     "version" : "0.1.0",
     "name" : "PresenceSCTValueSet"
   },
   {
     "id" : "presence-valueset",
     "type" : "ValueSet",
-    "url" : "http://example.org/ValueSet/presence-valueset",
+    "url" : "http://example.org/ig/example/ValueSet/presence-valueset",
     "version" : "0.1.0",
     "name" : "PresenceValueSet"
   },

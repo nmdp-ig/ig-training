@@ -7,13 +7,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://example.org/Bundle/BundleTransactionExample> a fhir:Bundle ;
+<http://example.org/ig/example/Bundle/BundleTransactionExample> a fhir:Bundle ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "BundleTransactionExample"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://example.org/StructureDefinition/my-bundle"^^xsd:anyURI ;
-       fhir:link <http://example.org/StructureDefinition/my-bundle>
+       fhir:v "http://example.org/ig/example/StructureDefinition/my-bundle"^^xsd:anyURI ;
+       fhir:link <http://example.org/ig/example/StructureDefinition/my-bundle>
      ] ) ;
      fhir:security ( [
        fhir:system [ fhir:v "http://terminology.cibmtr.org/codesystem/transplant-center"^^xsd:anyURI ] ;
@@ -50,8 +50,8 @@
   fhir:id [ fhir:v "864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://example.org/StructureDefinition/MyCIBMTRPatient"^^xsd:anyURI ;
-       fhir:link <http://example.org/StructureDefinition/MyCIBMTRPatient>
+       fhir:v "http://example.org/ig/example/StructureDefinition/MyCIBMTRPatient"^^xsd:anyURI ;
+       fhir:link <http://example.org/ig/example/StructureDefinition/MyCIBMTRPatient>
      ] ) ;
      fhir:security ( [
        fhir:system [ fhir:v "http://terminology.cibmtr.org/codesystem/transplant-center"^^xsd:anyURI ] ;
@@ -84,8 +84,8 @@
   fhir:id [ fhir:v "281f5214-a344-4070-a231-61a2686c4fc1"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://example.org/StructureDefinition/my-diagnosis"^^xsd:anyURI ;
-       fhir:link <http://example.org/StructureDefinition/my-diagnosis>
+       fhir:v "http://example.org/ig/example/StructureDefinition/my-diagnosis"^^xsd:anyURI ;
+       fhir:link <http://example.org/ig/example/StructureDefinition/my-diagnosis>
      ] ) ;
      fhir:security ( [
        fhir:system [ fhir:v "http://terminology.cibmtr.org/codesystem/transplant-center"^^xsd:anyURI ] ;
@@ -98,7 +98,7 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"281f5214-a344-4070-a231-61a2686c4fc1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;281f5214-a344-4070-a231-61a2686c4fc1&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-my-diagnosis.html\">MyDiagnosis</a></p><p style=\"margin-bottom: 0px\">Security Labels: <span title=\"{http://terminology.cibmtr.org/codesystem/transplant-center http://terminology.cibmtr.org/codesystem/transplant-center}\">http://terminology.cibmtr.org/codesystem/transplant-center</span></p></div><p><b>Number of Remissions of Diagnosis</b>: 0</p><p><b>code</b>: Acute myeloid leukemia <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#91861009)</span></p><p><b>subject</b>: <a href=\"#Patient_864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa\">See above (urn:uuid:864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa)</a></p></div>"
   ] ; # 
   fhir:extension ( [
-     fhir:url [ fhir:v "http://example.org/StructureDefinition/number-of-remissions"^^xsd:anyURI ] ;
+     fhir:url [ fhir:v "http://example.org/ig/example/StructureDefinition/number-of-remissions"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "0"^^xsd:integer ]
   ] ) ; # 
   fhir:code [
@@ -117,8 +117,8 @@
   fhir:id [ fhir:v "1bd28a4b-8743-4bc6-956e-52302218c803"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://example.org/StructureDefinition/cmv-presence-observation"^^xsd:anyURI ;
-       fhir:link <http://example.org/StructureDefinition/cmv-presence-observation>
+       fhir:v "http://example.org/ig/example/StructureDefinition/cmv-presence-observation"^^xsd:anyURI ;
+       fhir:link <http://example.org/ig/example/StructureDefinition/cmv-presence-observation>
      ] ) ;
      fhir:security ( [
        fhir:system [ fhir:v "http://terminology.cibmtr.org/codesystem/transplant-center"^^xsd:anyURI ] ;

@@ -3,7 +3,7 @@
 <Observation xmlns="http://hl7.org/fhir">
   <id value="CMVObservationExample"/>
   <meta>
-    <profile value="http://example.org/StructureDefinition/cmv-observation"/>
+    <profile value="http://example.org/ig/example/StructureDefinition/cmv-observation"/>
     <security>
       <system value="http://terminology.cibmtr.org/codesystem/transplant-center"/>
       <code value="rc_99999"/>
