@@ -5,6 +5,7 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 # id: fhir.example
 id: exampleig
+# packageId following pattern of org.fhir.id
 packageId: example.fhir.exampleig
 canonical: http://example.org/ig/exampleig
 name: ExampleIG

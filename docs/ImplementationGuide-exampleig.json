@@ -1,19 +1,19 @@
 {
   "resourceType" : "ImplementationGuide",
-  "id" : "example.fhir.exampleig",
+  "id" : "exampleig",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>http://example.org/ig/exampleig/ImplementationGuide/example.fhir.exampleig</pre></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>http://example.org/ig/exampleig/ImplementationGuide/exampleig</pre></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
     "valueCode" : "hl7.fhir.uv.tools#current"
   }],
-  "url" : "http://example.org/ig/exampleig/ImplementationGuide/example.fhir.exampleig",
+  "url" : "http://example.org/ig/exampleig/ImplementationGuide/exampleig",
   "version" : "0.1.0",
   "name" : "ExampleIG",
   "status" : "draft",
-  "date" : "2023-04-27T11:07:01-05:00",
+  "date" : "2023-04-28T11:00:43-05:00",
   "publisher" : "Example Publisher",
   "contact" : [{
     "name" : "Example Publisher",

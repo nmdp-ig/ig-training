@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="example.fhir.exampleig"/>
+  <id value="exampleig"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>http://example.org/ig/exampleig/ImplementationGuide/example.fhir.exampleig</pre></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>http://example.org/ig/exampleig/ImplementationGuide/exampleig</pre></div>
   </text>
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
     <valueCode value="hl7.fhir.uv.tools#current"/>
   </extension>
-  <url value="http://example.org/ig/exampleig/ImplementationGuide/example.fhir.exampleig"/>
+  <url value="http://example.org/ig/exampleig/ImplementationGuide/exampleig"/>
   <version value="0.1.0"/>
   <name value="ExampleIG"/>
   <status value="draft"/>
-  <date value="2023-04-27T11:07:01-05:00"/>
+  <date value="2023-04-28T11:00:43-05:00"/>
   <publisher value="Example Publisher"/>
   <contact>
     <name value="Example Publisher"/>

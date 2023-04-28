@@ -21,5 +21,5 @@
 **/fhir-ig-history-template
 **/cibmtr-ig-history-template
 
-# **/webroot/exampleig
-# **/webroot/ig-build-zips
+**/webroot/exampleig
+**/webroot/ig-build-zips

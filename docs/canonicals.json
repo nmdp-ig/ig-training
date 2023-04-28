@@ -7,9 +7,9 @@
     "name" : "GVHD_CADSR_VM_CS"
   },
   {
-    "id" : "example.fhir.exampleig",
+    "id" : "exampleig",
     "type" : "ImplementationGuide",
-    "url" : "http://example.org/ig/exampleig/ImplementationGuide/example.fhir.exampleig",
+    "url" : "http://example.org/ig/exampleig/ImplementationGuide/exampleig",
     "version" : "0.1.0",
     "name" : "ExampleIG"
   },
