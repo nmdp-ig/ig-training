@@ -1,0 +1,213 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/ig/exampleig/CodeSystem/hla-genename-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "hla-genename-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://www.genenames.org/geneId</code> provides a fragment that includes following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">HGNC:4931<a name=\"hla-genename-cs-HGNC.584931\"> </a></td><td>HLA-A</td><td>major histocompatibility complex, class I, A</td></tr><tr><td style=\"white-space:nowrap\">HGNC:4932<a name=\"hla-genename-cs-HGNC.584932\"> </a></td><td>HLA-B</td><td>major histocompatibility complex, class I, B</td></tr><tr><td style=\"white-space:nowrap\">HGNC:4933<a name=\"hla-genename-cs-HGNC.584933\"> </a></td><td>HLA-C</td><td>major histocompatibility complex, class I, C</td></tr><tr><td style=\"white-space:nowrap\">HGNC:4934<a name=\"hla-genename-cs-HGNC.584934\"> </a></td><td>HLA-DMA</td><td>major histocompatibility complex, class II, DM alpha</td></tr><tr><td style=\"white-space:nowrap\">HGNC:4935<a name=\"hla-genename-cs-HGNC.584935\"> </a></td><td>HLA-DMB</td><td>major histocompatibility complex, class II, DM beta</td></tr><tr><td style=\"white-space:nowrap\">HGNC:4936<a name=\"hla-genename-cs-HGNC.584936\"> </a></td><td>HLA-DOA</td><td>major histocompatibility complex, class II, DO alpha</td></tr><tr><td style=\"white-space:nowrap\">HGNC:4937<a name=\"hla-genename-cs-HGNC.584937\"> </a></td><td>HLA-DOB</td><td>major histocompatibility complex, class II, DO beta</td></tr><tr><td style=\"white-space:nowrap\">HGNC:4938<a name=\"hla-genename-cs-HGNC.584938\"> </a></td><td>HLA-DPA1</td><td>major histocompatibility complex, class II, DP alpha 1</td></tr><tr><td style=\"white-space:nowrap\">HGNC:4939<a name=\"hla-genename-cs-HGNC.584939\"> </a></td><td>HLA-DPA2</td><td>major histocompatibility complex, class II, DP alpha 2 (pseudogene)</td></tr><tr><td style=\"white-space:nowrap\">HGNC:19393<a name=\"hla-genename-cs-HGNC.5819393\"> </a></td><td>HLA-DPA3</td><td>major histocompatibility complex, class II, DP alpha 3 (pseudogene)</td></tr><tr><td style=\"white-space:nowrap\">HGNC:4940<a name=\"hla-genename-cs-HGNC.584940\"> </a></td><td>HLA-DPB1</td><td>major histocompatibility complex, class II, DP beta 1</td></tr><tr><td style=\"white-space:nowrap\">HGNC:4941<a name=\"hla-genename-cs-HGNC.584941\"> </a></td><td>HLA-DPB2</td><td>major histocompatibility complex, class II, DP beta 2 (pseudogene)</td></tr><tr><td style=\"white-space:nowrap\">HGNC:4942<a name=\"hla-genename-cs-HGNC.584942\"> </a></td><td>HLA-DQA1</td><td>major histocompatibility complex, class II, DQ alpha 1</td></tr><tr><td style=\"white-space:nowrap\">HGNC:4943<a name=\"hla-genename-cs-HGNC.584943\"> </a></td><td>HLA-DQA2</td><td>major histocompatibility complex, class II, DQ alpha 2</td></tr><tr><td style=\"white-space:nowrap\">HGNC:4944<a name=\"hla-genename-cs-HGNC.584944\"> </a></td><td>HLA-DQB1</td><td>major histocompatibility complex, class II, DQ beta 1</td></tr><tr><td style=\"white-space:nowrap\">HGNC:4945<a name=\"hla-genename-cs-HGNC.584945\"> </a></td><td>HLA-DQB2</td><td>major histocompatibility complex, class II, DQ beta 2</td></tr><tr><td style=\"white-space:nowrap\">HGNC:4946<a name=\"hla-genename-cs-HGNC.584946\"> </a></td><td>HLA-DQB3</td><td>major histocompatibility complex, class II, DQ beta 3</td></tr><tr><td style=\"white-space:nowrap\">HGNC:4947<a name=\"hla-genename-cs-HGNC.584947\"> </a></td><td>HLA-DRA</td><td>major histocompatibility complex, class II, DR alpha</td></tr><tr><td style=\"white-space:nowrap\">HGNC:4948<a name=\"hla-genename-cs-HGNC.584948\"> </a></td><td>HLA-DRB1</td><td>major histocompatibility complex, class II, DR beta 1</td></tr><tr><td style=\"white-space:nowrap\">HGNC:4950<a name=\"hla-genename-cs-HGNC.584950\"> </a></td><td>HLA-DRB2</td><td>major histocompatibility complex, class II, DR beta 2 (pseudogene)</td></tr><tr><td style=\"white-space:nowrap\">HGNC:4951<a name=\"hla-genename-cs-HGNC.584951\"> </a></td><td>HLA-DRB3</td><td>major histocompatibility complex, class II, DR beta 3</td></tr><tr><td style=\"white-space:nowrap\">HGNC:4952<a name=\"hla-genename-cs-HGNC.584952\"> </a></td><td>HLA-DRB4</td><td>major histocompatibility complex, class II, DR beta 4</td></tr><tr><td style=\"white-space:nowrap\">HGNC:4953<a name=\"hla-genename-cs-HGNC.584953\"> </a></td><td>HLA-DRB5</td><td>major histocompatibility complex, class II, DR beta 5</td></tr><tr><td style=\"white-space:nowrap\">HGNC:4954<a name=\"hla-genename-cs-HGNC.584954\"> </a></td><td>HLA-DRB6</td><td>major histocompatibility complex, class II, DR beta 6 (pseudogene)</td></tr><tr><td style=\"white-space:nowrap\">HGNC:4955<a name=\"hla-genename-cs-HGNC.584955\"> </a></td><td>HLA-DRB7</td><td>major histocompatibility complex, class II, DR beta 7 (pseudogene)</td></tr><tr><td style=\"white-space:nowrap\">HGNC:4956<a name=\"hla-genename-cs-HGNC.584956\"> </a></td><td>HLA-DRB8</td><td>major histocompatibility complex, class II, DR beta 8 (pseudogene)</td></tr><tr><td style=\"white-space:nowrap\">HGNC:4957<a name=\"hla-genename-cs-HGNC.584957\"> </a></td><td>HLA-DRB9</td><td>major histocompatibility complex, class II, DR beta 9 (pseudogene)</td></tr><tr><td style=\"white-space:nowrap\">HGNC:4962<a name=\"hla-genename-cs-HGNC.584962\"> </a></td><td>HLA-E</td><td>major histocompatibility complex, class I, E</td></tr><tr><td style=\"white-space:nowrap\">HGNC:4963<a name=\"hla-genename-cs-HGNC.584963\"> </a></td><td>HLA-F</td><td>major histocompatibility complex, class I, F</td></tr><tr><td style=\"white-space:nowrap\">HGNC:4964<a name=\"hla-genename-cs-HGNC.584964\"> </a></td><td>HLA-G</td><td>major histocompatibility complex, class I, G</td></tr><tr><td style=\"white-space:nowrap\">HGNC:4965<a name=\"hla-genename-cs-HGNC.584965\"> </a></td><td>HLA-H</td><td>major histocompatibility complex, class I, H (pseudogene)</td></tr><tr><td style=\"white-space:nowrap\">HGNC:4967<a name=\"hla-genename-cs-HGNC.584967\"> </a></td><td>HLA-J</td><td>major histocompatibility complex, class I, J (pseudogene)</td></tr><tr><td style=\"white-space:nowrap\">HGNC:4969<a name=\"hla-genename-cs-HGNC.584969\"> </a></td><td>HLA-K</td><td>major histocompatibility complex, class I, K (pseudogene)</td></tr><tr><td style=\"white-space:nowrap\">HGNC:4970<a name=\"hla-genename-cs-HGNC.584970\"> </a></td><td>HLA-L</td><td>major histocompatibility complex, class I, L (pseudogene)</td></tr><tr><td style=\"white-space:nowrap\">HGNC:19406<a name=\"hla-genename-cs-HGNC.5819406\"> </a></td><td>HLA-N</td><td>major histocompatibility complex, class I, N (pseudogene)</td></tr><tr><td style=\"white-space:nowrap\">HGNC:21196<a name=\"hla-genename-cs-HGNC.5821196\"> </a></td><td>HLA-P</td><td>major histocompatibility complex, class I, P (pseudogene)</td></tr><tr><td style=\"white-space:nowrap\">HGNC:19395<a name=\"hla-genename-cs-HGNC.5819395\"> </a></td><td>HLA-S</td><td>major histocompatibility complex, class I, S (pseudogene)</td></tr><tr><td style=\"white-space:nowrap\">HGNC:23478<a name=\"hla-genename-cs-HGNC.5823478\"> </a></td><td>HLA-T</td><td>major histocompatibility complex, class I, T (pseudogene)</td></tr><tr><td style=\"white-space:nowrap\">HGNC:23477<a name=\"hla-genename-cs-HGNC.5823477\"> </a></td><td>HLA-U</td><td>major histocompatibility complex, class I, U (pseudogene)</td></tr><tr><td style=\"white-space:nowrap\">HGNC:23482<a name=\"hla-genename-cs-HGNC.5823482\"> </a></td><td>HLA-V</td><td>major histocompatibility complex, class I, V (pseudogene)</td></tr><tr><td style=\"white-space:nowrap\">HGNC:23425<a name=\"hla-genename-cs-HGNC.5823425\"> </a></td><td>HLA-W</td><td>major histocompatibility complex, class I, W (pseudogene)</td></tr><tr><td style=\"white-space:nowrap\">HGNC:19385<a name=\"hla-genename-cs-HGNC.5819385\"> </a></td><td>HLA-X</td><td>major histocompatibility complex, class I, X (pseudogene)</td></tr><tr><td style=\"white-space:nowrap\">HGNC:33913<a name=\"hla-genename-cs-HGNC.5833913\"> </a></td><td>HLA-Y</td><td>major histocompatibility complex, class I, Y (pseudogene)</td></tr><tr><td style=\"white-space:nowrap\">HGNC:19394<a name=\"hla-genename-cs-HGNC.5819394\"> </a></td><td>HLA-Z</td><td>major histocompatibility complex, class I, Z (pseudogene)</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://www.genenames.org/geneId"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "HLAGeneIdCS"] ; # 
+  fhir:title [ fhir:v "HLA HGNC GeneID CodeSystem"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-04-27T15:51:23-05:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Example Publisher"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Example Publisher" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://example.org/example-publisher" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "CodeSystem of HLA gene group subset of HGNC GeneId Codesystem"] ; # 
+  fhir:copyright [ fhir:v "National Human Genome Research Institute (NHGRI)"] ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "fragment"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "HGNC:4931" ] ;
+     fhir:display [ fhir:v "HLA-A" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class I, A" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:4932" ] ;
+     fhir:display [ fhir:v "HLA-B" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class I, B" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:4933" ] ;
+     fhir:display [ fhir:v "HLA-C" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class I, C" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:4934" ] ;
+     fhir:display [ fhir:v "HLA-DMA" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class II, DM alpha" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:4935" ] ;
+     fhir:display [ fhir:v "HLA-DMB" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class II, DM beta" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:4936" ] ;
+     fhir:display [ fhir:v "HLA-DOA" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class II, DO alpha" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:4937" ] ;
+     fhir:display [ fhir:v "HLA-DOB" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class II, DO beta" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:4938" ] ;
+     fhir:display [ fhir:v "HLA-DPA1" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class II, DP alpha 1" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:4939" ] ;
+     fhir:display [ fhir:v "HLA-DPA2" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class II, DP alpha 2 (pseudogene)" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:19393" ] ;
+     fhir:display [ fhir:v "HLA-DPA3" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class II, DP alpha 3 (pseudogene)" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:4940" ] ;
+     fhir:display [ fhir:v "HLA-DPB1" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class II, DP beta 1" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:4941" ] ;
+     fhir:display [ fhir:v "HLA-DPB2" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class II, DP beta 2 (pseudogene)" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:4942" ] ;
+     fhir:display [ fhir:v "HLA-DQA1" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class II, DQ alpha 1" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:4943" ] ;
+     fhir:display [ fhir:v "HLA-DQA2" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class II, DQ alpha 2" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:4944" ] ;
+     fhir:display [ fhir:v "HLA-DQB1" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class II, DQ beta 1" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:4945" ] ;
+     fhir:display [ fhir:v "HLA-DQB2" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class II, DQ beta 2" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:4946" ] ;
+     fhir:display [ fhir:v "HLA-DQB3" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class II, DQ beta 3" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:4947" ] ;
+     fhir:display [ fhir:v "HLA-DRA" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class II, DR alpha" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:4948" ] ;
+     fhir:display [ fhir:v "HLA-DRB1" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class II, DR beta 1" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:4950" ] ;
+     fhir:display [ fhir:v "HLA-DRB2" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class II, DR beta 2 (pseudogene)" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:4951" ] ;
+     fhir:display [ fhir:v "HLA-DRB3" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class II, DR beta 3" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:4952" ] ;
+     fhir:display [ fhir:v "HLA-DRB4" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class II, DR beta 4" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:4953" ] ;
+     fhir:display [ fhir:v "HLA-DRB5" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class II, DR beta 5" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:4954" ] ;
+     fhir:display [ fhir:v "HLA-DRB6" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class II, DR beta 6 (pseudogene)" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:4955" ] ;
+     fhir:display [ fhir:v "HLA-DRB7" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class II, DR beta 7 (pseudogene)" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:4956" ] ;
+     fhir:display [ fhir:v "HLA-DRB8" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class II, DR beta 8 (pseudogene)" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:4957" ] ;
+     fhir:display [ fhir:v "HLA-DRB9" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class II, DR beta 9 (pseudogene)" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:4962" ] ;
+     fhir:display [ fhir:v "HLA-E" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class I, E" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:4963" ] ;
+     fhir:display [ fhir:v "HLA-F" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class I, F" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:4964" ] ;
+     fhir:display [ fhir:v "HLA-G" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class I, G" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:4965" ] ;
+     fhir:display [ fhir:v "HLA-H" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class I, H (pseudogene)" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:4967" ] ;
+     fhir:display [ fhir:v "HLA-J" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class I, J (pseudogene)" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:4969" ] ;
+     fhir:display [ fhir:v "HLA-K" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class I, K (pseudogene)" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:4970" ] ;
+     fhir:display [ fhir:v "HLA-L" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class I, L (pseudogene)" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:19406" ] ;
+     fhir:display [ fhir:v "HLA-N" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class I, N (pseudogene)" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:21196" ] ;
+     fhir:display [ fhir:v "HLA-P" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class I, P (pseudogene)" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:19395" ] ;
+     fhir:display [ fhir:v "HLA-S" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class I, S (pseudogene)" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:23478" ] ;
+     fhir:display [ fhir:v "HLA-T" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class I, T (pseudogene)" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:23477" ] ;
+     fhir:display [ fhir:v "HLA-U" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class I, U (pseudogene)" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:23482" ] ;
+     fhir:display [ fhir:v "HLA-V" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class I, V (pseudogene)" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:23425" ] ;
+     fhir:display [ fhir:v "HLA-W" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class I, W (pseudogene)" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:19385" ] ;
+     fhir:display [ fhir:v "HLA-X" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class I, X (pseudogene)" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:33913" ] ;
+     fhir:display [ fhir:v "HLA-Y" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class I, Y (pseudogene)" ]
+  ] [
+     fhir:code [ fhir:v "HGNC:19394" ] ;
+     fhir:display [ fhir:v "HLA-Z" ] ;
+     fhir:definition [ fhir:v "major histocompatibility complex, class I, Z (pseudogene)" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

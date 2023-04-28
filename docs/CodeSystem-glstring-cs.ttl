@@ -5,12 +5,12 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://example.org/ig/example/CodeSystem/glstring-cs> a fhir:CodeSystem ;
+<http://example.org/ig/exampleig/CodeSystem/glstring-cs> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "glstring-cs"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://www.glstring.org</code> defines many codes, but they are not represented here</p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://www.glstring.org</code> defines codes, but no codes are represented here</p></div>"
   ] ; # 
   fhir:url [ fhir:v "http://www.glstring.org"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "Genotype List String Code CodeSystem"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-04-26T11:15:05-05:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-04-27T11:07:01-05:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Example Publisher"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Example Publisher" ] ;

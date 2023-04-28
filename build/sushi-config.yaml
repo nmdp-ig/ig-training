@@ -3,8 +3,10 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: fhir.example
-canonical: http://example.org/ig/example
+# id: fhir.example
+id: exampleig
+packageId: example.fhir.exampleig
+canonical: http://example.org/ig/exampleig
 name: ExampleIG
 # title: Example Title
 # description: Example Implementation Guide for getting started with SUSHI

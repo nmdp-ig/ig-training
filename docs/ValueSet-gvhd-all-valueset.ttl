@@ -5,20 +5,20 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://example.org/ig/example/ValueSet/gvhd-all-valueset> a fhir:ValueSet ;
+<http://example.org/ig/exampleig/ValueSet/gvhd-all-valueset> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "gvhd-all-valueset"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href=\"ValueSet-gvhd-sct-codes.html\">GVHD SNOMED CT Codes</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-gvhd-icd10-codes.html\">GVHD ICD-10 Codes</a></li></ul></div>"
   ] ; # 
-  fhir:url [ fhir:v "http://example.org/ig/example/ValueSet/gvhd-all-valueset"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://example.org/ig/exampleig/ValueSet/gvhd-all-valueset"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "GVHDTypeValueSet"] ; # 
   fhir:title [ fhir:v "GVHD Type Value Set"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-04-26T11:15:05-05:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-04-27T11:07:01-05:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Example Publisher"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Example Publisher" ] ;
@@ -31,13 +31,13 @@
   fhir:compose [
      fhir:include ( [
        fhir:valueSet ( [
-         fhir:v "http://example.org/ig/example/ValueSet/gvhd-sct-codes"^^xsd:anyURI ;
-         fhir:link <http://example.org/ig/example/ValueSet/gvhd-sct-codes>
+         fhir:v "http://example.org/ig/exampleig/ValueSet/gvhd-sct-codes"^^xsd:anyURI ;
+         fhir:link <http://example.org/ig/exampleig/ValueSet/gvhd-sct-codes>
        ] )
      ] [
        fhir:valueSet ( [
-         fhir:v "http://example.org/ig/example/ValueSet/gvhd-icd10-codes"^^xsd:anyURI ;
-         fhir:link <http://example.org/ig/example/ValueSet/gvhd-icd10-codes>
+         fhir:v "http://example.org/ig/exampleig/ValueSet/gvhd-icd10-codes"^^xsd:anyURI ;
+         fhir:link <http://example.org/ig/exampleig/ValueSet/gvhd-icd10-codes>
        ] )
      ] )
   ] . # 

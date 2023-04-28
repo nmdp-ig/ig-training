@@ -5,13 +5,13 @@
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://loinc.org"><code>http://loinc.org</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="https://loinc.org/LA9633-4/">LA9633-4</a></td><td>Present</td></tr><tr><td><a href="https://loinc.org/LA9634-2/">LA9634-2</a></td><td>Absent</td></tr></table></li></ul></div>
   </text>
-  <url value="http://example.org/ig/example/ValueSet/presence-lnc-valueset"/>
+  <url value="http://example.org/ig/exampleig/ValueSet/presence-lnc-valueset"/>
   <version value="0.1.0"/>
   <name value="PresenceLNCValueSet"/>
   <title value="Presence Answer List - LOINC"/>
   <status value="active"/>
   <experimental value="true"/>
-  <date value="2023-04-26T11:15:05-05:00"/>
+  <date value="2023-04-27T11:07:01-05:00"/>
   <publisher value="Example Publisher"/>
   <contact>
     <name value="Example Publisher"/>

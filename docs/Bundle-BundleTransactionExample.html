@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>FHIR.EXAMPLE\BundleTransactionExample - FHIR v4.0.1</title>
+    <title>EXAMPLE.FHIR.EXAMPLEIG\BundleTransactionExample - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -19,7 +19,6 @@
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
   	<link href="assets/css/prism.css" rel="stylesheet" />
     <!-- Placeholder for child template CSS declarations -->
-<link href="assets/css/cibmtr.css" rel="stylesheet" />
 
     <script type="text/javascript" src="fhir-table-scripts.js"> </script>
 
@@ -46,13 +45,6 @@
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
 
-<div id="cibmtr-nav">
-  <a id="cibmtr-logo" no-external="true" href="http://www.cibmtr.org">
-    <!-- <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png" /> -->
-    <img height="80" alt="Visit the CIBMTR website"
-      src="assets/images/cibmtr-logo-header-3.png" />
-  </a>
-</div>
 
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold"></span>
@@ -125,7 +117,7 @@
           <div class="inner-wrapper">
 
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">ExampleIG - Local Development build (v0.1.0). See the <a href="http://example.org/ig/example/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">ExampleIG - Local Development build (v0.1.0). See the <a href="http://example.org/ig/exampleig/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
   
 
@@ -196,8 +188,8 @@
 
   <div><p>Bundle BundleTransactionExample of type transaction</p><a name="urn-uuid-864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa"> </a><a name="Patient_864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa"> </a><hr/><p>Entry 1 - fullUrl = urn:uuid:864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa</p><p>Request:</p><pre>POST Patient
 </pre><p>Resource Patient:</p><blockquote><p>James Bubba Pond  Male, DoB: 1987-02-20 ( id: 123456)</p></blockquote><a name="urn-uuid-281f5214-a344-4070-a231-61a2686c4fc1"> </a><a name="Condition_281f5214-a344-4070-a231-61a2686c4fc1"> </a><hr/><p>Entry 2 - fullUrl = urn:uuid:281f5214-a344-4070-a231-61a2686c4fc1</p><p>Request:</p><pre>POST Condition
-</pre><p>Resource Condition:</p><blockquote><p><p><b>Generated Narrative: Condition</b><a name="281f5214-a344-4070-a231-61a2686c4fc1"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Condition &quot;281f5214-a344-4070-a231-61a2686c4fc1&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-my-diagnosis.html">MyDiagnosis</a></p><p style="margin-bottom: 0px">Security Labels: <span title="{http://terminology.cibmtr.org/codesystem/transplant-center http://terminology.cibmtr.org/codesystem/transplant-center}">http://terminology.cibmtr.org/codesystem/transplant-center</span></p></div><h3>Texts</h3><table class="grid"><tr><td>-</td><td><b>Div</b></td></tr><tr><td>*</td><td>&lt;div/&gt;</td></tr></table><p><b>Number of Remissions of Diagnosis</b>: 0</p><p><b>code</b>: Acute myeloid leukemia <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#91861009)</span></p><p><b>subject</b>: <a href="#Patient_864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa">See above (urn:uuid:864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa)</a></p></p></blockquote><a name="urn-uuid-1bd28a4b-8743-4bc6-956e-52302218c803"> </a><a name="Observation_1bd28a4b-8743-4bc6-956e-52302218c803"> </a><hr/><p>Entry 3 - fullUrl = urn:uuid:1bd28a4b-8743-4bc6-956e-52302218c803</p><p>Request:</p><pre>POST Observation
-</pre><p>Resource Observation:</p><blockquote><p><p><b>Generated Narrative: Observation</b><a name="1bd28a4b-8743-4bc6-956e-52302218c803"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;1bd28a4b-8743-4bc6-956e-52302218c803&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-cmv-presence-observation.html">CMVPresenceObservation</a></p><p style="margin-bottom: 0px">Security Labels: <span title="{http://terminology.cibmtr.org/codesystem/transplant-center http://terminology.cibmtr.org/codesystem/transplant-center}">http://terminology.cibmtr.org/codesystem/transplant-center</span></p></div><h3>Texts</h3><table class="grid"><tr><td>-</td><td><b>Div</b></td></tr><tr><td>*</td><td>&lt;div/&gt;</td></tr></table><p><b>status</b>: FINAL</p><p><b>code</b>: Cytomegalovirus Ag [Presence] in Blood <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#16718-9)</span></p><p><b>subject</b>: <a href="#Patient_864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa">See above (urn:uuid:864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa)</a></p><p><b>value</b>: Present <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#52101004)</span></p></p></blockquote></div>
+</pre><p>Resource Condition:</p><blockquote><p><p><b>Generated Narrative: Condition</b><a name="281f5214-a344-4070-a231-61a2686c4fc1"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Condition &quot;281f5214-a344-4070-a231-61a2686c4fc1&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-my-diagnosis.html">MyDiagnosis</a></p><p style="margin-bottom: 0px">Security Labels: <span title="{http://terminology.cibmtr.org/codesystem/transplant-center http://terminology.cibmtr.org/codesystem/transplant-center}">http://terminology.cibmtr.org/codesystem/transplant-center</span></p></div><p><b>Number of Remissions of Diagnosis</b>: 0</p><p><b>code</b>: Acute myeloid leukemia <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#91861009)</span></p><p><b>subject</b>: <a href="#Patient_864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa">See above (urn:uuid:864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa)</a></p></p></blockquote><a name="urn-uuid-1bd28a4b-8743-4bc6-956e-52302218c803"> </a><a name="Observation_1bd28a4b-8743-4bc6-956e-52302218c803"> </a><hr/><p>Entry 3 - fullUrl = urn:uuid:1bd28a4b-8743-4bc6-956e-52302218c803</p><p>Request:</p><pre>POST Observation
+</pre><p>Resource Observation:</p><blockquote><p><p><b>Generated Narrative: Observation</b><a name="1bd28a4b-8743-4bc6-956e-52302218c803"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;1bd28a4b-8743-4bc6-956e-52302218c803&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-cmv-presence-observation.html">CMVPresenceObservation</a></p><p style="margin-bottom: 0px">Security Labels: <span title="{http://terminology.cibmtr.org/codesystem/transplant-center http://terminology.cibmtr.org/codesystem/transplant-center}">http://terminology.cibmtr.org/codesystem/transplant-center</span></p></div><p><b>status</b>: FINAL</p><p><b>code</b>: Cytomegalovirus Ag [Presence] in Blood <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#16718-9)</span></p><p><b>subject</b>: <a href="#Patient_864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa">See above (urn:uuid:864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa)</a></p><p><b>value</b>: Present <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#52101004)</span></p></p></blockquote></div>
 
   
 
@@ -207,62 +199,66 @@
 
 
 </div>
-</div>  <!-- /inner-wrapper -->
-</div>  <!-- /row -->
-</div>  <!-- /container -->
-</div>  <!-- /segment-content -->
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
 
-<script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
-<script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
-<script type="text/javascript">
-$(document).ready(function(){
-if(window.location.hash != "") {
-    $('a[href="' + window.location.hash + '"]').click()
-}
-});
-</script>
-<div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
-<div class="container">  <!-- container -->
-<div class="inner-wrapper">
-  <p>
-    IG &#169; 2023+ <a style="color: #81BEF7" href="http://example.org/example-publisher">Example Publisher</a>  
-    <br/>Package fhir.example#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Apr 26, 2023 11:15-0500">2023-04-26</span>
-    <br/>
-    <span style="color: #FFFF77">
-                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://example.org/example-publisher">Example Publisher</a>.  Package example.fhir.exampleig#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Apr 27, 2023 11:07-0500">2023-04-27</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
                 
-<div id="cibmtr-footer">
-    <p>
-    <br/>HL7&#174;, and FHIR&#174; are the registered trademarks of Health Level Seven International 
-    and their use of these trademarks does not constitute an endorsement by HL7.
-    </p>
-</div>
-    </span>
-  </p>
-</div>  <!-- /inner-wrapper -->
-</div>  <!-- /container -->
-</div>  <!-- /segment-footer -->
-
-<div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
-<div class="container">  <!-- container -->
-</div>  <!-- /container -->
-</div>  <!-- /segment-post-footer -->
-
-<!-- JS and analytics only. -->
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
-<script type="text/javascript" src="assets/js/respond.min.js"> </script>
-<script type="text/javascript" src="assets/js/anchor.min.js"> </script>
-<script>anchors.options.visible = 'hover'
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
 anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
 
-<!-- Analytics Below
-================================================== -->
-</body>
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
 </html>
 

@@ -1,0 +1,451 @@
+FHIR IG Publisher Version 1.3.5 (Git# 74243d0351af). Built 2023-04-27T01:15:47.463Z (19 hours old)
+Detected Java version: 11.0.14.1 from /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home on x86_64 (64bit). 4096MB available
+dir = /Users/bmilius/Documents/src/github-nmdp-ig/ig-training, path = /Users/bmilius/.rbenv/shims:/Users/bmilius/.local/bin:/usr/local/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/bmilius/.rbenv/shims:/Users/bmilius/.local/bin:/usr/local/sbin:/usr/local/mysql/bin:/Users/bmilius/src/amazon/ec2-api-tools-1.6.7.1/bin:/Users/bmilius/bin:/Users/bmilius/bin/edirect:/bin:/usr/local/mysql/bin:/Users/bmilius/src/amazon/ec2-api-tools-1.6.7.1/bin:/Users/bmilius/bin:/Users/bmilius/bin/edirect
+Parameters: -go-publish -source /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/build -web /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/publication/web-root -registry /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/publication/ig-registry/fhir-ig-list.json -history /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/publication/ig-history -templates /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/publication/web-root/templates
+---------------
+Publication Run: publish /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/build to /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/publication/web-root
+Run Number: 1
+Web Layout using the script example.fhir.[code] & http://example.org/ig/[code]
+Relative directory for IG is '/exampleig'
+All checks passed. Do the publication build from /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/build and publish to /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/web-root/run-20230427/exampleig
+Prepare Build space in /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0
+Build IG at /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/build: final copy suitable for publication (in /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0)
+FHIR IG Publisher Version 1.3.5 (Git# 74243d0351af). Built 2023-04-27T01:15:47.463Z (19 hours old)
+Detected Java version: 11.0.14.1 from /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home on Mac OS X/x86_64 (64bit). 4096MB available
+dir = /Users/bmilius/Documents/src/github-nmdp-ig/ig-training, path = /Users/bmilius/.rbenv/shims:/Users/bmilius/.local/bin:/usr/local/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/bmilius/.rbenv/shims:/Users/bmilius/.local/bin:/usr/local/sbin:/usr/local/mysql/bin:/Users/bmilius/src/amazon/ec2-api-tools-1.6.7.1/bin:/Users/bmilius/bin:/Users/bmilius/bin/edirect:/bin:/usr/local/mysql/bin:/Users/bmilius/src/amazon/ec2-api-tools-1.6.7.1/bin:/Users/bmilius/bin:/Users/bmilius/bin/edirect
+Parameters: -ig /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0 -resetTx -publish http://example.org/ig/exampleig/0.1.0 -no-exit
+Start Clock @ Thursday, April 27, 2023 at 3:50:24 PM Central Daylight Time (2023-04-27T15:50:24-05:00)
+
+Build FHIR IG from /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0 (00:00.055)
+Build Formal Publication package, intended for http://example.org/ig/exampleig/0.1.0 (00:00.059)
+API keys loaded from /Users/bmilius/.fhir/fhir-settings.json                     (00:00.063)
+Package Cache: /Users/bmilius/.fhir/packages                                     (00:00.073)
+Run Sushi on /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0 (00:00.079)
+Sushi: info  Running SUSHI v2.10.1 (implements FHIR Shorthand specification v2.0.0) (00:01.471)
+Sushi: info  Arguments:                                                          (00:01.473)
+Sushi: info    --require-latest                                                  (00:01.476)
+Sushi: info    --out /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0 (00:01.478)
+Sushi: info    /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0 (00:01.481)
+Sushi: (node:75019) Warning: Accessing non-existent property 'INVALID_ALT_NUMBER' of module exports inside circular dependency (00:19.331)
+Sushi: (Use `node --trace-warnings ...` to show where the warning was created)   (00:19.337)
+Sushi: (node:75019) Warning: Accessing non-existent property 'INVALID_ALT_NUMBER' of module exports inside circular dependency (00:19.340)
+Sushi: info  Using configuration file: /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/sushi-config.yaml (00:19.360)
+Sushi: info  Importing FSH text...                                               (00:19.373)
+Sushi: info  Preprocessed 13 documents with 4 aliases.                           (00:19.480)
+Sushi: info  Imported 23 definitions and 15 instances.                           (00:19.498)
+Sushi: info  Checking local cache for hl7.fhir.uv.tools#current...               (00:19.501)
+Sushi: info  Found hl7.fhir.uv.tools#current in local cache.                     (00:19.543)
+Sushi: info  Loaded package hl7.fhir.uv.tools#current                            (00:20.437)
+Sushi: info  Checking local cache for hl7.terminology.r4#5.0.0...                (00:21.746)
+Sushi: info  Found hl7.terminology.r4#5.0.0 in local cache.                      (00:24.276)
+Sushi: info  Loaded package hl7.terminology.r4#5.0.0                             (00:24.278)
+Sushi: info  Checking local cache for hl7.fhir.us.core#3.1.0...                  (00:24.281)
+Sushi: info  Found hl7.fhir.us.core#3.1.0 in local cache.                        (00:24.434)
+Sushi: info  Loaded package hl7.fhir.us.core#3.1.0                               (00:24.437)
+Sushi: info  Checking local cache for hl7.fhir.r4.core#4.0.1...                  (00:24.439)
+Sushi: info  Found hl7.fhir.r4.core#4.0.1 in local cache.                        (00:27.010)
+Sushi: info  Loaded package hl7.fhir.r4.core#4.0.1                               (00:27.013)
+Sushi: info  Converting FSH to FHIR resources...                                 (00:27.057)
+Sushi: info  Converted 10 FHIR StructureDefinitions.                             (00:27.432)
+Sushi: info  Converted 4 FHIR CodeSystems.                                       (00:27.546)
+Sushi: info  Converted 9 FHIR ValueSets.                                         (00:27.586)
+Sushi: info  Converted 15 FHIR instances.                                        (00:27.851)
+Sushi: info  Exporting FHIR resources as JSON...                                 (00:27.853)
+Sushi: info  Exported 35 FHIR resources as JSON.                                 (00:27.907)
+Sushi: info  Assembling Implementation Guide sources...                          (00:27.909)
+Sushi: info  Generated ImplementationGuide-exampleig.json                        (00:27.968)
+Sushi: info  Assembled Implementation Guide sources; ready for IG Publisher.     (00:27.971)
+Sushi:                                                                           (00:27.973)
+Sushi: ========================= SUSHI RESULTS ===========================       (00:27.976)
+Sushi: |  -------------------------------------------------------------  |       (00:27.979)
+Sushi: | |    Profiles   |  Extensions  |   Logicals   |   Resources   | |       (00:27.982)
+Sushi: | |-------------------------------------------------------------| |       (00:27.984)
+Sushi: | |       9       |      1       |      0       |       0       | |       (00:27.988)
+Sushi: |  -------------------------------------------------------------  |       (00:27.991)
+Sushi: |  -------------------------------------------------------------  |       (00:27.995)
+Sushi: | |      ValueSets     |    CodeSystems    |     Instances      | |       (00:28.000)
+Sushi: | |-------------------------------------------------------------| |       (00:28.006)
+Sushi: | |         9          |         4         |         15         | |       (00:28.011)
+Sushi: |  -------------------------------------------------------------  |       (00:28.016)
+Sushi: |                                                                 |       (00:28.020)
+Sushi: ===================================================================       (00:28.023)
+Sushi: | You've proven any-fin is possible.     0 Errors      0 Warnings |       (00:28.025)
+Sushi: ===================================================================       (00:28.027)
+Sushi:                                                                           (00:28.029)
+Unable to load IG as an r5 IG - try R4 (property code is a class com.google.gson.JsonPrimitive looking for an object) (00:28.823)
+Load Template from #cibmtr-template                                              (00:29.572)
+ Load Template from fhir.base.template#current                                   (00:29.581)
+
+onLoad.findSpreadsheets:
+
+onLoad.updateIg:
+     [xslt] Processing /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/template/onLoad-ig-working.xml to /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/template/onLoad-ig-updated.xml
+     [xslt] Loading stylesheet /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/template/scripts/onLoad.xslt
+
+onLoad.extend:
+
+onLoad:
+Root directory: /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0 (00:42.034)
+Core Package hl7.fhir.r4.core#4.0.1
+.:Terminology Cache is at /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/input-cache/txcache. Clearing now (00:52.039)
+Connect to Terminology Server at http://tx.fhir.org                              (00:52.049)
+Load Package hl7.fhir.pubpack#0.1.4
+Load Package hl7.fhir.xver-extensions#0.0.12
+Load Package hl7.terminology.r4#5.0.0
+Load Package hl7.fhir.us.core#3.1.0
+Version mismatch. This IG is version 4.0.1, while the IG 'igtools' is from version 5.0.0 (will try to run anyway) (00:55.996)
+Load Package hl7.fhir.uv.tools#0.1.0
+Initialization complete                                                          (00:58.350)
+Fetch http://example.org/ig/exampleig/package-list.json for version check        (00:58.354)
+Load Content                                                                     (00:58.358)
+loadPrePages from FetchedFile[/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/fsh-generated/includes] as /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/fsh-generated/includes
+loadPrePages from FetchedFile[/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/input/pagecontent] as /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/input/pagecontent
+Processing Conformance Resources                                                 (00:59.118)
+Generating Snapshots                                                             (00:59.374)
+Propagating status                                                               (01:01.041)
+Generating Narratives                                                            (01:01.043)
+Validating Conformance Resources                                                 (01:03.509)
+Validating Resources                                                             (01:09.779)
+Processing Provenance Records                                                    (01:10.087)
+Generating Outputs in /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/output (01:10.090)
+Run Template                                                                     (01:11.291)
+
+onGenerate.checkVersions:
+     [xslt] Processing /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/template/onGenerate-ig-working.xml to /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/template/versions.txt
+     [xslt] Loading stylesheet /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/template/scripts/onGenerate.getVersions.xslt
+
+onGenerate.r5-schemas:
+      [get] Getting: http://build.fhir.org/fhir-single.xsd
+      [get] To: /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/input-cache/schemas/R5/fhir-single.xsd
+      [get] Not modified - so not downloaded
+      [get] Getting: http://build.fhir.org/fhir-xhtml.xsd
+      [get] To: /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/input-cache/schemas/R5/fhir-xhtml.xsd
+      [get] Not modified - so not downloaded
+      [get] Getting: http://build.fhir.org/xml.xsd
+      [get] To: /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/input-cache/schemas/R5/xml.xsd
+      [get] Not modified - so not downloaded
+      [get] Getting: http://build.fhir.org/xmldsig-core-schema.xsd
+      [get] To: /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/input-cache/schemas/R5/xmldsig-core-schema.xsd
+      [get] Not modified - so not downloaded
+
+onGenerate.r4-schemas:
+      [get] Getting: http://hl7.org/fhir/R4/fhir-single.xsd
+      [get] To: /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/input-cache/schemas/R4/fhir-single.xsd
+      [get] Not modified - so not downloaded
+      [get] Getting: http://hl7.org/fhir/R4/fhir-xhtml.xsd
+      [get] To: /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/input-cache/schemas/R4/fhir-xhtml.xsd
+      [get] Not modified - so not downloaded
+      [get] Getting: http://hl7.org/fhir/R4/xml.xsd
+      [get] To: /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/input-cache/schemas/R4/xml.xsd
+      [get] Not modified - so not downloaded
+      [get] Getting: http://hl7.org/fhir/R4/xmldsig-core-schema.xsd
+      [get] To: /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/input-cache/schemas/R4/xmldsig-core-schema.xsd
+      [get] Not modified - so not downloaded
+
+onGenerate.r3-schemas:
+
+onGenerate.r2b-schemas:
+
+onGenerate.r2-schemas:
+
+onGenerate.schemas:
+
+onGenerate.data:
+     [xslt] Processing /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/template/onGenerate-ig-working.xml to /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/temp/pages/_data/artifacts.json
+     [xslt] Loading stylesheet /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/template/scripts/onGenerate.data.xslt
+
+onGenerate.setup:
+
+onGenerate.infoFile:
+     [xslt] Processing /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/template/onGenerate-ig-working.xml to /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/temp/pages/_data/info.json
+     [xslt] Loading stylesheet /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/template/scripts/onGenerate.genJson.xslt
+
+onGenerate.processIncludes:
+     [copy] Copying 17 files to /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/temp/pages/_includes
+
+onGenerate.processIg:
+     [xslt] Processing /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/template/onGenerate-ig-working.xml to /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/template/onGenerate-ig-working.1.xml
+     [xslt] Loading stylesheet /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/template/scripts/onGenerate.group.xslt
+     [xslt] Processing /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/template/onGenerate-ig-working.1.xml to /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/template/onGenerate-ig-updated.xml
+     [xslt] Loading stylesheet /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/template/scripts/onGenerate.final.xslt
+
+onGenerate.igQa:
+     [xslt] Processing /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/template/onGenerate-ig-updated.xml to /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/template/ongenerate-validation-igqa.json
+     [xslt] Loading stylesheet /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/template/scripts/onGenerate.qa.xslt
+
+onGenerate.artifactList:
+     [xslt] Processing /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/template/onGenerate-ig-updated.xml to /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/temp/pages/_includes/artifacts.xml
+     [xslt] Loading stylesheet /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/template/scripts/createArtifactSummary.xslt
+
+check-plantumlfiles:
+
+onGenerate.plantUml.ig:
+
+onGenerate.plantUml.template:
+
+onGenerate.plantUml:
+
+onGenerate.copyDataFiles:
+
+onGenerate.extend:
+
+onGenerate:
+Template Done                                                                    (01:18.553)
+Generating Summary Outputs                                                       (02:19.886)
+Warning @ Unable to read the git branch: not a git repository (or any of the parent directories): .git
+Sending Usage Stats to Server                                                    (02:51.995)
+## Memory (MB): Use = 1124, Free = 394, Total = 1520, Max =4096
+Reclaiming memory...
+## Memory (MB): Use = 456, Free = 1063, Total = 1520, Max =4096
+Run jekyll: jekyll build --destination "/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/output" (in folder /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/temp/pages) (02:52.272)
+Jekyll: Source: /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/temp/pages (02:57.113)
+Jekyll: Generating...                                                            (02:57.117)
+Jekyll: done in 8.7 seconds.                                                     (03:05.814)
+Installing example.fhir.exampleig#0.1.0 to the package cache
+  Fetching:
+.
+  Installing: Checking Output HTML                                                             (03:08.607)
+found 911 files                                                                  (03:08.627)
+.........................................
+.........................................
+  ... 911 html files, 0 pages invalid xhtml (0%)                                 (03:20.835)
+  ... 153011 links, 0 broken links (0%)                                          (03:20.838)
+Build final .zip                                                                 (03:20.842)
+Final .zip built                                                                 (03:22.030)
+Built. Times: loading: 00:00.756, generate: 02:25.385, narrative generation: 00:02.463, realm-rules: 00:00.000, previous-version: 00:00.000, jekyll: 00:13.556, validation: 00:06.541 (#36), template: 00:07.260 (#3) (03:24.505)
+Validation output in /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0/output/qa.html
+Errors: 1, Warnings: 2, Info: 28, Broken Links: 0 (03:24.760)
+Finished                                                                         (03:24.765)
+Done                                                                             (03:24.768)
+Prepare Build space in /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone
+Build IG at /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/build: final copy suitable for publication (in /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone) (milestone build)
+FHIR IG Publisher Version 1.3.5 (Git# 74243d0351af). Built 2023-04-27T01:15:47.463Z (19 hours old)
+Detected Java version: 11.0.14.1 from /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home on Mac OS X/x86_64 (64bit). 4096MB available
+dir = /Users/bmilius/Documents/src/github-nmdp-ig/ig-training, path = /Users/bmilius/.rbenv/shims:/Users/bmilius/.local/bin:/usr/local/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/bmilius/.rbenv/shims:/Users/bmilius/.local/bin:/usr/local/sbin:/usr/local/mysql/bin:/Users/bmilius/src/amazon/ec2-api-tools-1.6.7.1/bin:/Users/bmilius/bin:/Users/bmilius/bin/edirect:/bin:/usr/local/mysql/bin:/Users/bmilius/src/amazon/ec2-api-tools-1.6.7.1/bin:/Users/bmilius/bin:/Users/bmilius/bin/edirect
+Parameters: -ig /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone -publish http://example.org/ig/exampleig/0.1.0 -milestone -no-exit
+Start Clock @ Thursday, April 27, 2023 at 3:54:30 PM Central Daylight Time (2023-04-27T15:54:30-05:00)
+
+Build FHIR IG from /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone (00:00.033)
+Build Formal Publication package, intended for http://example.org/ig/exampleig/0.1.0 (00:00.036)
+API keys loaded from /Users/bmilius/.fhir/fhir-settings.json                     (00:00.038)
+Package Cache: /Users/bmilius/.fhir/packages                                     (00:00.040)
+Run Sushi on /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone (00:00.042)
+Sushi: info  Running SUSHI v2.10.1 (implements FHIR Shorthand specification v2.0.0) (00:01.087)
+Sushi: info  Arguments:                                                          (00:01.090)
+Sushi: info    --require-latest                                                  (00:01.093)
+Sushi: info    --out /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone (00:01.096)
+Sushi: info    /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone (00:01.100)
+Sending usage stats failed: Operation timed out (Connection timed out)
+Sushi: (node:75155) Warning: Accessing non-existent property 'INVALID_ALT_NUMBER' of module exports inside circular dependency (00:18.346)
+Sushi: (Use `node --trace-warnings ...` to show where the warning was created)   (00:18.351)
+Sushi: (node:75155) Warning: Accessing non-existent property 'INVALID_ALT_NUMBER' of module exports inside circular dependency (00:18.355)
+Sushi: info  Using configuration file: /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/sushi-config.yaml (00:18.379)
+Sushi: info  Importing FSH text...                                               (00:18.392)
+Sushi: info  Preprocessed 13 documents with 4 aliases.                           (00:18.506)
+Sushi: info  Imported 23 definitions and 15 instances.                           (00:18.528)
+Sushi: info  Checking local cache for hl7.fhir.uv.tools#current...               (00:18.531)
+Sushi: info  Found hl7.fhir.uv.tools#current in local cache.                     (00:18.576)
+Sushi: info  Loaded package hl7.fhir.uv.tools#current                            (00:19.552)
+Sushi: info  Checking local cache for hl7.terminology.r4#5.0.0...                (00:20.562)
+Sushi: info  Found hl7.terminology.r4#5.0.0 in local cache.                      (00:23.021)
+Sushi: info  Loaded package hl7.terminology.r4#5.0.0                             (00:23.023)
+Sushi: info  Checking local cache for hl7.fhir.us.core#3.1.0...                  (00:23.026)
+Sushi: info  Found hl7.fhir.us.core#3.1.0 in local cache.                        (00:23.131)
+Sushi: info  Loaded package hl7.fhir.us.core#3.1.0                               (00:23.134)
+Sushi: info  Checking local cache for hl7.fhir.r4.core#4.0.1...                  (00:23.136)
+Sushi: info  Found hl7.fhir.r4.core#4.0.1 in local cache.                        (00:25.638)
+Sushi: info  Loaded package hl7.fhir.r4.core#4.0.1                               (00:25.640)
+Sushi: info  Converting FSH to FHIR resources...                                 (00:25.685)
+Sushi: info  Converted 10 FHIR StructureDefinitions.                             (00:26.085)
+Sushi: info  Converted 4 FHIR CodeSystems.                                       (00:26.206)
+Sushi: info  Converted 9 FHIR ValueSets.                                         (00:26.246)
+Sushi: info  Converted 15 FHIR instances.                                        (00:26.512)
+Sushi: info  Exporting FHIR resources as JSON...                                 (00:26.514)
+Sushi: info  Exported 35 FHIR resources as JSON.                                 (00:26.581)
+Sushi: info  Assembling Implementation Guide sources...                          (00:26.583)
+Sushi: info  Generated ImplementationGuide-exampleig.json                        (00:26.646)
+Sushi: info  Assembled Implementation Guide sources; ready for IG Publisher.     (00:26.648)
+Sushi:                                                                           (00:26.650)
+Sushi: ========================= SUSHI RESULTS ===========================       (00:26.652)
+Sushi: |  -------------------------------------------------------------  |       (00:26.655)
+Sushi: | |    Profiles   |  Extensions  |   Logicals   |   Resources   | |       (00:26.658)
+Sushi: | |-------------------------------------------------------------| |       (00:26.660)
+Sushi: | |       9       |      1       |      0       |       0       | |       (00:26.662)
+Sushi: |  -------------------------------------------------------------  |       (00:26.665)
+Sushi: |  -------------------------------------------------------------  |       (00:26.667)
+Sushi: | |      ValueSets     |    CodeSystems    |     Instances      | |       (00:26.670)
+Sushi: | |-------------------------------------------------------------| |       (00:26.672)
+Sushi: | |         9          |         4         |         15         | |       (00:26.676)
+Sushi: |  -------------------------------------------------------------  |       (00:26.678)
+Sushi: |                                                                 |       (00:26.681)
+Sushi: ===================================================================       (00:26.683)
+Sushi: | That went swimmingly!                  0 Errors      0 Warnings |       (00:26.685)
+Sushi: ===================================================================       (00:26.688)
+Sushi:                                                                           (00:26.690)
+Unable to load IG as an r5 IG - try R4 (property code is a class com.google.gson.JsonPrimitive looking for an object) (00:26.730)
+Load Template from #cibmtr-template                                              (00:26.806)
+ Load Template from fhir.base.template#current                                   (00:26.813)
+
+onLoad.findSpreadsheets:
+
+onLoad.updateIg:
+     [xslt] Processing /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/template/onLoad-ig-working.xml to /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/template/onLoad-ig-updated.xml
+     [xslt] Loading stylesheet /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/template/scripts/onLoad.xslt
+
+onLoad.extend:
+
+onLoad:
+Root directory: /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone (00:32.913)
+Core Package hl7.fhir.r4.core#4.0.1
+.:Terminology Cache is at /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/input-cache/txcache. 3 files in cache (00:41.380)
+Connect to Terminology Server at http://tx.fhir.org                              (00:41.384)
+Load Package hl7.fhir.pubpack#0.1.4
+Load Package hl7.fhir.xver-extensions#0.0.12
+Load Package hl7.terminology.r4#5.0.0
+Load Package hl7.fhir.us.core#3.1.0
+Version mismatch. This IG is version 4.0.1, while the IG 'igtools' is from version 5.0.0 (will try to run anyway) (00:43.806)
+Load Package hl7.fhir.uv.tools#0.1.0
+Initialization complete                                                          (00:46.009)
+Fetch http://example.org/ig/exampleig/package-list.json for version check        (00:46.011)
+Load Content                                                                     (00:46.014)
+loadPrePages from FetchedFile[/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/includes] as /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/includes
+loadPrePages from FetchedFile[/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/input/pagecontent] as /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/input/pagecontent
+Processing Conformance Resources                                                 (00:46.441)
+Generating Snapshots                                                             (00:46.610)
+Propagating status                                                               (00:48.128)
+Generating Narratives                                                            (00:48.130)
+Validating Conformance Resources                                                 (00:59.394)
+Validating Resources                                                             (01:06.479)
+Processing Provenance Records                                                    (01:08.642)
+Generating Outputs in /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/output (01:08.644)
+Run Template                                                                     (01:09.560)
+
+onGenerate.checkVersions:
+     [xslt] Processing /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/template/onGenerate-ig-working.xml to /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/template/versions.txt
+     [xslt] Loading stylesheet /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/template/scripts/onGenerate.getVersions.xslt
+
+onGenerate.r5-schemas:
+      [get] Getting: http://build.fhir.org/fhir-single.xsd
+      [get] To: /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/input-cache/schemas/R5/fhir-single.xsd
+      [get] Not modified - so not downloaded
+      [get] Getting: http://build.fhir.org/fhir-xhtml.xsd
+      [get] To: /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/input-cache/schemas/R5/fhir-xhtml.xsd
+      [get] Not modified - so not downloaded
+      [get] Getting: http://build.fhir.org/xml.xsd
+      [get] To: /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/input-cache/schemas/R5/xml.xsd
+      [get] Not modified - so not downloaded
+      [get] Getting: http://build.fhir.org/xmldsig-core-schema.xsd
+      [get] To: /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/input-cache/schemas/R5/xmldsig-core-schema.xsd
+      [get] Not modified - so not downloaded
+
+onGenerate.r4-schemas:
+      [get] Getting: http://hl7.org/fhir/R4/fhir-single.xsd
+      [get] To: /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/input-cache/schemas/R4/fhir-single.xsd
+      [get] Not modified - so not downloaded
+      [get] Getting: http://hl7.org/fhir/R4/fhir-xhtml.xsd
+      [get] To: /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/input-cache/schemas/R4/fhir-xhtml.xsd
+      [get] Not modified - so not downloaded
+      [get] Getting: http://hl7.org/fhir/R4/xml.xsd
+      [get] To: /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/input-cache/schemas/R4/xml.xsd
+      [get] Not modified - so not downloaded
+      [get] Getting: http://hl7.org/fhir/R4/xmldsig-core-schema.xsd
+      [get] To: /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/input-cache/schemas/R4/xmldsig-core-schema.xsd
+      [get] Not modified - so not downloaded
+
+onGenerate.r3-schemas:
+
+onGenerate.r2b-schemas:
+
+onGenerate.r2-schemas:
+
+onGenerate.schemas:
+
+onGenerate.data:
+     [xslt] Processing /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/template/onGenerate-ig-working.xml to /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/temp/pages/_data/artifacts.json
+     [xslt] Loading stylesheet /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/template/scripts/onGenerate.data.xslt
+
+onGenerate.setup:
+
+onGenerate.infoFile:
+     [xslt] Processing /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/template/onGenerate-ig-working.xml to /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/temp/pages/_data/info.json
+     [xslt] Loading stylesheet /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/template/scripts/onGenerate.genJson.xslt
+
+onGenerate.processIncludes:
+     [copy] Copying 17 files to /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/temp/pages/_includes
+
+onGenerate.processIg:
+     [xslt] Processing /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/template/onGenerate-ig-working.xml to /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/template/onGenerate-ig-working.1.xml
+     [xslt] Loading stylesheet /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/template/scripts/onGenerate.group.xslt
+     [xslt] Processing /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/template/onGenerate-ig-working.1.xml to /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/template/onGenerate-ig-updated.xml
+     [xslt] Loading stylesheet /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/template/scripts/onGenerate.final.xslt
+
+onGenerate.igQa:
+     [xslt] Processing /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/template/onGenerate-ig-updated.xml to /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/template/ongenerate-validation-igqa.json
+     [xslt] Loading stylesheet /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/template/scripts/onGenerate.qa.xslt
+
+onGenerate.artifactList:
+     [xslt] Processing /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/template/onGenerate-ig-updated.xml to /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/temp/pages/_includes/artifacts.xml
+     [xslt] Loading stylesheet /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/template/scripts/createArtifactSummary.xslt
+
+check-plantumlfiles:
+
+onGenerate.plantUml.ig:
+
+onGenerate.plantUml.template:
+
+onGenerate.plantUml:
+
+onGenerate.copyDataFiles:
+
+onGenerate.extend:
+
+onGenerate:
+Template Done                                                                    (01:11.269)
+Generating Summary Outputs                                                       (02:09.918)
+Warning @ Unable to read the git branch: not a git repository (or any of the parent directories): .git
+Sending Usage Stats to Server                                                    (02:47.372)
+## Memory (MB): Use = 1315, Free = 204, Total = 1520, Max =4096
+Reclaiming memory...
+## Memory (MB): Use = 458, Free = 1061, Total = 1520, Max =4096
+Run jekyll: jekyll build --destination "/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/output" (in folder /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/temp/pages) (02:47.635)
+Jekyll: Source: /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/temp/pages (02:49.655)
+Jekyll: Generating...                                                            (02:49.658)
+Jekyll: done in 8.546 seconds.                                                   (02:58.201)
+Installing example.fhir.exampleig#0.1.0 to the package cache
+  Fetching:
+.
+  Installing: Checking Output HTML                                                             (03:00.046)
+found 911 files                                                                  (03:00.062)
+.........................................
+.........................................
+  ... 911 html files, 0 pages invalid xhtml (0%)                                 (03:11.631)
+  ... 153011 links, 0 broken links (0%)                                          (03:11.634)
+Build final .zip                                                                 (03:11.636)
+Final .zip built                                                                 (03:12.834)
+Built. Times: loading: 00:00.425, generate: 02:28.565, narrative generation: 00:11.262, realm-rules: 00:00.000, previous-version: 00:00.000, jekyll: 00:10.583, validation: 00:09.227 (#36), template: 00:01.707 (#3) (03:15.023)
+Validation output in /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/output/qa.html
+Errors: 1, Warnings: 2, Info: 28, Broken Links: 0 (03:15.232)
+Finished                                                                         (03:15.237)
+Done                                                                             (03:15.241)
+Keep a copy of the build directory at /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/web-root/run-20230427/ig-build-zips/example.fhir.exampleig#0.1.0.zip
+
+ok. All checks passed. Publish v0.1.0 to /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/web-root/run-20230427/exampleig/0.1.0
+Copy the IG to /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/web-root/run-20230427/exampleig/0.1.0
+Update /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/web-root/run-20230427/exampleig/package-list.json
+Publish Box Statement: This page is part of the Example IG (v0.1.0: Releases Draft) based on <a href="http://hl7.org/fhir/R4">FHIR R4</a>. This is the current published version in its permanent home (it will always be available at this URL).  For a full list of available versions, see the <a href="http://example.org/ig/exampleig/history.html">Directory of published versions <img src="external.png" style="text-align: baseline"></a>
+  .. 231 files checked, 231 updated
+  .. 75 clones checked, 150 updated
+  .. 36 redirections (36 created/updated)
+This is a milestone release - publish v0.1.0 to /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/web-root/run-20230427/exampleig
+Publish Box Statement: This page is part of the Example IG (v0.1.0: Releases Draft) based on <a href="http://hl7.org/fhir/R4">FHIR R4</a>. This is the current published version.  For a full list of available versions, see the <a href="http://example.org/ig/exampleig/history.html">Directory of published versions <img src="external.png" style="text-align: baseline"></a>
+  .. 231 files checked, 231 updated
+  .. 75 clones checked, 150 updated
+  .. 36 redirections (36 created/updated)
+Check for Files to delete
+  ... 0 files
+Copy to new IG to /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/web-root/run-20230427/exampleig
+Sending usage stats failed: Operation timed out (Connection timed out)
+Update history page at /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/web-root/run-20230427/exampleig from /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/publication/ig-history and /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/publication/web-root/templates
+Build is complete. Copy from /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/web-root/run-20230427
+example.fhir.exampleig (http://example.org/ig/exampleig): Example IG @ https://nmdp-ig.github.io/ig-training
+  candidate: Releases Draft 0.1.0/4.0.1 @ http://example.org/ig/exampleig/0.1.0

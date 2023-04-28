@@ -5,13 +5,13 @@
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  is-a  414027002 (Disorder of hematopoietic structure (disorder))</li></ul></div>
   </text>
-  <url value="http://example.org/ig/example/ValueSet/hematopoietic-disorder-vs"/>
+  <url value="http://example.org/ig/exampleig/ValueSet/hematopoietic-disorder-vs"/>
   <version value="0.1.0"/>
   <name value="HematopoieticDisorderVS"/>
   <title value="Disorders of hematopoietic structure"/>
   <status value="active"/>
   <experimental value="true"/>
-  <date value="2023-04-26T11:15:05-05:00"/>
+  <date value="2023-04-27T11:07:01-05:00"/>
   <publisher value="Example Publisher"/>
   <contact>
     <name value="Example Publisher"/>

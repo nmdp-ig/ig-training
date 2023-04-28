@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="gvhd-icd10-codes"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include codes from <a href="http://terminology.hl7.org/5.0.0/CodeSystem-icd10CM.html"><code>http://hl7.org/fhir/sid/icd-10-cm</code></a> where concept  is-a  D89.81 (Graft-versus-host disease)</li></ul></div>
+  </text>
+  <url value="http://example.org/ig/exampleig/ValueSet/gvhd-icd10-codes"/>
+  <version value="0.1.0"/>
+  <name value="GVHDICD10VS"/>
+  <title value="GVHD ICD-10 Codes"/>
+  <status value="active"/>
+  <experimental value="true"/>
+  <date value="2023-04-27T15:55:17-05:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="GVHD ICD-10 Codes"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="D89.81"/>
+      </filter>
+    </include>
+  </compose>
+</ValueSet>

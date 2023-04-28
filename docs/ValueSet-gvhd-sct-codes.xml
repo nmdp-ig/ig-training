@@ -5,13 +5,13 @@
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  is-a  234646005 (Graft versus host disease)</li></ul></div>
   </text>
-  <url value="http://example.org/ig/example/ValueSet/gvhd-sct-codes"/>
+  <url value="http://example.org/ig/exampleig/ValueSet/gvhd-sct-codes"/>
   <version value="0.1.0"/>
   <name value="GVHDSCTVS"/>
   <title value="GVHD SNOMED CT Codes"/>
   <status value="active"/>
   <experimental value="true"/>
-  <date value="2023-04-26T11:15:05-05:00"/>
+  <date value="2023-04-27T11:07:01-05:00"/>
   <publisher value="Example Publisher"/>
   <contact>
     <name value="Example Publisher"/>

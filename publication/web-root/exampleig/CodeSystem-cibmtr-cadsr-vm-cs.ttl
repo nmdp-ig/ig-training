@@ -1,0 +1,57 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/ig/exampleig/CodeSystem/cibmtr-cadsr-vm-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "cibmtr-cadsr-vm-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://cdebrowser.nci.nih.gov</code> provides a fragment that includes following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">4722619<a name=\"cibmtr-cadsr-vm-cs-4722619\"> </a></td><td>Acute GVHD</td><td>Acute Graft Vs Host Disease</td></tr><tr><td style=\"white-space:nowrap\">2991794<a name=\"cibmtr-cadsr-vm-cs-2991794\"> </a></td><td>Classic cGVHD</td><td>Classic chronic Graft Vs Host Disease</td></tr><tr><td style=\"white-space:nowrap\">2991795<a name=\"cibmtr-cadsr-vm-cs-2991795\"> </a></td><td>Overlap cGVHD</td><td>Overlap chronic Graft Vs Host Disease</td></tr><tr><td style=\"white-space:nowrap\">2991796<a name=\"cibmtr-cadsr-vm-cs-2991796\"> </a></td><td>Late Acute GVHD</td><td>Late Acute Graft Vs Host Disease</td></tr><tr><td style=\"white-space:nowrap\">3261243<a name=\"cibmtr-cadsr-vm-cs-3261243\"> </a></td><td>Not Applicable</td><td>Not Applicable</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://cdebrowser.nci.nih.gov"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "GVHD_CADSR_VM_CS"] ; # 
+  fhir:title [ fhir:v "NIH Common Data Element Value Meanings for GVHD"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-04-27T15:55:17-05:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Example Publisher"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Example Publisher" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://example.org/example-publisher" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "NIH Common Data Element Value Meanings for GVHD"] ; # 
+  fhir:copyright [ fhir:v "National Cancer Institute (NCI)"] ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "fragment"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "4722619" ] ;
+     fhir:display [ fhir:v "Acute GVHD" ] ;
+     fhir:definition [ fhir:v "Acute Graft Vs Host Disease" ]
+  ] [
+     fhir:code [ fhir:v "2991794" ] ;
+     fhir:display [ fhir:v "Classic cGVHD" ] ;
+     fhir:definition [ fhir:v "Classic chronic Graft Vs Host Disease" ]
+  ] [
+     fhir:code [ fhir:v "2991795" ] ;
+     fhir:display [ fhir:v "Overlap cGVHD" ] ;
+     fhir:definition [ fhir:v "Overlap chronic Graft Vs Host Disease" ]
+  ] [
+     fhir:code [ fhir:v "2991796" ] ;
+     fhir:display [ fhir:v "Late Acute GVHD" ] ;
+     fhir:definition [ fhir:v "Late Acute Graft Vs Host Disease" ]
+  ] [
+     fhir:code [ fhir:v "3261243" ] ;
+     fhir:display [ fhir:v "Not Applicable" ] ;
+     fhir:definition [ fhir:v "Not Applicable" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

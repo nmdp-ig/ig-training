@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://example.org/ig/example/CodeSystem/nmdp-practitioner-role-cs> a fhir:CodeSystem ;
+<http://example.org/ig/exampleig/CodeSystem/nmdp-practitioner-role-cs> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "nmdp-practitioner-role-cs"] ; # 
   fhir:text [
@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "NMDP Practitioner Roles"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-04-26T11:15:05-05:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-04-27T11:07:01-05:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Example Publisher"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Example Publisher" ] ;

@@ -1,0 +1,109 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cmv-presence-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/13949-3/\">13949-3</a></td><td>Cytomegalovirus IgG Ab [Presence] in Serum or Plasma by Immunoassay</td></tr><tr><td><a href=\"https://loinc.org/15377-5/\">15377-5</a></td><td>Cytomegalovirus Ab [Presence] in Serum by Latex agglutination</td></tr><tr><td><a href=\"https://loinc.org/16718-9/\">16718-9</a></td><td>Cytomegalovirus Ag [Presence] in Blood</td></tr><tr><td><a href=\"https://loinc.org/22239-8/\">22239-8</a></td><td>Cytomegalovirus Ab [Presence] in Serum or Plasma</td></tr><tr><td><a href=\"https://loinc.org/22244-8/\">22244-8</a></td><td>Cytomegalovirus IgG Ab [Presence] in Serum or Plasma</td></tr><tr><td><a href=\"https://loinc.org/24119-0/\">24119-0</a></td><td>Cytomegalovirus IgM Ab [Presence] in Serum or Plasma by Immunoassay</td></tr><tr><td><a href=\"https://loinc.org/28008-1/\">28008-1</a></td><td>Cytomegalovirus DNA [Presence] in Blood by Probe with signal amplification</td></tr><tr><td><a href=\"https://loinc.org/30246-3/\">30246-3</a></td><td>Cytomegalovirus DNA [Presence] in Serum or Plasma by NAA with probe detection</td></tr><tr><td><a href=\"https://loinc.org/30325-5/\">30325-5</a></td><td>Cytomegalovirus IgM Ab [Presence] in Serum or Plasma</td></tr><tr><td><a href=\"https://loinc.org/31795-8/\">31795-8</a></td><td>Cytomegalovirus Ag [Presence] in Serum or Plasma</td></tr><tr><td><a href=\"https://loinc.org/43703-8/\">43703-8</a></td><td>Cytomegalovirus [Presence] in Blood by Shell vial culture</td></tr><tr><td><a href=\"https://loinc.org/49539-0/\">49539-0</a></td><td>Cytomegalovirus IgM Ab [Presence] in Serum or Plasma by Immunofluorescence</td></tr><tr><td><a href=\"https://loinc.org/4996-5/\">4996-5</a></td><td>Cytomegalovirus DNA [Presence] in Blood by NAA with probe detection</td></tr><tr><td><a href=\"https://loinc.org/5835-4/\">5835-4</a></td><td>Cytomegalovirus [Presence] in Blood by Organism specific culture</td></tr><tr><td><a href=\"https://loinc.org/59838-3/\">59838-3</a></td><td>Cytomegalovirus Ab [Presence] in Serum or Plasma by Latex agglutination</td></tr><tr><td><a href=\"https://loinc.org/6376-8/\">6376-8</a></td><td>Cytomegalovirus Ag [Presence] in Serum or Plasma by Immunoassay</td></tr><tr><td><a href=\"https://loinc.org/6377-6/\">6377-6</a></td><td>Cytomegalovirus Ag [Presence] in Serum or Plasma by Immunofluorescence</td></tr><tr><td><a href=\"https://loinc.org/67805-2/\">67805-2</a></td><td>Cytomegalovirus Ag [Presence] in Isolate by Immunofluorescence</td></tr><tr><td><a href=\"https://loinc.org/78445-4/\">78445-4</a></td><td>Cytomegalovirus IgG Ab avidity [Presence] in Serum or Plasma by Immunoassay</td></tr><tr><td><a href=\"https://loinc.org/88535-0/\">88535-0</a></td><td>Cytomegalovirus DNA [Presence] in DBS by NAA with probe detection</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://example.org/ig/exampleig/ValueSet/cmv-presence-vs",
+  "version" : "0.1.0",
+  "name" : "CMVPresenceValueSet",
+  "title" : "CMV Presence ValueSet",
+  "status" : "active",
+  "experimental" : true,
+  "date" : "2023-04-27T15:55:17-05:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Cytomegalovirus [Presence] ValueSet.",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "13949-3",
+        "display" : "Cytomegalovirus IgG Ab [Presence] in Serum or Plasma by Immunoassay"
+      },
+      {
+        "code" : "15377-5",
+        "display" : "Cytomegalovirus Ab [Presence] in Serum by Latex agglutination"
+      },
+      {
+        "code" : "16718-9",
+        "display" : "Cytomegalovirus Ag [Presence] in Blood"
+      },
+      {
+        "code" : "22239-8",
+        "display" : "Cytomegalovirus Ab [Presence] in Serum or Plasma"
+      },
+      {
+        "code" : "22244-8",
+        "display" : "Cytomegalovirus IgG Ab [Presence] in Serum or Plasma"
+      },
+      {
+        "code" : "24119-0",
+        "display" : "Cytomegalovirus IgM Ab [Presence] in Serum or Plasma by Immunoassay"
+      },
+      {
+        "code" : "28008-1",
+        "display" : "Cytomegalovirus DNA [Presence] in Blood by Probe with signal amplification"
+      },
+      {
+        "code" : "30246-3",
+        "display" : "Cytomegalovirus DNA [Presence] in Serum or Plasma by NAA with probe detection"
+      },
+      {
+        "code" : "30325-5",
+        "display" : "Cytomegalovirus IgM Ab [Presence] in Serum or Plasma"
+      },
+      {
+        "code" : "31795-8",
+        "display" : "Cytomegalovirus Ag [Presence] in Serum or Plasma"
+      },
+      {
+        "code" : "43703-8",
+        "display" : "Cytomegalovirus [Presence] in Blood by Shell vial culture"
+      },
+      {
+        "code" : "49539-0",
+        "display" : "Cytomegalovirus IgM Ab [Presence] in Serum or Plasma by Immunofluorescence"
+      },
+      {
+        "code" : "4996-5",
+        "display" : "Cytomegalovirus DNA [Presence] in Blood by NAA with probe detection"
+      },
+      {
+        "code" : "5835-4",
+        "display" : "Cytomegalovirus [Presence] in Blood by Organism specific culture"
+      },
+      {
+        "code" : "59838-3",
+        "display" : "Cytomegalovirus Ab [Presence] in Serum or Plasma by Latex agglutination"
+      },
+      {
+        "code" : "6376-8",
+        "display" : "Cytomegalovirus Ag [Presence] in Serum or Plasma by Immunoassay"
+      },
+      {
+        "code" : "6377-6",
+        "display" : "Cytomegalovirus Ag [Presence] in Serum or Plasma by Immunofluorescence"
+      },
+      {
+        "code" : "67805-2",
+        "display" : "Cytomegalovirus Ag [Presence] in Isolate by Immunofluorescence"
+      },
+      {
+        "code" : "78445-4",
+        "display" : "Cytomegalovirus IgG Ab avidity [Presence] in Serum or Plasma by Immunoassay"
+      },
+      {
+        "code" : "88535-0",
+        "display" : "Cytomegalovirus DNA [Presence] in DBS by NAA with probe detection"
+      }]
+    }]
+  }
+}

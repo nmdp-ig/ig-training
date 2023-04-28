@@ -1,0 +1,112 @@
+﻿ExampleIG : Validation Results
+=========================================
+
+err = 1, warn = 2, info = 28
+IG Publisher Version: 1.3.5
+Generated Thu Apr 27 15:57:45 CDT 2023. FHIR version 4.0.1 for example.fhir.exampleig#0.1.0 (canonical = http://example.org/ig/exampleig)
+ Build Errors : 0 / 1 / 0
+ /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/Bundle-BundleCollectionExample : 0 / 0 / 19
+ /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/Bundle-BundleTransactionExample : 0 / 0 / 19
+ /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/CodeSystem-cibmtr-cadsr-vm-cs : 0 / 0 / 1
+ /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/CodeSystem-glstring-cs : 0 / 0 / 1
+ /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/CodeSystem-hla-genename-cs : 0 / 0 / 1
+ /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/CodeSystem-nmdp-practitioner-role-cs : 0 / 0 / 1
+ /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/Condition-DiagnosisExample-AML : 0 / 0 / 2
+ /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/Observation-CMVObservationExample : 0 / 0 / 2
+ /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/Observation-CMVObservationPresenceExample : 0 / 0 / 2
+ /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/Observation-ObservationExample1 : 0 / 0 / 2
+ /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/Observation-ObservationExample2 : 0 / 0 / 1
+ /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/Observation-ObservationExample3 : 0 / 0 / 2
+ /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/Patient-MyCIBMTRPatientExample : 0 / 0 / 2
+ /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/Patient-MyTestPatientExample : 0 / 0 / 3
+ /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/Patient-MyUSCorePatientExample : 0 / 0 / 2
+ /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/Patient-PatientExample : 0 / 0 / 2
+ /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/StructureDefinition-MyCIBMTRPatient : 0 / 0 / 1
+ /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/StructureDefinition-MyTestPatient : 0 / 0 / 1
+ /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/StructureDefinition-MyUSCorePatient : 0 / 0 / 1
+ /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/StructureDefinition-cmv-observation : 0 / 0 / 1
+ /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/StructureDefinition-cmv-presence-observation : 0 / 0 / 1
+ /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/StructureDefinition-my-bundle : 0 / 0 / 1
+ /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/StructureDefinition-my-diagnosis : 0 / 0 / 1
+ /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/StructureDefinition-my-observation : 0 / 0 / 1
+ /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/StructureDefinition-my-patient : 0 / 0 / 1
+ /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/StructureDefinition-number-of-remissions : 0 / 0 / 1
+ /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/ValueSet-cmv-presence-vs : 0 / 0 / 1
+ /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/ValueSet-cmv-vs : 0 / 0 / 1
+ /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/ValueSet-gvhd-all-valueset : 0 / 0 / 1
+ /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/ValueSet-gvhd-icd10-codes : 0 / 0 / 1
+ /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/ValueSet-gvhd-sct-codes : 0 / 0 / 1
+ /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/ValueSet-hematopoietic-disorder-vs : 0 / 0 / 1
+ /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/ValueSet-presence-lnc-valueset : 0 / 0 / 1
+ /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/ValueSet-presence-sct-valueset : 0 / 0 / 1
+ /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/ValueSet-presence-valueset : 0 / 0 / 1
+ /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/ImplementationGuide-exampleig : 1 / 1 / 1
+</table>
+== n/a ==
+WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be example.fhir.exampleig
+== /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/Bundle-BundleCollectionExample.json ==
+INFORMATION: Bundle/BundleCollectionExample: Bundle.meta.security[0]: Code System URI 'http://terminology.cibmtr.org/codesystem/transplant-center' is unknown so the code cannot be validated
+INFORMATION: Bundle/BundleCollectionExample: Bundle.entry[0].resource.meta.security[0]: Code System URI 'http://terminology.cibmtr.org/codesystem/transplant-center' is unknown so the code cannot be validated
+INFORMATION: Bundle/BundleCollectionExample: Bundle.entry[0].resource.identifier[1]: This element does not match any known slice defined in the profile http://example.org/ig/exampleig/StructureDefinition/MyCIBMTRPatient|0.1.0
+INFORMATION: Bundle/BundleCollectionExample: Bundle.entry[0].resource.identifier[2]: This element does not match any known slice defined in the profile http://example.org/ig/exampleig/StructureDefinition/MyCIBMTRPatient|0.1.0
+INFORMATION: Bundle/BundleCollectionExample: Bundle.entry[0].resource/*Patient/864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa*/.meta.security[0]: Code System URI 'http://terminology.cibmtr.org/codesystem/transplant-center' is unknown so the code cannot be validated
+INFORMATION: Bundle/BundleCollectionExample: Bundle.entry[1].resource.meta.security[0]: Code System URI 'http://terminology.cibmtr.org/codesystem/transplant-center' is unknown so the code cannot be validated
+INFORMATION: Bundle/BundleCollectionExample: Bundle.entry[1].resource/*Condition/281f5214-a344-4070-a231-61a2686c4fc1*/.meta.security[0]: Code System URI 'http://terminology.cibmtr.org/codesystem/transplant-center' is unknown so the code cannot be validated
+INFORMATION: Bundle/BundleCollectionExample: Bundle.entry[2].resource.meta.security[0]: Code System URI 'http://terminology.cibmtr.org/codesystem/transplant-center' is unknown so the code cannot be validated
+INFORMATION: Bundle/BundleCollectionExample: Bundle.entry[2].resource/*Observation/1bd28a4b-8743-4bc6-956e-52302218c803*/.meta.security[0]: Code System URI 'http://terminology.cibmtr.org/codesystem/transplant-center' is unknown so the code cannot be validated
+== /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/Bundle-BundleTransactionExample.json ==
+INFORMATION: Bundle/BundleTransactionExample: Bundle.meta.security[0]: Code System URI 'http://terminology.cibmtr.org/codesystem/transplant-center' is unknown so the code cannot be validated
+INFORMATION: Bundle/BundleTransactionExample: Bundle.entry[0].resource.meta.security[0]: Code System URI 'http://terminology.cibmtr.org/codesystem/transplant-center' is unknown so the code cannot be validated
+INFORMATION: Bundle/BundleTransactionExample: Bundle.entry[0].resource.identifier[1]: This element does not match any known slice defined in the profile http://example.org/ig/exampleig/StructureDefinition/MyCIBMTRPatient|0.1.0
+INFORMATION: Bundle/BundleTransactionExample: Bundle.entry[0].resource.identifier[2]: This element does not match any known slice defined in the profile http://example.org/ig/exampleig/StructureDefinition/MyCIBMTRPatient|0.1.0
+INFORMATION: Bundle/BundleTransactionExample: Bundle.entry[0].resource/*Patient/864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa*/.meta.security[0]: Code System URI 'http://terminology.cibmtr.org/codesystem/transplant-center' is unknown so the code cannot be validated
+INFORMATION: Bundle/BundleTransactionExample: Bundle.entry[1].resource.meta.security[0]: Code System URI 'http://terminology.cibmtr.org/codesystem/transplant-center' is unknown so the code cannot be validated
+INFORMATION: Bundle/BundleTransactionExample: Bundle.entry[1].resource/*Condition/281f5214-a344-4070-a231-61a2686c4fc1*/.meta.security[0]: Code System URI 'http://terminology.cibmtr.org/codesystem/transplant-center' is unknown so the code cannot be validated
+INFORMATION: Bundle/BundleTransactionExample: Bundle.entry[2].resource.meta.security[0]: Code System URI 'http://terminology.cibmtr.org/codesystem/transplant-center' is unknown so the code cannot be validated
+INFORMATION: Bundle/BundleTransactionExample: Bundle.entry[2].resource/*Observation/1bd28a4b-8743-4bc6-956e-52302218c803*/.meta.security[0]: Code System URI 'http://terminology.cibmtr.org/codesystem/transplant-center' is unknown so the code cannot be validated
+== /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/CodeSystem-cibmtr-cadsr-vm-cs.json ==
+== /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/CodeSystem-glstring-cs.json ==
+== /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/CodeSystem-hla-genename-cs.json ==
+== /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/CodeSystem-nmdp-practitioner-role-cs.json ==
+== /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/Condition-DiagnosisExample-AML.json ==
+INFORMATION: Condition/DiagnosisExample-AML: Condition.meta.security[0]: Code System URI 'http://terminology.cibmtr.org/codesystem/transplant-center' is unknown so the code cannot be validated
+== /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/Observation-CMVObservationExample.json ==
+INFORMATION: Observation/CMVObservationExample: Observation.meta.security[0]: Code System URI 'http://terminology.cibmtr.org/codesystem/transplant-center' is unknown so the code cannot be validated
+== /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/Observation-CMVObservationPresenceExample.json ==
+INFORMATION: Observation/CMVObservationPresenceExample: Observation.meta.security[0]: Code System URI 'http://terminology.cibmtr.org/codesystem/transplant-center' is unknown so the code cannot be validated
+== /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/Observation-ObservationExample1.json ==
+INFORMATION: Observation/ObservationExample1: Observation.meta.security[0]: Code System URI 'http://terminology.cibmtr.org/codesystem/transplant-center' is unknown so the code cannot be validated
+== /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/Observation-ObservationExample2.json ==
+== /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/Observation-ObservationExample3.json ==
+INFORMATION: Observation/ObservationExample3: Observation.meta.security[0]: Code System URI 'http://terminology.cibmtr.org/codesystem/transplant-center' is unknown so the code cannot be validated
+== /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/Patient-MyCIBMTRPatientExample.json ==
+INFORMATION: Patient/MyCIBMTRPatientExample: Patient.meta.security[0]: Code System URI 'http://terminology.cibmtr.org/codesystem/transplant-center' is unknown so the code cannot be validated
+== /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/Patient-MyTestPatientExample.json ==
+INFORMATION: Patient/MyTestPatientExample: Patient.identifier[1]: This element does not match any known slice defined in the profile http://example.org/ig/exampleig/StructureDefinition/MyTestPatient|0.1.0
+INFORMATION: Patient/MyTestPatientExample: Patient.identifier[2]: This element does not match any known slice defined in the profile http://example.org/ig/exampleig/StructureDefinition/MyTestPatient|0.1.0
+== /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/Patient-MyUSCorePatientExample.json ==
+INFORMATION: Patient/MyUSCorePatientExample: Patient.meta.security[0]: Code System URI 'http://terminology.cibmtr.org/codesystem/transplant-center' is unknown so the code cannot be validated
+== /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/Patient-PatientExample.json ==
+INFORMATION: Patient/PatientExample: Patient.meta.security[0]: Code System URI 'http://terminology.cibmtr.org/codesystem/transplant-center' is unknown so the code cannot be validated
+== /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/StructureDefinition-MyCIBMTRPatient.json ==
+== /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/StructureDefinition-MyTestPatient.json ==
+== /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/StructureDefinition-MyUSCorePatient.json ==
+== /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/StructureDefinition-cmv-observation.json ==
+== /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/StructureDefinition-cmv-presence-observation.json ==
+== /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/StructureDefinition-my-bundle.json ==
+== /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/StructureDefinition-my-diagnosis.json ==
+== /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/StructureDefinition-my-observation.json ==
+== /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/StructureDefinition-my-patient.json ==
+== /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/StructureDefinition-number-of-remissions.json ==
+== /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/ValueSet-cmv-presence-vs.json ==
+== /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/ValueSet-cmv-vs.json ==
+== /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/ValueSet-gvhd-all-valueset.json ==
+== /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/ValueSet-gvhd-icd10-codes.json ==
+== /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/ValueSet-gvhd-sct-codes.json ==
+== /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/ValueSet-hematopoietic-disorder-vs.json ==
+== /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/ValueSet-presence-lnc-valueset.json ==
+== /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/ValueSet-presence-sct-valueset.json ==
+== /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/ValueSet-presence-valueset.json ==
+== /private/var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/ImplementationGuide-exampleig.json ==
+WARNING: /var/folders/tz/3rrsdjx94d5fj_z_trln782xzm_j0b/T/example.fhir.exampleig#0.1.0-milestone/fsh-generated/resources/ImplementationGuide-exampleig: Unknown Parameters: [releaselabel, fmm-definition, excludelogbinaryformat]
+ERROR: ImplementationGuide/exampleig: ImplementationGuide: The extension http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency is not allowed to be used at this point (allowed = e:ImplementationGuide.definition; this element is [ImplementationGuide])

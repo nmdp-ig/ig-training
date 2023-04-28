@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="1abe18f7-6ee9-475a-8725-57a22f291886"/>
+  <id value="31905386-f7e1-4877-a5eb-716516f7c736"/>
   <meta>
-    <lastUpdated value="2023-04-26T11:15:05.871-05:00"/>
+    <lastUpdated value="2023-04-27T11:07:01.102-05:00"/>
   </meta>
   <type value="collection"/>
   <entry>
-    <fullUrl value="http://example.org/ig/example/ValueSet/presence-sct-valueset"/>
+    <fullUrl value="http://example.org/ig/exampleig/ValueSet/presence-sct-valueset"/>
     <resource>
       <ValueSet>
-        <id value="presence-sct-valueset"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -47,13 +46,13 @@
             </table>
           </div>
         </text>
-        <url value="http://example.org/ig/example/ValueSet/presence-sct-valueset"/>
+        <url value="http://example.org/ig/exampleig/ValueSet/presence-sct-valueset"/>
         <version value="0.1.0"/>
         <name value="PresenceSCTValueSet"/>
         <title value="Presence Answer List - Snomed CT"/>
         <status value="active"/>
         <experimental value="true"/>
-        <date value="2023-04-26T11:15:05-05:00"/>
+        <date value="2023-04-27T11:07:01-05:00"/>
         <publisher value="Example Publisher"/>
         <contact>
           <name value="Example Publisher"/>
@@ -64,8 +63,8 @@
         </contact>
         <description value="Permissible values for presence - Snomed CT"/>
         <expansion>
-          <identifier value="urn:uuid:e64fc497-2c41-4240-b83c-a85fc7677657"/>
-          <timestamp value="2023-04-26T11:15:51-05:00"/>
+          <identifier value="urn:uuid:0a2808e2-3ec9-4973-b37f-78f2254aa377"/>
+          <timestamp value="2023-04-27T11:07:26-05:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -94,10 +93,9 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://example.org/ig/example/ValueSet/gvhd-sct-codes"/>
+    <fullUrl value="http://example.org/ig/exampleig/ValueSet/gvhd-sct-codes"/>
     <resource>
       <ValueSet>
-        <id value="gvhd-sct-codes"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -222,13 +220,13 @@
             </table>
           </div>
         </text>
-        <url value="http://example.org/ig/example/ValueSet/gvhd-sct-codes"/>
+        <url value="http://example.org/ig/exampleig/ValueSet/gvhd-sct-codes"/>
         <version value="0.1.0"/>
         <name value="GVHDSCTVS"/>
         <title value="GVHD SNOMED CT Codes"/>
         <status value="active"/>
         <experimental value="true"/>
-        <date value="2023-04-26T11:15:05-05:00"/>
+        <date value="2023-04-27T11:07:01-05:00"/>
         <publisher value="Example Publisher"/>
         <contact>
           <name value="Example Publisher"/>
@@ -242,8 +240,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:088b55fb-ea01-4480-b164-92f81882c1c6"/>
-          <timestamp value="2023-04-26T11:16:00-05:00"/>
+          <identifier value="urn:uuid:2a036cbd-9512-42ea-b571-8ed50e1aeee0"/>
+          <timestamp value="2023-04-27T11:07:33-05:00"/>
           <total value="13"/>
           <parameter>
             <name value="excludeNested"/>
@@ -327,10 +325,9 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://example.org/ig/example/ValueSet/hematopoietic-disorder-vs"/>
+    <fullUrl value="http://example.org/ig/exampleig/ValueSet/hematopoietic-disorder-vs"/>
     <resource>
       <ValueSet>
-        <id value="hematopoietic-disorder-vs"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -2554,7 +2551,7 @@
                   <a href="http://snomed.info/id/93142004">93142004</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Leukemia in remission</td>
+                <td>Leukaemia in remission</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2562,7 +2559,7 @@
                   <a href="http://snomed.info/id/93143009">93143009</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Leukemia</td>
+                <td>Leukaemia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2754,7 +2751,7 @@
                   <a href="http://snomed.info/id/93451002">93451002</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Di Guglielmo's disease</td>
+                <td>Erythroleukaemia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -3946,7 +3943,7 @@
                   <a href="http://snomed.info/id/109996008">109996008</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Refractory anemia (clinical)</td>
+                <td>Refractory anaemia (clinical)</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -3962,7 +3959,7 @@
                   <a href="http://snomed.info/id/110000005">110000005</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Refractory anemia with excess blasts in transformation (clinical)</td>
+                <td>Refractory anaemia with excess blasts in transformation (clinical)</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -3978,7 +3975,7 @@
                   <a href="http://snomed.info/id/110004001">110004001</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Acute promyelocytic leukemia, FAB M3</td>
+                <td>Acute promyelocytic leukaemia (clinical)</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -3986,7 +3983,7 @@
                   <a href="http://snomed.info/id/110005000">110005000</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Acute myelomonocytic leukemia, FAB M4</td>
+                <td>Acute myelomonocytic leukaemia (clinical)</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -4242,7 +4239,7 @@
                   <a href="http://snomed.info/id/127042006">127042006</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Sickle cell beta plus thalassemia</td>
+                <td>Sickle cell beta plus thalassaemia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -5930,7 +5927,7 @@
                   <a href="http://snomed.info/id/187716008">187716008</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Malignant tumor of Waldeyer's ring</td>
+                <td>Malignant tumour of Waldeyer's ring</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -6330,7 +6327,7 @@
                   <a href="http://snomed.info/id/188645002">188645002</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Leukemic reticuloendotheliosis of lymph nodes of head, face and neck</td>
+                <td>Leukaemic reticuloendotheliosis of lymph nodes of head, face and neck</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -6346,7 +6343,7 @@
                   <a href="http://snomed.info/id/188649008">188649008</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Leukemic reticuloendotheliosis of lymph nodes of inguinal region and lower limb</td>
+                <td>Leukaemic reticuloendotheliosis of lymph nodes of inguinal region and lower limb</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -6362,7 +6359,7 @@
                   <a href="http://snomed.info/id/188668006">188668006</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Malignant mast cell tumor of spleen</td>
+                <td>Malignant mast cell tumour of spleen</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -6378,7 +6375,7 @@
                   <a href="http://snomed.info/id/188725004">188725004</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Lymphoid leukemia</td>
+                <td>Lymphatic leukaemia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -6410,7 +6407,7 @@
                   <a href="http://snomed.info/id/188733003">188733003</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Chronic eosinophilic leukemia</td>
+                <td>Chronic eosinophilic leukaemia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -6426,7 +6423,7 @@
                   <a href="http://snomed.info/id/188736006">188736006</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Subacute myeloid leukemia</td>
+                <td>Subacute myeloid leukaemia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -6442,7 +6439,7 @@
                   <a href="http://snomed.info/id/188741003">188741003</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Aleukemic myeloid leukemia</td>
+                <td>Aleukaemic myeloid leukaemia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -6466,7 +6463,7 @@
                   <a href="http://snomed.info/id/188746008">188746008</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Subacute monocytic leukemia</td>
+                <td>Subacute monocytic leukaemia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -6474,7 +6471,7 @@
                   <a href="http://snomed.info/id/188748009">188748009</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Aleukemic monocytic leukemia</td>
+                <td>Aleukaemic monocytic leukaemia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -6490,7 +6487,7 @@
                   <a href="http://snomed.info/id/188768003">188768003</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Myelomonocytic leukemia</td>
+                <td>Myelomonocytic leukaemia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -6498,7 +6495,7 @@
                   <a href="http://snomed.info/id/188770007">188770007</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Subacute myelomonocytic leukemia</td>
+                <td>Subacute myelomonocytic leukaemia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -6506,7 +6503,7 @@
                   <a href="http://snomed.info/id/190030009">190030009</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Compound leukemias</td>
+                <td>Compound leukaemias</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -6514,7 +6511,7 @@
                   <a href="http://snomed.info/id/190959006">190959006</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Infection-associated hemophagocytic syndrome</td>
+                <td>Infection-associated haemophagocytic syndrome</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -6554,7 +6551,7 @@
                   <a href="http://snomed.info/id/191248000">191248000</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Aplastic anemia due to toxic cause</td>
+                <td>Aplastic anaemia due to toxic cause</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -6578,7 +6575,7 @@
                   <a href="http://snomed.info/id/191256002">191256002</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Idiopathic aplastic anemia</td>
+                <td>Idiopathic aplastic anaemia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -6586,7 +6583,7 @@
                   <a href="http://snomed.info/id/191373003">191373003</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Polycythemia due to cyanotic respiratory disease</td>
+                <td>Polycythaemia due to cyanotic respiratory disease</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -7218,7 +7215,7 @@
                   <a href="http://snomed.info/id/232371001">232371001</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Hemorrhage from adenoid bed</td>
+                <td>Haemorrhage from adenoid bed</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -7386,7 +7383,7 @@
                   <a href="http://snomed.info/id/234437005">234437005</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Hemophagocytic lymphohistiocytosis</td>
+                <td>Haemophagocytic lymphohistiocytosis</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -7434,7 +7431,7 @@
                   <a href="http://snomed.info/id/234507003">234507003</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Subcapsular hematoma of spleen</td>
+                <td>Subcapsular haematoma of spleen</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -7498,7 +7495,7 @@
                   <a href="http://snomed.info/id/237656000">237656000</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Acute splenic tumor</td>
+                <td>Acute splenic tumour</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -7586,7 +7583,7 @@
                   <a href="http://snomed.info/id/240444009">240444009</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Fusobacterial necrotizing tonsillitis</td>
+                <td>Fusobacterial necrotising tonsillitis</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -7666,7 +7663,7 @@
                   <a href="http://snomed.info/id/262779007">262779007</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Hematoma of thymus</td>
+                <td>Haematoma of thymus</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -7682,7 +7679,7 @@
                   <a href="http://snomed.info/id/262818004">262818004</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Splenic hematoma</td>
+                <td>Splenic haematoma</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -7834,7 +7831,7 @@
                   <a href="http://snomed.info/id/274741002">274741002</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Generalized lymph node enlargement</td>
+                <td>Generalised enlarged lymph nodes</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -7842,7 +7839,7 @@
                   <a href="http://snomed.info/id/274744005">274744005</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Localized enlarged lymph nodes</td>
+                <td>Localised enlarged lymph nodes</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -7858,7 +7855,7 @@
                   <a href="http://snomed.info/id/275392002">275392002</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Fungating tumor of lymph node</td>
+                <td>Fungating tumour of lymph node</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -7890,7 +7887,7 @@
                   <a href="http://snomed.info/id/277474005">277474005</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>B-cell chronic lymphocytic leukemia variant</td>
+                <td>B-cell chronic lymphocytic leukaemia variant</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -7930,7 +7927,7 @@
                   <a href="http://snomed.info/id/277568007">277568007</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Hairy cell leukemia variant</td>
+                <td>Hairy cell leukaemia variant</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -7978,7 +7975,7 @@
                   <a href="http://snomed.info/id/277574007">277574007</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Null cell acute lymphoblastic leukemia</td>
+                <td>Null cell acute lymphoblastic leukaemia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -7994,7 +7991,7 @@
                   <a href="http://snomed.info/id/277587001">277587001</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>JCML - Juvenile chronic myeloid leukemia</td>
+                <td>JCML - Juvenile chronic myeloid leukaemia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -8002,7 +7999,7 @@
                   <a href="http://snomed.info/id/277589003">277589003</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Atypical chronic myeloid leukemia</td>
+                <td>Atypical chronic myeloid leukaemia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -8018,7 +8015,7 @@
                   <a href="http://snomed.info/id/277601005">277601005</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Acute monocytoid leukemia</td>
+                <td>Acute monocytoid leukaemia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -8026,7 +8023,7 @@
                   <a href="http://snomed.info/id/277602003">277602003</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Acute megakaryoblastic leukemia</td>
+                <td>Acute megakaryoblastic leukaemia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -8042,7 +8039,7 @@
                   <a href="http://snomed.info/id/277619001">277619001</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>B-cell prolymphocytic leukemia</td>
+                <td>B-cell prolymphocytic leukaemia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -8050,7 +8047,7 @@
                   <a href="http://snomed.info/id/278189009">278189009</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Hypergranular promyelocytic leukemia</td>
+                <td>Hypergranular promyelocytic leukaemia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -8058,7 +8055,7 @@
                   <a href="http://snomed.info/id/278453007">278453007</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Acute biphenotypic leukemia</td>
+                <td>Acute biphenotypic leukaemia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -8106,7 +8103,7 @@
                   <a href="http://snomed.info/id/285769009">285769009</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Acute promyelocytic leukemia - hypogranular variant</td>
+                <td>Acute promyelocytic leukaemia - hypogranular variant</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -8114,7 +8111,7 @@
                   <a href="http://snomed.info/id/285839005">285839005</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>M4Eo - Acute myelomonocytic leukemia - eosinophilic variant</td>
+                <td>M4Eo - Acute myelomonocytic leukaemia - eosinophilic variant</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -8290,7 +8287,7 @@
                   <a href="http://snomed.info/id/306058006">306058006</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Aplastic anemia</td>
+                <td>Aplastic anaemia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -8351,13 +8348,13 @@
             </table>
           </div>
         </text>
-        <url value="http://example.org/ig/example/ValueSet/hematopoietic-disorder-vs"/>
+        <url value="http://example.org/ig/exampleig/ValueSet/hematopoietic-disorder-vs"/>
         <version value="0.1.0"/>
         <name value="HematopoieticDisorderVS"/>
         <title value="Disorders of hematopoietic structure"/>
         <status value="active"/>
         <experimental value="true"/>
-        <date value="2023-04-26T11:15:05-05:00"/>
+        <date value="2023-04-27T11:07:01-05:00"/>
         <publisher value="Example Publisher"/>
         <contact>
           <name value="Example Publisher"/>
@@ -8374,8 +8371,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:a1a82366-97b0-4765-a573-04d80cd5ee80"/>
-          <timestamp value="2023-04-26T11:16:04-05:00"/>
+          <identifier value="urn:uuid:6411ee7e-d5a9-4d7a-8bef-138d21b11d7b"/>
+          <timestamp value="2023-04-27T11:07:36-05:00"/>
           <total value="1000"/>
           <parameter>
             <name value="excludeNested"/>
@@ -9767,12 +9764,12 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="93142004"/>
-            <display value="Leukemia in remission"/>
+            <display value="Leukaemia in remission"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="93143009"/>
-            <display value="Leukemia"/>
+            <display value="Leukaemia"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -9892,7 +9889,7 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="93451002"/>
-            <display value="Di Guglielmo's disease"/>
+            <display value="Erythroleukaemia"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -10637,7 +10634,7 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="109996008"/>
-            <display value="Refractory anemia (clinical)"/>
+            <display value="Refractory anaemia (clinical)"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -10647,7 +10644,7 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="110000005"/>
-            <display value="Refractory anemia with excess blasts in transformation (clinical)"/>
+            <display value="Refractory anaemia with excess blasts in transformation (clinical)"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -10657,12 +10654,12 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="110004001"/>
-            <display value="Acute promyelocytic leukemia, FAB M3"/>
+            <display value="Acute promyelocytic leukaemia (clinical)"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="110005000"/>
-            <display value="Acute myelomonocytic leukemia, FAB M4"/>
+            <display value="Acute myelomonocytic leukaemia (clinical)"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -10822,7 +10819,7 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="127042006"/>
-            <display value="Sickle cell beta plus thalassemia"/>
+            <display value="Sickle cell beta plus thalassaemia"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -11877,7 +11874,7 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="187716008"/>
-            <display value="Malignant tumor of Waldeyer's ring"/>
+            <display value="Malignant tumour of Waldeyer's ring"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -12127,7 +12124,7 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="188645002"/>
-            <display value="Leukemic reticuloendotheliosis of lymph nodes of head, face and neck"/>
+            <display value="Leukaemic reticuloendotheliosis of lymph nodes of head, face and neck"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -12137,7 +12134,7 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="188649008"/>
-            <display value="Leukemic reticuloendotheliosis of lymph nodes of inguinal region and lower limb"/>
+            <display value="Leukaemic reticuloendotheliosis of lymph nodes of inguinal region and lower limb"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -12147,7 +12144,7 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="188668006"/>
-            <display value="Malignant mast cell tumor of spleen"/>
+            <display value="Malignant mast cell tumour of spleen"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -12157,7 +12154,7 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="188725004"/>
-            <display value="Lymphoid leukemia"/>
+            <display value="Lymphatic leukaemia"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -12177,7 +12174,7 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="188733003"/>
-            <display value="Chronic eosinophilic leukemia"/>
+            <display value="Chronic eosinophilic leukaemia"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -12187,7 +12184,7 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="188736006"/>
-            <display value="Subacute myeloid leukemia"/>
+            <display value="Subacute myeloid leukaemia"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -12197,7 +12194,7 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="188741003"/>
-            <display value="Aleukemic myeloid leukemia"/>
+            <display value="Aleukaemic myeloid leukaemia"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -12212,12 +12209,12 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="188746008"/>
-            <display value="Subacute monocytic leukemia"/>
+            <display value="Subacute monocytic leukaemia"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="188748009"/>
-            <display value="Aleukemic monocytic leukemia"/>
+            <display value="Aleukaemic monocytic leukaemia"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -12227,22 +12224,22 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="188768003"/>
-            <display value="Myelomonocytic leukemia"/>
+            <display value="Myelomonocytic leukaemia"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="188770007"/>
-            <display value="Subacute myelomonocytic leukemia"/>
+            <display value="Subacute myelomonocytic leukaemia"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="190030009"/>
-            <display value="Compound leukemias"/>
+            <display value="Compound leukaemias"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="190959006"/>
-            <display value="Infection-associated hemophagocytic syndrome"/>
+            <display value="Infection-associated haemophagocytic syndrome"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -12267,7 +12264,7 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="191248000"/>
-            <display value="Aplastic anemia due to toxic cause"/>
+            <display value="Aplastic anaemia due to toxic cause"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -12282,12 +12279,12 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="191256002"/>
-            <display value="Idiopathic aplastic anemia"/>
+            <display value="Idiopathic aplastic anaemia"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="191373003"/>
-            <display value="Polycythemia due to cyanotic respiratory disease"/>
+            <display value="Polycythaemia due to cyanotic respiratory disease"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -12682,7 +12679,7 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="232371001"/>
-            <display value="Hemorrhage from adenoid bed"/>
+            <display value="Haemorrhage from adenoid bed"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -12787,7 +12784,7 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="234437005"/>
-            <display value="Hemophagocytic lymphohistiocytosis"/>
+            <display value="Haemophagocytic lymphohistiocytosis"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -12817,7 +12814,7 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="234507003"/>
-            <display value="Subcapsular hematoma of spleen"/>
+            <display value="Subcapsular haematoma of spleen"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -12857,7 +12854,7 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="237656000"/>
-            <display value="Acute splenic tumor"/>
+            <display value="Acute splenic tumour"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -12912,7 +12909,7 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="240444009"/>
-            <display value="Fusobacterial necrotizing tonsillitis"/>
+            <display value="Fusobacterial necrotising tonsillitis"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -12962,7 +12959,7 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="262779007"/>
-            <display value="Hematoma of thymus"/>
+            <display value="Haematoma of thymus"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -12972,7 +12969,7 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="262818004"/>
-            <display value="Splenic hematoma"/>
+            <display value="Splenic haematoma"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -13067,12 +13064,12 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="274741002"/>
-            <display value="Generalized lymph node enlargement"/>
+            <display value="Generalised enlarged lymph nodes"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="274744005"/>
-            <display value="Localized enlarged lymph nodes"/>
+            <display value="Localised enlarged lymph nodes"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -13082,7 +13079,7 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="275392002"/>
-            <display value="Fungating tumor of lymph node"/>
+            <display value="Fungating tumour of lymph node"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -13102,7 +13099,7 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="277474005"/>
-            <display value="B-cell chronic lymphocytic leukemia variant"/>
+            <display value="B-cell chronic lymphocytic leukaemia variant"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -13127,7 +13124,7 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="277568007"/>
-            <display value="Hairy cell leukemia variant"/>
+            <display value="Hairy cell leukaemia variant"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -13157,7 +13154,7 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="277574007"/>
-            <display value="Null cell acute lymphoblastic leukemia"/>
+            <display value="Null cell acute lymphoblastic leukaemia"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -13167,12 +13164,12 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="277587001"/>
-            <display value="JCML - Juvenile chronic myeloid leukemia"/>
+            <display value="JCML - Juvenile chronic myeloid leukaemia"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="277589003"/>
-            <display value="Atypical chronic myeloid leukemia"/>
+            <display value="Atypical chronic myeloid leukaemia"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -13182,12 +13179,12 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="277601005"/>
-            <display value="Acute monocytoid leukemia"/>
+            <display value="Acute monocytoid leukaemia"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="277602003"/>
-            <display value="Acute megakaryoblastic leukemia"/>
+            <display value="Acute megakaryoblastic leukaemia"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -13197,17 +13194,17 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="277619001"/>
-            <display value="B-cell prolymphocytic leukemia"/>
+            <display value="B-cell prolymphocytic leukaemia"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="278189009"/>
-            <display value="Hypergranular promyelocytic leukemia"/>
+            <display value="Hypergranular promyelocytic leukaemia"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="278453007"/>
-            <display value="Acute biphenotypic leukemia"/>
+            <display value="Acute biphenotypic leukaemia"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -13237,12 +13234,12 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="285769009"/>
-            <display value="Acute promyelocytic leukemia - hypogranular variant"/>
+            <display value="Acute promyelocytic leukaemia - hypogranular variant"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="285839005"/>
-            <display value="M4Eo - Acute myelomonocytic leukemia - eosinophilic variant"/>
+            <display value="M4Eo - Acute myelomonocytic leukaemia - eosinophilic variant"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -13352,7 +13349,7 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="306058006"/>
-            <display value="Aplastic anemia"/>
+            <display value="Aplastic anaemia"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -13394,10 +13391,9 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://example.org/ig/example/ValueSet/presence-lnc-valueset"/>
+    <fullUrl value="http://example.org/ig/exampleig/ValueSet/presence-lnc-valueset"/>
     <resource>
       <ValueSet>
-        <id value="presence-lnc-valueset"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -13434,13 +13430,13 @@
             </table>
           </div>
         </text>
-        <url value="http://example.org/ig/example/ValueSet/presence-lnc-valueset"/>
+        <url value="http://example.org/ig/exampleig/ValueSet/presence-lnc-valueset"/>
         <version value="0.1.0"/>
         <name value="PresenceLNCValueSet"/>
         <title value="Presence Answer List - LOINC"/>
         <status value="active"/>
         <experimental value="true"/>
-        <date value="2023-04-26T11:15:05-05:00"/>
+        <date value="2023-04-27T11:07:01-05:00"/>
         <publisher value="Example Publisher"/>
         <contact>
           <name value="Example Publisher"/>
@@ -13451,8 +13447,8 @@
         </contact>
         <description value="Permissible values for presence - LOINC"/>
         <expansion>
-          <identifier value="urn:uuid:f7109c6f-50e6-408f-9619-21632e977013"/>
-          <timestamp value="2023-04-26T11:16:06-05:00"/>
+          <identifier value="urn:uuid:75118a89-f9b8-4bbe-8baa-c79e392cda75"/>
+          <timestamp value="2023-04-27T11:07:38-05:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -13481,10 +13477,9 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://example.org/ig/example/ValueSet/gvhd-icd10-codes"/>
+    <fullUrl value="http://example.org/ig/exampleig/ValueSet/gvhd-icd10-codes"/>
     <resource>
       <ValueSet>
-        <id value="gvhd-icd10-codes"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -13492,6 +13487,9 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on http://hl7.org/fhir/sid/icd-10-cm version 2021</p>
             <table class="codes">
               <tr>
+                <td>
+                  <b>Level</b>
+                </td>
                 <td style="white-space:nowrap">
                   <b>Code</b>
                 </td>
@@ -13503,50 +13501,55 @@
                 </td>
               </tr>
               <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---hl7.org-fhir-sid-icd-10-cm-D89.81"> </a>  D89.81
+                <td>
+                  <a name="http---hl7.org-fhir-sid-icd-10-cm-D89.81"> </a>1
                 </td>
+                <td style="white-space:nowrap">  D89.81</td>
                 <td>http://hl7.org/fhir/sid/icd-10-cm</td>
                 <td>Graft-versus-host disease</td>
               </tr>
               <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---hl7.org-fhir-sid-icd-10-cm-D89.810"> </a>  D89.810
+                <td>
+                  <a name="http---hl7.org-fhir-sid-icd-10-cm-D89.810"> </a>2
                 </td>
+                <td style="white-space:nowrap">    D89.810</td>
                 <td>http://hl7.org/fhir/sid/icd-10-cm</td>
                 <td>Acute graft-versus-host disease</td>
               </tr>
               <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---hl7.org-fhir-sid-icd-10-cm-D89.811"> </a>  D89.811
+                <td>
+                  <a name="http---hl7.org-fhir-sid-icd-10-cm-D89.811"> </a>2
                 </td>
+                <td style="white-space:nowrap">    D89.811</td>
                 <td>http://hl7.org/fhir/sid/icd-10-cm</td>
                 <td>Chronic graft-versus-host disease</td>
               </tr>
               <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---hl7.org-fhir-sid-icd-10-cm-D89.812"> </a>  D89.812
+                <td>
+                  <a name="http---hl7.org-fhir-sid-icd-10-cm-D89.812"> </a>2
                 </td>
+                <td style="white-space:nowrap">    D89.812</td>
                 <td>http://hl7.org/fhir/sid/icd-10-cm</td>
                 <td>Acute on chronic graft-versus-host disease</td>
               </tr>
               <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---hl7.org-fhir-sid-icd-10-cm-D89.813"> </a>  D89.813
+                <td>
+                  <a name="http---hl7.org-fhir-sid-icd-10-cm-D89.813"> </a>2
                 </td>
+                <td style="white-space:nowrap">    D89.813</td>
                 <td>http://hl7.org/fhir/sid/icd-10-cm</td>
                 <td>Graft-versus-host disease, unspecified</td>
               </tr>
             </table>
           </div>
         </text>
-        <url value="http://example.org/ig/example/ValueSet/gvhd-icd10-codes"/>
+        <url value="http://example.org/ig/exampleig/ValueSet/gvhd-icd10-codes"/>
         <version value="0.1.0"/>
         <name value="GVHDICD10VS"/>
         <title value="GVHD ICD-10 Codes"/>
         <status value="active"/>
         <experimental value="true"/>
-        <date value="2023-04-26T11:15:05-05:00"/>
+        <date value="2023-04-27T11:07:01-05:00"/>
         <publisher value="Example Publisher"/>
         <contact>
           <name value="Example Publisher"/>
@@ -13557,8 +13560,8 @@
         </contact>
         <description value="GVHD ICD-10 Codes"/>
         <expansion>
-          <identifier value="urn:uuid:efeb16b1-d8a2-4808-9e09-ec5a1ed36259"/>
-          <timestamp value="2023-04-26T11:16:06-05:00"/>
+          <identifier value="urn:uuid:e928fc9d-5aa9-48c1-8769-81daf3347554"/>
+          <timestamp value="2023-04-27T11:07:38-05:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -13576,36 +13579,35 @@
             <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
             <code value="D89.81"/>
             <display value="Graft-versus-host disease"/>
-          </contains>
-          <contains>
-            <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
-            <code value="D89.810"/>
-            <display value="Acute graft-versus-host disease"/>
-          </contains>
-          <contains>
-            <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
-            <code value="D89.811"/>
-            <display value="Chronic graft-versus-host disease"/>
-          </contains>
-          <contains>
-            <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
-            <code value="D89.812"/>
-            <display value="Acute on chronic graft-versus-host disease"/>
-          </contains>
-          <contains>
-            <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
-            <code value="D89.813"/>
-            <display value="Graft-versus-host disease, unspecified"/>
+            <contains>
+              <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
+              <code value="D89.810"/>
+              <display value="Acute graft-versus-host disease"/>
+            </contains>
+            <contains>
+              <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
+              <code value="D89.811"/>
+              <display value="Chronic graft-versus-host disease"/>
+            </contains>
+            <contains>
+              <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
+              <code value="D89.812"/>
+              <display value="Acute on chronic graft-versus-host disease"/>
+            </contains>
+            <contains>
+              <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
+              <code value="D89.813"/>
+              <display value="Graft-versus-host disease, unspecified"/>
+            </contains>
           </contains>
         </expansion>
       </ValueSet>
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://example.org/ig/example/ValueSet/gvhd-all-valueset"/>
+    <fullUrl value="http://example.org/ig/exampleig/ValueSet/gvhd-all-valueset"/>
     <resource>
       <ValueSet>
-        <id value="gvhd-all-valueset"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -13615,10 +13617,10 @@
               <ul>
                 <li>http://hl7.org/fhir/sid/icd-10-cm version 2021</li>
                 <li>
-                  <a href="ValueSet-gvhd-icd10-codes.html">GVHD ICD-10 Codes v0.1.0 (ValueSet)</a>
+                  <a href="ValueSet-gvhd-sct-codes.html">GVHD SNOMED CT Codes v0.1.0 (ValueSet)</a>
                 </li>
                 <li>
-                  <a href="ValueSet-gvhd-sct-codes.html">GVHD SNOMED CT Codes v0.1.0 (ValueSet)</a>
+                  <a href="ValueSet-gvhd-icd10-codes.html">GVHD ICD-10 Codes v0.1.0 (ValueSet)</a>
                 </li>
                 <li>SNOMED CT International edition 31-Jan 2023</li>
               </ul>
@@ -13777,13 +13779,13 @@
             </table>
           </div>
         </text>
-        <url value="http://example.org/ig/example/ValueSet/gvhd-all-valueset"/>
+        <url value="http://example.org/ig/exampleig/ValueSet/gvhd-all-valueset"/>
         <version value="0.1.0"/>
         <name value="GVHDTypeValueSet"/>
         <title value="GVHD Type Value Set"/>
         <status value="active"/>
         <experimental value="true"/>
-        <date value="2023-04-26T11:15:05-05:00"/>
+        <date value="2023-04-27T11:07:01-05:00"/>
         <publisher value="Example Publisher"/>
         <contact>
           <name value="Example Publisher"/>
@@ -13794,8 +13796,8 @@
         </contact>
         <description value="Permissible values for types of Graft vs Host Disease, from SNOMED CT and ICD-10"/>
         <expansion>
-          <identifier value="urn:uuid:65800ad2-4af9-458c-b7a3-d3d54b86a14f"/>
-          <timestamp value="2023-04-26T11:16:07-05:00"/>
+          <identifier value="urn:uuid:db8fd4c5-ada7-4b07-a55e-ad0a47c73a13"/>
+          <timestamp value="2023-04-27T11:07:38-05:00"/>
           <total value="18"/>
           <parameter>
             <name value="excludeNested"/>
@@ -13803,7 +13805,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://example.org/ig/example/ValueSet/gvhd-sct-codes|0.1.0"/>
+            <valueUri value="http://example.org/ig/exampleig/ValueSet/gvhd-sct-codes|0.1.0"/>
           </parameter>
           <parameter>
             <name value="limitedExpansion"/>
@@ -13815,7 +13817,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://example.org/ig/example/ValueSet/gvhd-icd10-codes|0.1.0"/>
+            <valueUri value="http://example.org/ig/exampleig/ValueSet/gvhd-icd10-codes|0.1.0"/>
           </parameter>
           <parameter>
             <name value="version"/>
@@ -13916,10 +13918,9 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://example.org/ig/example/ValueSet/presence-valueset"/>
+    <fullUrl value="http://example.org/ig/exampleig/ValueSet/presence-valueset"/>
     <resource>
       <ValueSet>
-        <id value="presence-valueset"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -13984,13 +13985,13 @@
             </table>
           </div>
         </text>
-        <url value="http://example.org/ig/example/ValueSet/presence-valueset"/>
+        <url value="http://example.org/ig/exampleig/ValueSet/presence-valueset"/>
         <version value="0.1.0"/>
         <name value="PresenceValueSet"/>
         <title value="Presence Answer List - Snomed and LOINC"/>
         <status value="active"/>
         <experimental value="true"/>
-        <date value="2023-04-26T11:15:05-05:00"/>
+        <date value="2023-04-27T11:07:01-05:00"/>
         <publisher value="Example Publisher"/>
         <contact>
           <name value="Example Publisher"/>
@@ -14001,8 +14002,8 @@
         </contact>
         <description value="Permissible values for presence, from Snomed CT and LOINC"/>
         <expansion>
-          <identifier value="urn:uuid:981aac79-e253-47d2-ae73-f289c5e555cf"/>
-          <timestamp value="2023-04-26T11:16:07-05:00"/>
+          <identifier value="urn:uuid:06a8a6db-8c84-4482-8494-86282da4b03e"/>
+          <timestamp value="2023-04-27T11:07:38-05:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -14010,7 +14011,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://example.org/ig/example/ValueSet/presence-sct-valueset|0.1.0"/>
+            <valueUri value="http://example.org/ig/exampleig/ValueSet/presence-sct-valueset|0.1.0"/>
           </parameter>
           <parameter>
             <name value="limitedExpansion"/>
@@ -14022,7 +14023,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://example.org/ig/example/ValueSet/presence-lnc-valueset|0.1.0"/>
+            <valueUri value="http://example.org/ig/exampleig/ValueSet/presence-lnc-valueset|0.1.0"/>
           </parameter>
           <parameter>
             <name value="version"/>
@@ -14053,10 +14054,9 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://example.org/ig/example/ValueSet/cmv-presence-vs"/>
+    <fullUrl value="http://example.org/ig/exampleig/ValueSet/cmv-presence-vs"/>
     <resource>
       <ValueSet>
-        <id value="cmv-presence-vs"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -14237,13 +14237,13 @@
             </table>
           </div>
         </text>
-        <url value="http://example.org/ig/example/ValueSet/cmv-presence-vs"/>
+        <url value="http://example.org/ig/exampleig/ValueSet/cmv-presence-vs"/>
         <version value="0.1.0"/>
         <name value="CMVPresenceValueSet"/>
         <title value="CMV Presence ValueSet"/>
         <status value="active"/>
         <experimental value="true"/>
-        <date value="2023-04-26T11:15:05-05:00"/>
+        <date value="2023-04-27T11:07:01-05:00"/>
         <publisher value="Example Publisher"/>
         <contact>
           <name value="Example Publisher"/>
@@ -14254,8 +14254,8 @@
         </contact>
         <description value="Cytomegalovirus [Presence] ValueSet."/>
         <expansion>
-          <identifier value="urn:uuid:5822cc40-b0b9-40a2-a9e8-fba08801335e"/>
-          <timestamp value="2023-04-26T11:16:08-05:00"/>
+          <identifier value="urn:uuid:7e2df69a-a1b1-46f3-8ab1-0476203af0d8"/>
+          <timestamp value="2023-04-27T11:07:39-05:00"/>
           <total value="20"/>
           <parameter>
             <name value="excludeNested"/>
@@ -14374,10 +14374,9 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://example.org/ig/example/ValueSet/cmv-vs"/>
+    <fullUrl value="http://example.org/ig/exampleig/ValueSet/cmv-vs"/>
     <resource>
       <ValueSet>
-        <id value="cmv-vs"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -14846,13 +14845,13 @@
             </table>
           </div>
         </text>
-        <url value="http://example.org/ig/example/ValueSet/cmv-vs"/>
+        <url value="http://example.org/ig/exampleig/ValueSet/cmv-vs"/>
         <version value="0.1.0"/>
         <name value="CMVValueSet"/>
         <title value="CMV ValueSet"/>
         <status value="active"/>
         <experimental value="true"/>
-        <date value="2023-04-26T11:15:05-05:00"/>
+        <date value="2023-04-27T11:07:01-05:00"/>
         <publisher value="Example Publisher"/>
         <contact>
           <name value="Example Publisher"/>
@@ -14863,8 +14862,8 @@
         </contact>
         <description value="Cytomegalovirus ValueSet"/>
         <expansion>
-          <identifier value="urn:uuid:c340edd2-dea4-4905-9a59-d59d653fcd6f"/>
-          <timestamp value="2023-04-26T11:16:15-05:00"/>
+          <identifier value="urn:uuid:46030f68-4e99-45ee-a8c8-f6a2486c8f09"/>
+          <timestamp value="2023-04-27T11:07:45-05:00"/>
           <total value="56"/>
           <parameter>
             <name value="excludeNested"/>

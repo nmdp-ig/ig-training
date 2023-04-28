@@ -1,0 +1,14 @@
+{
+    "package-id" : "example.fhir.exampleig",
+    "title" : "Example IG", 
+    "category" : "something",
+    "introduction" : "Just a demo",
+    "version" : "0.1.0",
+    "desc" : "First IG",
+    "mode" : "milestone",    
+    "path" : "http://example.org/ig/exampleig/0.1.0",
+    "ci-build": "https://nmdp-ig.github.io/ig-training",    
+    "first": true,
+    "status" : "draft",
+    "sequence" : "Releases"
+}
