@@ -7,13 +7,22 @@
       "sequence" : "ci-build"
     },
     {
+      "version" : "0.2.0",
+      "path" : "http://example.org/ig/exampleig/0.2.0",
+      "status" : "draft",
+      "sequence" : "Releases",
+      "fhirversion" : "4.0.1",
+      "date" : "2023-05-02",
+      "current" : true,
+      "desc" : "First IG"
+    },
+    {
       "version" : "0.1.0",
       "path" : "http://example.org/ig/exampleig/0.1.0",
       "status" : "draft",
       "sequence" : "Releases",
       "fhirversion" : "4.0.1",
       "date" : "2023-05-02",
-      "current" : true,
       "desc" : "First IG"
     }
   ],

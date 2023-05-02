@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="glstring-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://www.glstring.org</code> defines codes, but no codes are represented here</p></div>
+  </text>
+  <url value="http://www.glstring.org"/>
+  <version value="0.2.0"/>
+  <name value="GLStringCS"/>
+  <title value="Genotype List String Code CodeSystem"/>
+  <status value="active"/>
+  <experimental value="true"/>
+  <date value="2023-05-02T14:56:43-05:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Genotype List String Codesystem used for HLA reporting"/>
+  <copyright value="National Marrow Donor Program"/>
+  <caseSensitive value="true"/>
+  <compositional value="true"/>
+  <content value="not-present"/>
+</CodeSystem>

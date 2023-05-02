@@ -1,10 +1,10 @@
 ﻿ExampleIG : Validation Results
 =========================================
 
-err = 1, warn = 2, info = 28
-IG Publisher Version: 1.3.5
-Generated Fri Apr 28 11:03:12 CDT 2023. FHIR version 4.0.1 for example.fhir.exampleig#0.1.0 (canonical = http://example.org/ig/exampleig)
- Build Errors : 0 / 1 / 0
+err = 0, warn = 2, info = 29
+IG Publisher Version: 1.3.7
+Generated Tue May 02 14:54:21 CDT 2023. FHIR version 4.0.1 for example.fhir.exampleig#0.2.0 (canonical = http://example.org/ig/exampleig)
+ Build Errors : 0 / 0 / 0
  /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/build/fsh-generated/resources/Bundle-BundleCollectionExample : 0 / 0 / 19
  /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/build/fsh-generated/resources/Bundle-BundleTransactionExample : 0 / 0 / 19
  /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/build/fsh-generated/resources/CodeSystem-cibmtr-cadsr-vm-cs : 0 / 0 / 1
@@ -12,7 +12,8 @@ Generated Fri Apr 28 11:03:12 CDT 2023. FHIR version 4.0.1 for example.fhir.exam
  /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/build/fsh-generated/resources/CodeSystem-hla-genename-cs : 0 / 0 / 1
  /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/build/fsh-generated/resources/CodeSystem-nmdp-practitioner-role-cs : 0 / 0 / 1
  /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/build/fsh-generated/resources/Condition-DiagnosisExample-AML : 0 / 0 / 2
- /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/build/fsh-generated/resources/ImplementationGuide-exampleig : 1 / 1 / 1
+ /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/build/fsh-generated/resources/Condition-GVHDExample : 0 / 0 / 2
+ /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/build/fsh-generated/resources/ImplementationGuide-example.fhir.exampleig : 0 / 1 / 1
  /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/build/fsh-generated/resources/Observation-CMVObservationExample : 0 / 0 / 2
  /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/build/fsh-generated/resources/Observation-CMVObservationPresenceExample : 0 / 0 / 2
  /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/build/fsh-generated/resources/Observation-ObservationExample1 : 0 / 0 / 2
@@ -27,11 +28,12 @@ Generated Fri Apr 28 11:03:12 CDT 2023. FHIR version 4.0.1 for example.fhir.exam
  /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/build/fsh-generated/resources/StructureDefinition-MyUSCorePatient : 0 / 0 / 1
  /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/build/fsh-generated/resources/StructureDefinition-cmv-observation : 0 / 0 / 1
  /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/build/fsh-generated/resources/StructureDefinition-cmv-presence-observation : 0 / 0 / 1
+ /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/build/fsh-generated/resources/StructureDefinition-gvhd-diagnosis : 0 / 0 / 1
  /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/build/fsh-generated/resources/StructureDefinition-my-bundle : 0 / 0 / 1
  /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/build/fsh-generated/resources/StructureDefinition-my-diagnosis : 0 / 0 / 1
  /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/build/fsh-generated/resources/StructureDefinition-my-observation : 0 / 0 / 1
  /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/build/fsh-generated/resources/StructureDefinition-my-patient : 0 / 0 / 1
- /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/build/fsh-generated/resources/StructureDefinition-number-of-remissions : 0 / 0 / 1
+ /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/build/fsh-generated/resources/StructureDefinition-number-of-remissions : 0 / 1 / 1
  /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/build/fsh-generated/resources/ValueSet-cmv-presence-vs : 0 / 0 / 1
  /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/build/fsh-generated/resources/ValueSet-cmv-vs : 0 / 0 / 1
  /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/build/fsh-generated/resources/ValueSet-gvhd-all-valueset : 0 / 0 / 1
@@ -43,12 +45,11 @@ Generated Fri Apr 28 11:03:12 CDT 2023. FHIR version 4.0.1 for example.fhir.exam
  /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/build/fsh-generated/resources/ValueSet-presence-valueset : 0 / 0 / 1
 </table>
 == n/a ==
-WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be example.fhir.exampleig
 == fsh-generated/resources/Bundle-BundleCollectionExample.json ==
 INFORMATION: Bundle/BundleCollectionExample: Bundle.meta.security[0]: Code System URI 'http://terminology.cibmtr.org/codesystem/transplant-center' is unknown so the code cannot be validated
 INFORMATION: Bundle/BundleCollectionExample: Bundle.entry[0].resource.meta.security[0]: Code System URI 'http://terminology.cibmtr.org/codesystem/transplant-center' is unknown so the code cannot be validated
-INFORMATION: Bundle/BundleCollectionExample: Bundle.entry[0].resource.identifier[1]: This element does not match any known slice defined in the profile http://example.org/ig/exampleig/StructureDefinition/MyCIBMTRPatient|0.1.0
-INFORMATION: Bundle/BundleCollectionExample: Bundle.entry[0].resource.identifier[2]: This element does not match any known slice defined in the profile http://example.org/ig/exampleig/StructureDefinition/MyCIBMTRPatient|0.1.0
+INFORMATION: Bundle/BundleCollectionExample: Bundle.entry[0].resource.identifier[1]: This element does not match any known slice defined in the profile http://example.org/ig/exampleig/StructureDefinition/MyCIBMTRPatient|0.2.0
+INFORMATION: Bundle/BundleCollectionExample: Bundle.entry[0].resource.identifier[2]: This element does not match any known slice defined in the profile http://example.org/ig/exampleig/StructureDefinition/MyCIBMTRPatient|0.2.0
 INFORMATION: Bundle/BundleCollectionExample: Bundle.entry[0].resource/*Patient/864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa*/.meta.security[0]: Code System URI 'http://terminology.cibmtr.org/codesystem/transplant-center' is unknown so the code cannot be validated
 INFORMATION: Bundle/BundleCollectionExample: Bundle.entry[1].resource.meta.security[0]: Code System URI 'http://terminology.cibmtr.org/codesystem/transplant-center' is unknown so the code cannot be validated
 INFORMATION: Bundle/BundleCollectionExample: Bundle.entry[1].resource/*Condition/281f5214-a344-4070-a231-61a2686c4fc1*/.meta.security[0]: Code System URI 'http://terminology.cibmtr.org/codesystem/transplant-center' is unknown so the code cannot be validated
@@ -57,8 +58,8 @@ INFORMATION: Bundle/BundleCollectionExample: Bundle.entry[2].resource/*Observati
 == fsh-generated/resources/Bundle-BundleTransactionExample.json ==
 INFORMATION: Bundle/BundleTransactionExample: Bundle.meta.security[0]: Code System URI 'http://terminology.cibmtr.org/codesystem/transplant-center' is unknown so the code cannot be validated
 INFORMATION: Bundle/BundleTransactionExample: Bundle.entry[0].resource.meta.security[0]: Code System URI 'http://terminology.cibmtr.org/codesystem/transplant-center' is unknown so the code cannot be validated
-INFORMATION: Bundle/BundleTransactionExample: Bundle.entry[0].resource.identifier[1]: This element does not match any known slice defined in the profile http://example.org/ig/exampleig/StructureDefinition/MyCIBMTRPatient|0.1.0
-INFORMATION: Bundle/BundleTransactionExample: Bundle.entry[0].resource.identifier[2]: This element does not match any known slice defined in the profile http://example.org/ig/exampleig/StructureDefinition/MyCIBMTRPatient|0.1.0
+INFORMATION: Bundle/BundleTransactionExample: Bundle.entry[0].resource.identifier[1]: This element does not match any known slice defined in the profile http://example.org/ig/exampleig/StructureDefinition/MyCIBMTRPatient|0.2.0
+INFORMATION: Bundle/BundleTransactionExample: Bundle.entry[0].resource.identifier[2]: This element does not match any known slice defined in the profile http://example.org/ig/exampleig/StructureDefinition/MyCIBMTRPatient|0.2.0
 INFORMATION: Bundle/BundleTransactionExample: Bundle.entry[0].resource/*Patient/864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa*/.meta.security[0]: Code System URI 'http://terminology.cibmtr.org/codesystem/transplant-center' is unknown so the code cannot be validated
 INFORMATION: Bundle/BundleTransactionExample: Bundle.entry[1].resource.meta.security[0]: Code System URI 'http://terminology.cibmtr.org/codesystem/transplant-center' is unknown so the code cannot be validated
 INFORMATION: Bundle/BundleTransactionExample: Bundle.entry[1].resource/*Condition/281f5214-a344-4070-a231-61a2686c4fc1*/.meta.security[0]: Code System URI 'http://terminology.cibmtr.org/codesystem/transplant-center' is unknown so the code cannot be validated
@@ -70,9 +71,10 @@ INFORMATION: Bundle/BundleTransactionExample: Bundle.entry[2].resource/*Observat
 == fsh-generated/resources/CodeSystem-nmdp-practitioner-role-cs.json ==
 == fsh-generated/resources/Condition-DiagnosisExample-AML.json ==
 INFORMATION: Condition/DiagnosisExample-AML: Condition.meta.security[0]: Code System URI 'http://terminology.cibmtr.org/codesystem/transplant-center' is unknown so the code cannot be validated
-== fsh-generated/resources/ImplementationGuide-exampleig.json ==
-WARNING: /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/build/fsh-generated/resources/ImplementationGuide-exampleig: Unknown Parameters: [releaselabel, fmm-definition, excludelogbinaryformat]
-ERROR: ImplementationGuide/exampleig: ImplementationGuide: The extension http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency is not allowed to be used at this point (allowed = e:ImplementationGuide.definition; this element is [ImplementationGuide])
+== fsh-generated/resources/Condition-GVHDExample.json ==
+INFORMATION: Condition/GVHDExample: Condition.meta.security[0]: Code System URI 'http://terminology.cibmtr.org/codesystem/transplant-center' is unknown so the code cannot be validated
+== fsh-generated/resources/ImplementationGuide-example.fhir.exampleig.json ==
+WARNING: /Users/bmilius/Documents/src/github-nmdp-ig/ig-training/build/fsh-generated/resources/ImplementationGuide-example.fhir.exampleig: Unknown Parameters: []
 == fsh-generated/resources/Observation-CMVObservationExample.json ==
 INFORMATION: Observation/CMVObservationExample: Observation.meta.security[0]: Code System URI 'http://terminology.cibmtr.org/codesystem/transplant-center' is unknown so the code cannot be validated
 == fsh-generated/resources/Observation-CMVObservationPresenceExample.json ==
@@ -85,8 +87,8 @@ INFORMATION: Observation/ObservationExample3: Observation.meta.security[0]: Code
 == fsh-generated/resources/Patient-MyCIBMTRPatientExample.json ==
 INFORMATION: Patient/MyCIBMTRPatientExample: Patient.meta.security[0]: Code System URI 'http://terminology.cibmtr.org/codesystem/transplant-center' is unknown so the code cannot be validated
 == fsh-generated/resources/Patient-MyTestPatientExample.json ==
-INFORMATION: Patient/MyTestPatientExample: Patient.identifier[1]: This element does not match any known slice defined in the profile http://example.org/ig/exampleig/StructureDefinition/MyTestPatient|0.1.0
-INFORMATION: Patient/MyTestPatientExample: Patient.identifier[2]: This element does not match any known slice defined in the profile http://example.org/ig/exampleig/StructureDefinition/MyTestPatient|0.1.0
+INFORMATION: Patient/MyTestPatientExample: Patient.identifier[1]: This element does not match any known slice defined in the profile http://example.org/ig/exampleig/StructureDefinition/MyTestPatient|0.2.0
+INFORMATION: Patient/MyTestPatientExample: Patient.identifier[2]: This element does not match any known slice defined in the profile http://example.org/ig/exampleig/StructureDefinition/MyTestPatient|0.2.0
 == fsh-generated/resources/Patient-MyUSCorePatientExample.json ==
 INFORMATION: Patient/MyUSCorePatientExample: Patient.meta.security[0]: Code System URI 'http://terminology.cibmtr.org/codesystem/transplant-center' is unknown so the code cannot be validated
 == fsh-generated/resources/Patient-PatientExample.json ==
@@ -96,11 +98,13 @@ INFORMATION: Patient/PatientExample: Patient.meta.security[0]: Code System URI '
 == fsh-generated/resources/StructureDefinition-MyUSCorePatient.json ==
 == fsh-generated/resources/StructureDefinition-cmv-observation.json ==
 == fsh-generated/resources/StructureDefinition-cmv-presence-observation.json ==
+== fsh-generated/resources/StructureDefinition-gvhd-diagnosis.json ==
 == fsh-generated/resources/StructureDefinition-my-bundle.json ==
 == fsh-generated/resources/StructureDefinition-my-diagnosis.json ==
 == fsh-generated/resources/StructureDefinition-my-observation.json ==
 == fsh-generated/resources/StructureDefinition-my-patient.json ==
 == fsh-generated/resources/StructureDefinition-number-of-remissions.json ==
+WARNING: StructureDefinition/number-of-remissions: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 == fsh-generated/resources/ValueSet-cmv-presence-vs.json ==
 == fsh-generated/resources/ValueSet-cmv-vs.json ==
 == fsh-generated/resources/ValueSet-gvhd-all-valueset.json ==

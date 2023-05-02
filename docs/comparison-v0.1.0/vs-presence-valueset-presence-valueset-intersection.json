@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "bbeec7d0-8bf3-4e1d-8789-b73e566e6555-72",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/bbeec7d0-8bf3-4e1d-8789-b73e566e6555-72",
+  "name" : "IntersectionPresenceValueSetAndPresenceValueSet",
+  "title" : "Intersection of Presence Answer List - Snomed and LOINC And Presence Answer List - Snomed and LOINC",
+  "status" : "active",
+  "date" : "2023-05-02T14:51:45-05:00",
+  "compose" : {
+    "include" : [{
+      "valueSet" : ["http://example.org/ig/exampleig/ValueSet/presence-sct-valueset"]
+    },
+    {
+      "valueSet" : ["http://example.org/ig/exampleig/ValueSet/presence-lnc-valueset"]
+    }]
+  },
+  "expansion" : {
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "52101004",
+      "display" : "Present"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2667000",
+      "display" : "Absent"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA9633-4",
+      "display" : "Present"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA9634-2",
+      "display" : "Absent"
+    }]
+  }
+}

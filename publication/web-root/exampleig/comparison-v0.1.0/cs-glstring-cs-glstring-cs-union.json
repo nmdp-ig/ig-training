@@ -1,0 +1,9 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "3dc3707d-2fdb-4dc0-b98f-0d8f9210d45c-5",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/3dc3707d-2fdb-4dc0-b98f-0d8f9210d45c-5",
+  "name" : "UnionGLStringCSAndGLStringCS",
+  "title" : "Union of Genotype List String Code CodeSystem And Genotype List String Code CodeSystem",
+  "status" : "active",
+  "date" : "2023-05-02T15:00:46-05:00"
+}

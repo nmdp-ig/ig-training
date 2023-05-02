@@ -1,0 +1,144 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <https://loinc.org/rdf/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/ig/exampleig/Bundle/BundleCollectionExample> a fhir:Bundle ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "BundleCollectionExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://example.org/ig/exampleig/StructureDefinition/my-bundle"^^xsd:anyURI ;
+       fhir:link <http://example.org/ig/exampleig/StructureDefinition/my-bundle>
+     ] ) ;
+     fhir:security ( [
+       fhir:system [ fhir:v "http://terminology.cibmtr.org/codesystem/transplant-center"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "rc_99999" ] ;
+       fhir:display [ fhir:v "99999 My Transplant Center" ]
+     ] )
+  ] ; # 
+  fhir:type [ fhir:v "collection"] ; # 
+  fhir:timestamp [ fhir:v "2020-11-24T23:50:50-05:00"^^xsd:dateTime] ; # 
+  fhir:entry ( [
+     fhir:fullUrl [ fhir:v "urn:uuid:864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa"^^xsd:anyURI ] ;
+     fhir:resource ( <urn:uuid:864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa> )
+  ] [
+     fhir:fullUrl [ fhir:v "urn:uuid:281f5214-a344-4070-a231-61a2686c4fc1"^^xsd:anyURI ] ;
+     fhir:resource ( <urn:uuid:281f5214-a344-4070-a231-61a2686c4fc1> )
+  ] [
+     fhir:fullUrl [ fhir:v "urn:uuid:1bd28a4b-8743-4bc6-956e-52302218c803"^^xsd:anyURI ] ;
+     fhir:resource ( <urn:uuid:1bd28a4b-8743-4bc6-956e-52302218c803> )
+  ] ) . # 
+
+<urn:uuid:864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa> a fhir:Patient ;
+  fhir:id [ fhir:v "864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://example.org/ig/exampleig/StructureDefinition/MyCIBMTRPatient"^^xsd:anyURI ;
+       fhir:link <http://example.org/ig/exampleig/StructureDefinition/MyCIBMTRPatient>
+     ] ) ;
+     fhir:security ( [
+       fhir:system [ fhir:v "http://terminology.cibmtr.org/codesystem/transplant-center"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "rc_99999" ] ;
+       fhir:display [ fhir:v "99999 My Transplant Center" ]
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Patient</b><a name=\"864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Patient &quot;864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-MyCIBMTRPatient.html\">MyCIBMTRPatient</a></p><p style=\"margin-bottom: 0px\">Security Labels: <span title=\"{http://terminology.cibmtr.org/codesystem/transplant-center http://terminology.cibmtr.org/codesystem/transplant-center}\">http://terminology.cibmtr.org/codesystem/transplant-center</span></p></div><p><b>identifier</b>: id: 123456, id: abc, id: 123</p><p><b>name</b>: James Bubba Pond </p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1987-02-20</p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://terminology.cibmtr.org/identifier/CRID"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "123456" ]
+  ] [
+     fhir:system [ fhir:v "http://example.org/mrn"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "abc" ]
+  ] [
+     fhir:system [ fhir:v "http://anotherexample.org/mrn"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "123" ]
+  ] ) ; # 
+  fhir:name ( [
+     fhir:family [ fhir:v "Pond" ] ;
+     fhir:given ( [ fhir:v "James" ] [ fhir:v "Bubba" ] )
+  ] ) ; # 
+  fhir:gender [ fhir:v "male"] ; # 
+  fhir:birthDate [ fhir:v "1987-02-20"^^xsd:date] . # 
+
+<urn:uuid:281f5214-a344-4070-a231-61a2686c4fc1> a fhir:Condition ;
+  fhir:id [ fhir:v "281f5214-a344-4070-a231-61a2686c4fc1"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://example.org/ig/exampleig/StructureDefinition/my-diagnosis"^^xsd:anyURI ;
+       fhir:link <http://example.org/ig/exampleig/StructureDefinition/my-diagnosis>
+     ] ) ;
+     fhir:security ( [
+       fhir:system [ fhir:v "http://terminology.cibmtr.org/codesystem/transplant-center"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "rc_99999" ] ;
+       fhir:display [ fhir:v "99999 My Transplant Center" ]
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"281f5214-a344-4070-a231-61a2686c4fc1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;281f5214-a344-4070-a231-61a2686c4fc1&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-my-diagnosis.html\">MyDiagnosis</a></p><p style=\"margin-bottom: 0px\">Security Labels: <span title=\"{http://terminology.cibmtr.org/codesystem/transplant-center http://terminology.cibmtr.org/codesystem/transplant-center}\">http://terminology.cibmtr.org/codesystem/transplant-center</span></p></div><p><b>Number of Remissions of Diagnosis</b>: 0</p><p><b>code</b>: Acute myeloid leukemia <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#91861009)</span></p><p><b>subject</b>: <a href=\"#Patient_864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa\">See above (urn:uuid:864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa)</a></p></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://example.org/ig/exampleig/StructureDefinition/number-of-remissions"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "0"^^xsd:integer ]
+  ] ) ; # 
+  fhir:code [
+     fhir:coding ( [
+       a sct:91861009 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "91861009" ] ;
+       fhir:display [ fhir:v "Acute myeloid leukemia" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:reference [ fhir:v "urn:uuid:864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa" ]
+  ] . # 
+
+<urn:uuid:1bd28a4b-8743-4bc6-956e-52302218c803> a fhir:Observation ;
+  fhir:id [ fhir:v "1bd28a4b-8743-4bc6-956e-52302218c803"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://example.org/ig/exampleig/StructureDefinition/cmv-presence-observation"^^xsd:anyURI ;
+       fhir:link <http://example.org/ig/exampleig/StructureDefinition/cmv-presence-observation>
+     ] ) ;
+     fhir:security ( [
+       fhir:system [ fhir:v "http://terminology.cibmtr.org/codesystem/transplant-center"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "rc_99999" ] ;
+       fhir:display [ fhir:v "99999 My Transplant Center" ]
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"1bd28a4b-8743-4bc6-956e-52302218c803\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;1bd28a4b-8743-4bc6-956e-52302218c803&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-cmv-presence-observation.html\">CMVPresenceObservation</a></p><p style=\"margin-bottom: 0px\">Security Labels: <span title=\"{http://terminology.cibmtr.org/codesystem/transplant-center http://terminology.cibmtr.org/codesystem/transplant-center}\">http://terminology.cibmtr.org/codesystem/transplant-center</span></p></div><p><b>status</b>: final</p><p><b>code</b>: Cytomegalovirus Ag [Presence] in Blood <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#16718-9)</span></p><p><b>subject</b>: <a href=\"#Patient_864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa\">See above (urn:uuid:864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa)</a></p><p><b>value</b>: Present <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#52101004)</span></p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       a loinc:16718-9 ;
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "16718-9" ] ;
+       fhir:display [ fhir:v "Cytomegalovirus Ag [Presence] in Blood" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:reference [ fhir:v "urn:uuid:864ac823-bdac-4b1b-9ce5-f6fbeebdf0fa" ]
+  ] ; # 
+  fhir:value [
+     a fhir:CodeableConcept ;
+     fhir:coding ( [
+       a sct:52101004 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "52101004" ] ;
+       fhir:display [ fhir:v "Present" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

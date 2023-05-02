@@ -1,0 +1,34 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "3dc3707d-2fdb-4dc0-b98f-0d8f9210d45c-3",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/3dc3707d-2fdb-4dc0-b98f-0d8f9210d45c-3",
+  "name" : "IntersectionGVHD_CADSR_VM_CSAndGVHD_CADSR_VM_CS",
+  "title" : "Intersection of NIH Common Data Element Value Meanings for GVHD And NIH Common Data Element Value Meanings for GVHD",
+  "status" : "active",
+  "date" : "2023-05-02T15:00:46-05:00",
+  "concept" : [{
+    "code" : "4722619",
+    "display" : "Acute GVHD",
+    "definition" : "Acute Graft Vs Host Disease"
+  },
+  {
+    "code" : "2991794",
+    "display" : "Classic cGVHD",
+    "definition" : "Classic chronic Graft Vs Host Disease"
+  },
+  {
+    "code" : "2991795",
+    "display" : "Overlap cGVHD",
+    "definition" : "Overlap chronic Graft Vs Host Disease"
+  },
+  {
+    "code" : "2991796",
+    "display" : "Late Acute GVHD",
+    "definition" : "Late Acute Graft Vs Host Disease"
+  },
+  {
+    "code" : "3261243",
+    "display" : "Not Applicable",
+    "definition" : "Not Applicable"
+  }]
+}

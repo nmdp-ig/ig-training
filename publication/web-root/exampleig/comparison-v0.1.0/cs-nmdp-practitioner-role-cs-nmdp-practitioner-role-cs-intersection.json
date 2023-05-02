@@ -1,0 +1,21 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "3dc3707d-2fdb-4dc0-b98f-0d8f9210d45c-12",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/3dc3707d-2fdb-4dc0-b98f-0d8f9210d45c-12",
+  "name" : "IntersectionNMDPPractitionerRoleCSAndNMDPPractitionerRoleCS",
+  "title" : "Intersection of NMDP Practitioner Roles And NMDP Practitioner Roles",
+  "status" : "active",
+  "date" : "2023-05-02T15:00:46-05:00",
+  "concept" : [{
+    "code" : "referringphysician",
+    "display" : "Referring Physician"
+  },
+  {
+    "code" : "tcphysician",
+    "display" : "Transplant Center Physician"
+  },
+  {
+    "code" : "searchcoordinator",
+    "display" : "Search Coordinator"
+  }]
+}

@@ -13,10 +13,10 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>http://example.org/ig/exampleig/ImplementationGuide/example.fhir.exampleig</pre></div>"
   ] ; # 
   fhir:url [ fhir:v "http://example.org/ig/exampleig/ImplementationGuide/example.fhir.exampleig"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
   fhir:name [ fhir:v "ExampleIG"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-05-02T11:11:03-05:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-05-02T15:00:31-05:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Example Publisher"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Example Publisher" ] ;
@@ -588,6 +588,18 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://example.org/ig/exampleig/StructureDefinition/gvhd-diagnosis> ;
+         fhir:reference [ fhir:v "StructureDefinition/gvhd-diagnosis" ]
+       ] ;
+       fhir:name [ fhir:v "GVHDDiagnosis" ] ;
+       fhir:description [ fhir:v "GVHD Diagnosis" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://example.org/ig/exampleig/StructureDefinition/my-bundle> ;
          fhir:reference [ fhir:v "StructureDefinition/my-bundle" ]
        ] ;
@@ -908,6 +920,21 @@
        fhir:example [
          fhir:v "http://example.org/ig/exampleig/StructureDefinition/my-diagnosis"^^xsd:anyURI ;
          fhir:link <http://example.org/ig/exampleig/StructureDefinition/my-diagnosis>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Condition" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://example.org/ig/exampleig/Condition/GVHDExample> ;
+         fhir:reference [ fhir:v "Condition/GVHDExample" ]
+       ] ;
+       fhir:name [ fhir:v "GVHDExample" ] ;
+       fhir:description [ fhir:v "Example of a GVHD Diagnois" ] ;
+       fhir:example [
+         fhir:v "http://example.org/ig/exampleig/StructureDefinition/gvhd-diagnosis"^^xsd:anyURI ;
+         fhir:link <http://example.org/ig/exampleig/StructureDefinition/gvhd-diagnosis>
        ]
      ] [
        fhir:extension ( [

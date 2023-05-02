@@ -1,0 +1,21 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "45ea0b24-7a37-4041-967f-15caffe018bf-11",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/45ea0b24-7a37-4041-967f-15caffe018bf-11",
+  "name" : "UnionNMDPPractitionerRoleCSAndNMDPPractitionerRoleCS",
+  "title" : "Union of NMDP Practitioner Roles And NMDP Practitioner Roles",
+  "status" : "active",
+  "date" : "2023-05-02T14:57:00-05:00",
+  "concept" : [{
+    "code" : "referringphysician",
+    "display" : "Referring Physician"
+  },
+  {
+    "code" : "tcphysician",
+    "display" : "Transplant Center Physician"
+  },
+  {
+    "code" : "searchcoordinator",
+    "display" : "Search Coordinator"
+  }]
+}

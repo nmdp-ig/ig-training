@@ -6,12 +6,12 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include codes from <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-icd10CM.html\"><code>http://hl7.org/fhir/sid/icd-10-cm</code></a> where concept  is-a  D89.81 (Graft-versus-host disease)</li></ul></div>"
   },
   "url" : "http://example.org/ig/exampleig/ValueSet/gvhd-icd10-codes",
-  "version" : "0.1.0",
+  "version" : "0.2.0",
   "name" : "GVHDICD10VS",
   "title" : "GVHD ICD-10 Codes",
   "status" : "active",
   "experimental" : true,
-  "date" : "2023-05-02T11:11:03-05:00",
+  "date" : "2023-05-02T15:00:31-05:00",
   "publisher" : "Example Publisher",
   "contact" : [{
     "name" : "Example Publisher",

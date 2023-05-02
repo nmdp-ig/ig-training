@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="MyTestPatientExample"/>
+  <meta>
+    <profile value="http://example.org/ig/exampleig/StructureDefinition/MyTestPatient"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;"><b>Anonymous Patient</b> (no stated gender), DoB Unknown ( id: 123456)</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Other Ids (see the one above)">Other Ids:</td><td colspan="3"><ul><li>id: abc</li><li>id: 123</li></ul></td></tr></table></div>
+  </text>
+  <identifier>
+    <system value="http://myexample.org/identifier/myid"/>
+    <value value="123456"/>
+  </identifier>
+  <identifier>
+    <system value="http://example.org/mrn"/>
+    <value value="abc"/>
+  </identifier>
+  <identifier>
+    <system value="http://anotherexample.org/mrn"/>
+    <value value="123"/>
+  </identifier>
+</Patient>

@@ -6,10 +6,10 @@
     <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>http://example.org/ig/exampleig/ImplementationGuide/example.fhir.exampleig</pre></div>
   </text>
   <url value="http://example.org/ig/exampleig/ImplementationGuide/example.fhir.exampleig"/>
-  <version value="0.1.0"/>
+  <version value="0.2.0"/>
   <name value="ExampleIG"/>
   <status value="draft"/>
-  <date value="2023-05-02T11:11:03-05:00"/>
+  <date value="2023-05-02T15:00:31-05:00"/>
   <publisher value="Example Publisher"/>
   <contact>
     <name value="Example Publisher"/>
@@ -513,6 +513,17 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/gvhd-diagnosis"/>
+      </reference>
+      <name value="GVHDDiagnosis"/>
+      <description value="GVHD Diagnosis"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/my-bundle"/>
       </reference>
       <name value="My Bundle"/>
@@ -793,6 +804,17 @@
       <name value="DiagnosisExample-AML"/>
       <description value="Example of a Diagnois: AML"/>
       <exampleCanonical value="http://example.org/ig/exampleig/StructureDefinition/my-diagnosis"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/GVHDExample"/>
+      </reference>
+      <name value="GVHDExample"/>
+      <description value="Example of a GVHD Diagnois"/>
+      <exampleCanonical value="http://example.org/ig/exampleig/StructureDefinition/gvhd-diagnosis"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

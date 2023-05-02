@@ -6,12 +6,12 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://terminology.nmdp.org/codesystem/practitionerrole</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">referringphysician<a name="nmdp-practitioner-role-cs-referringphysician"> </a></td><td>Referring Physician</td></tr><tr><td style="white-space:nowrap">tcphysician<a name="nmdp-practitioner-role-cs-tcphysician"> </a></td><td>Transplant Center Physician</td></tr><tr><td style="white-space:nowrap">searchcoordinator<a name="nmdp-practitioner-role-cs-searchcoordinator"> </a></td><td>Search Coordinator</td></tr></table></div>
   </text>
   <url value="http://terminology.nmdp.org/codesystem/practitionerrole"/>
-  <version value="0.1.0"/>
+  <version value="0.2.0"/>
   <name value="NMDPPractitionerRoleCS"/>
   <title value="NMDP Practitioner Roles"/>
   <status value="active"/>
   <experimental value="true"/>
-  <date value="2023-05-02T11:11:03-05:00"/>
+  <date value="2023-05-02T15:00:31-05:00"/>
   <publisher value="Example Publisher"/>
   <contact>
     <name value="Example Publisher"/>

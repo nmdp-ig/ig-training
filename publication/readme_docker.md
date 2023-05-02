@@ -23,7 +23,7 @@ fd767ed9d25c   exampleig:latest   "docker-php-entrypoi…"   3 hours ago   Up 3 
 $ docker stop agitated_torvalds
 ```
 
-Now build and run the new gitdocker image.
+Now build and run the new docker image.
 ```
 $ docker build -t exampleig:latest .
 $ docker run -d -p 80:80 exampleig:latest

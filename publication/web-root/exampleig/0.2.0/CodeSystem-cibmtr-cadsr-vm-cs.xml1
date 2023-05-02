@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cibmtr-cadsr-vm-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://cdebrowser.nci.nih.gov</code> provides a fragment that includes following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">4722619<a name="cibmtr-cadsr-vm-cs-4722619"> </a></td><td>Acute GVHD</td><td>Acute Graft Vs Host Disease</td></tr><tr><td style="white-space:nowrap">2991794<a name="cibmtr-cadsr-vm-cs-2991794"> </a></td><td>Classic cGVHD</td><td>Classic chronic Graft Vs Host Disease</td></tr><tr><td style="white-space:nowrap">2991795<a name="cibmtr-cadsr-vm-cs-2991795"> </a></td><td>Overlap cGVHD</td><td>Overlap chronic Graft Vs Host Disease</td></tr><tr><td style="white-space:nowrap">2991796<a name="cibmtr-cadsr-vm-cs-2991796"> </a></td><td>Late Acute GVHD</td><td>Late Acute Graft Vs Host Disease</td></tr><tr><td style="white-space:nowrap">3261243<a name="cibmtr-cadsr-vm-cs-3261243"> </a></td><td>Not Applicable</td><td>Not Applicable</td></tr></table></div>
+  </text>
+  <url value="http://cdebrowser.nci.nih.gov"/>
+  <version value="0.2.0"/>
+  <name value="GVHD_CADSR_VM_CS"/>
+  <title value="NIH Common Data Element Value Meanings for GVHD"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-05-02T14:56:43-05:00"/>
+  <publisher value="Example Publisher"/>
+  <contact>
+    <name value="Example Publisher"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="NIH Common Data Element Value Meanings for GVHD"/>
+  <copyright value="National Cancer Institute (NCI)"/>
+  <caseSensitive value="true"/>
+  <content value="fragment"/>
+  <concept>
+    <code value="4722619"/>
+    <display value="Acute GVHD"/>
+    <definition value="Acute Graft Vs Host Disease"/>
+  </concept>
+  <concept>
+    <code value="2991794"/>
+    <display value="Classic cGVHD"/>
+    <definition value="Classic chronic Graft Vs Host Disease"/>
+  </concept>
+  <concept>
+    <code value="2991795"/>
+    <display value="Overlap cGVHD"/>
+    <definition value="Overlap chronic Graft Vs Host Disease"/>
+  </concept>
+  <concept>
+    <code value="2991796"/>
+    <display value="Late Acute GVHD"/>
+    <definition value="Late Acute Graft Vs Host Disease"/>
+  </concept>
+  <concept>
+    <code value="3261243"/>
+    <display value="Not Applicable"/>
+    <definition value="Not Applicable"/>
+  </concept>
+</CodeSystem>

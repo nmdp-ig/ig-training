@@ -1,0 +1,109 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "bbeec7d0-8bf3-4e1d-8789-b73e566e6555-54",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/bbeec7d0-8bf3-4e1d-8789-b73e566e6555-54",
+  "name" : "IntersectionGVHDTypeValueSetAndGVHDTypeValueSet",
+  "title" : "Intersection of GVHD Type Value Set And GVHD Type Value Set",
+  "status" : "active",
+  "date" : "2023-05-02T14:51:43-05:00",
+  "compose" : {
+    "include" : [{
+      "valueSet" : ["http://example.org/ig/exampleig/ValueSet/gvhd-sct-codes"]
+    },
+    {
+      "valueSet" : ["http://example.org/ig/exampleig/ValueSet/gvhd-icd10-codes"]
+    }]
+  },
+  "expansion" : {
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "234646005",
+      "display" : "Graft versus host disease"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "402355000",
+      "display" : "Acute graft-versus-host disease (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "402356004",
+      "display" : "Chronic graft-versus-host disease (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "402357008",
+      "display" : "Lichenoid chronic graft-versus-host disease (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "402358003",
+      "display" : "Sclerodermoid chronic graft-versus-host disease (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "402360001",
+      "display" : "Materno-fetal graft-versus-host disease (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444547006",
+      "display" : "Graft versus host disease of skin (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "762618008",
+      "display" : "Bronchiolitis obliterans syndrome due to and after lung transplantation (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "846606007",
+      "display" : "Graft versus host disease of liver"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1144907001",
+      "display" : "Late acute graft-versus-host disease (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1144908006",
+      "display" : "Late chronic graft-versus-host disease"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1144963000",
+      "display" : "Acute on chronic graft-versus-host disease (disorder)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1177120001",
+      "display" : "Bronchiolitis obliterans syndrome due to and following allogeneic stem cell transplant"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+      "code" : "D89.81",
+      "display" : "Graft-versus-host disease"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+      "code" : "D89.810",
+      "display" : "Acute graft-versus-host disease"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+      "code" : "D89.811",
+      "display" : "Chronic graft-versus-host disease"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+      "code" : "D89.812",
+      "display" : "Acute on chronic graft-versus-host disease"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+      "code" : "D89.813",
+      "display" : "Graft-versus-host disease, unspecified"
+    }]
+  }
+}

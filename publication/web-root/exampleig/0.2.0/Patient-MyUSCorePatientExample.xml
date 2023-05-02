@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="MyUSCorePatientExample"/>
+  <meta>
+    <profile value="http://example.org/ig/exampleig/StructureDefinition/MyUSCorePatient"/>
+    <security>
+      <system value="http://terminology.cibmtr.org/codesystem/transplant-center"/>
+      <code value="rc_99999"/>
+      <display value="99999 My Transplant Center"/>
+    </security>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;"><b>James Bubba Pond </b> male, DoB: 1987-02-20 ( id: 12345)</p><hr/></div>
+  </text>
+  <identifier>
+    <system value="http://myhospital.org"/>
+    <value value="12345"/>
+  </identifier>
+  <name>
+    <family value="Pond"/>
+    <given value="James"/>
+    <given value="Bubba"/>
+  </name>
+  <gender value="male"/>
+  <birthDate value="1987-02-20"/>
+</Patient>

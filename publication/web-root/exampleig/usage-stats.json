@@ -1,6 +1,6 @@
 {
   "package": "example.fhir.exampleig",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "fhirVersion": "4.0.1",
   "extensions": [
     {
@@ -24,16 +24,16 @@
         "title": "MyObservation"
       }
     ],
-    "Bundle": [
-      {
-        "url": "http://example.org/ig/exampleig/StructureDefinition/my-bundle",
-        "title": "My Bundle"
-      }
-    ],
     "Condition": [
       {
         "url": "http://example.org/ig/exampleig/StructureDefinition/my-diagnosis",
         "title": "MyDiagnosis"
+      }
+    ],
+    "Bundle": [
+      {
+        "url": "http://example.org/ig/exampleig/StructureDefinition/my-bundle",
+        "title": "My Bundle"
       }
     ]
   },

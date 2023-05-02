@@ -13,12 +13,12 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://terminology.nmdp.org/codesystem/practitionerrole</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">referringphysician<a name=\"nmdp-practitioner-role-cs-referringphysician\"> </a></td><td>Referring Physician</td></tr><tr><td style=\"white-space:nowrap\">tcphysician<a name=\"nmdp-practitioner-role-cs-tcphysician\"> </a></td><td>Transplant Center Physician</td></tr><tr><td style=\"white-space:nowrap\">searchcoordinator<a name=\"nmdp-practitioner-role-cs-searchcoordinator\"> </a></td><td>Search Coordinator</td></tr></table></div>"
   ] ; # 
   fhir:url [ fhir:v "http://terminology.nmdp.org/codesystem/practitionerrole"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
   fhir:name [ fhir:v "NMDPPractitionerRoleCS"] ; # 
   fhir:title [ fhir:v "NMDP Practitioner Roles"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-04-28T11:00:43-05:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-05-02T14:51:26-05:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Example Publisher"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Example Publisher" ] ;

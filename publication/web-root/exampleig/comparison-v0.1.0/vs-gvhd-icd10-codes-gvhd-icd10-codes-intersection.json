@@ -1,0 +1,45 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "3dc3707d-2fdb-4dc0-b98f-0d8f9210d45c-57",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/3dc3707d-2fdb-4dc0-b98f-0d8f9210d45c-57",
+  "name" : "IntersectionGVHDICD10VSAndGVHDICD10VS",
+  "title" : "Intersection of GVHD ICD-10 Codes And GVHD ICD-10 Codes",
+  "status" : "active",
+  "date" : "2023-05-02T15:00:47-05:00",
+  "compose" : {
+    "include" : [{
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "D89.81"
+      }]
+    }]
+  },
+  "expansion" : {
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+      "code" : "D89.81",
+      "display" : "Graft-versus-host disease"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+      "code" : "D89.810",
+      "display" : "Acute graft-versus-host disease"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+      "code" : "D89.811",
+      "display" : "Chronic graft-versus-host disease"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+      "code" : "D89.812",
+      "display" : "Acute on chronic graft-versus-host disease"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+      "code" : "D89.813",
+      "display" : "Graft-versus-host disease, unspecified"
+    }]
+  }
+}

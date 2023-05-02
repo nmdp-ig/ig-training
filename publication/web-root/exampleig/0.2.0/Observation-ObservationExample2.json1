@@ -1,0 +1,20 @@
+{
+  "resourceType" : "Observation",
+  "id" : "ObservationExample2",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"ObservationExample2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;ObservationExample2&quot; </p></div><p><b>status</b>: final</p><p><b>code</b>: Band form neutrophils/100 leukocytes in Blood <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#26508-2)</span></p><p><b>value</b>: 5 %</p></div>"
+  },
+  "status" : "final",
+  "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "26508-2"
+    }]
+  },
+  "valueQuantity" : {
+    "value" : 5,
+    "unit" : "%",
+    "system" : "http://unitsofmeasure.org"
+  }
+}

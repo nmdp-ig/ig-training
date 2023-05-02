@@ -6,12 +6,12 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href="ValueSet-presence-sct-valueset.html">Presence Answer List - Snomed CT</a></li><li>Import all the codes that are contained in <a href="ValueSet-presence-lnc-valueset.html">Presence Answer List - LOINC</a></li></ul></div>
   </text>
   <url value="http://example.org/ig/exampleig/ValueSet/presence-valueset"/>
-  <version value="0.1.0"/>
+  <version value="0.2.0"/>
   <name value="PresenceValueSet"/>
   <title value="Presence Answer List - Snomed and LOINC"/>
   <status value="active"/>
   <experimental value="true"/>
-  <date value="2023-05-02T11:11:03-05:00"/>
+  <date value="2023-05-02T15:00:31-05:00"/>
   <publisher value="Example Publisher"/>
   <contact>
     <name value="Example Publisher"/>

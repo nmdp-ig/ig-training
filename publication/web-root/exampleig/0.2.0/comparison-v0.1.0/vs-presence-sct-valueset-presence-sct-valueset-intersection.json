@@ -1,0 +1,33 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "45ea0b24-7a37-4041-967f-15caffe018bf-69",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/45ea0b24-7a37-4041-967f-15caffe018bf-69",
+  "name" : "IntersectionPresenceSCTValueSetAndPresenceSCTValueSet",
+  "title" : "Intersection of Presence Answer List - Snomed CT And Presence Answer List - Snomed CT",
+  "status" : "active",
+  "date" : "2023-05-02T14:57:02-05:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "52101004",
+        "display" : "Present"
+      },
+      {
+        "code" : "2667000",
+        "display" : "Absent"
+      }]
+    }]
+  },
+  "expansion" : {
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "52101004",
+      "display" : "Present"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2667000",
+      "display" : "Absent"
+    }]
+  }
+}

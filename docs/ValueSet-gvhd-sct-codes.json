@@ -6,12 +6,12 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  234646005 (Graft versus host disease)</li></ul></div>"
   },
   "url" : "http://example.org/ig/exampleig/ValueSet/gvhd-sct-codes",
-  "version" : "0.1.0",
+  "version" : "0.2.0",
   "name" : "GVHDSCTVS",
   "title" : "GVHD SNOMED CT Codes",
   "status" : "active",
   "experimental" : true,
-  "date" : "2023-04-28T11:00:43-05:00",
+  "date" : "2023-05-02T14:51:26-05:00",
   "publisher" : "Example Publisher",
   "contact" : [{
     "name" : "Example Publisher",

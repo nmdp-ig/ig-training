@@ -1,0 +1,34 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "hematopoietic-disorder-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  414027002 (Disorder of hematopoietic structure (disorder))</li></ul></div>"
+  },
+  "url" : "http://example.org/ig/exampleig/ValueSet/hematopoietic-disorder-vs",
+  "version" : "0.2.0",
+  "name" : "HematopoieticDisorderVS",
+  "title" : "Disorders of hematopoietic structure",
+  "status" : "active",
+  "experimental" : true,
+  "date" : "2023-05-02T14:56:43-05:00",
+  "publisher" : "Example Publisher",
+  "contact" : [{
+    "name" : "Example Publisher",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "SNOMED: Disorders of hematopoietic structure",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "414027002"
+      }]
+    }]
+  }
+}
