@@ -3,7 +3,7 @@
   "name" : "ExampleIG",
   "package-id" : "example.fhir.exampleig",
   "ig-ver" : "0.1.0",
-  "date" : "Tue, 02 May, 2023 10:49:48 -0500",
+  "date" : "Tue, 02 May, 2023 11:11:03 -0500",
   "errs" : 0,
   "warnings" : 2,
   "hints" : 28,
