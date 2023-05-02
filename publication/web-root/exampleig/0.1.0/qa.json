@@ -1,10 +1,10 @@
 {
-  "url" : "http://example.org/ig/exampleig/ImplementationGuide/exampleig",
+  "url" : "http://example.org/ig/exampleig/ImplementationGuide/example.fhir.exampleig",
   "name" : "ExampleIG",
   "package-id" : "example.fhir.exampleig",
   "ig-ver" : "0.1.0",
-  "date" : "Thu, 27 Apr, 2023 15:51:23 -0500",
-  "errs" : 1,
+  "date" : "Tue, 02 May, 2023 10:46:10 -0500",
+  "errs" : 0,
   "warnings" : 2,
   "hints" : 28,
   "version" : "4.0.1",

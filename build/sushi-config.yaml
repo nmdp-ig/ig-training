@@ -4,9 +4,9 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 # id: fhir.example
-id: exampleig
+id: example.fhir.exampleig
 # packageId following pattern of org.fhir.id
-packageId: example.fhir.exampleig
+# packageId: example.fhir.exampleig
 canonical: http://example.org/ig/exampleig
 name: ExampleIG
 # title: Example Title
